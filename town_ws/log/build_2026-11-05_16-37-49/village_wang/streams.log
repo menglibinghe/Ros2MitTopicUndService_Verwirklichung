@@ -1,0 +1,22 @@
+[0.601s] Invoking command in '/home/lubuntu/town_ws/build/village_wang': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/lubuntu/town_ws/build/village_wang -- -j2 -l2
+[0.915s] [100%] Built target wang2_node
+[0.991s] Invoked command in '/home/lubuntu/town_ws/build/village_wang' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/lubuntu/town_ws/build/village_wang -- -j2 -l2
+[1.027s] Invoking command in '/home/lubuntu/town_ws/build/village_wang': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/lubuntu/town_ws/build/village_wang
+[1.046s] -- Install configuration: ""
+[1.058s] -- Up-to-date: /home/lubuntu/town_ws/install/village_wang/share/ament_index/resource_index/package_run_dependencies/village_wang
+[1.059s] -- Up-to-date: /home/lubuntu/town_ws/install/village_wang/share/ament_index/resource_index/parent_prefix_path/village_wang
+[1.059s] -- Up-to-date: /home/lubuntu/town_ws/install/village_wang/share/village_wang/environment/ament_prefix_path.sh
+[1.060s] -- Up-to-date: /home/lubuntu/town_ws/install/village_wang/share/village_wang/environment/ament_prefix_path.dsv
+[1.060s] -- Up-to-date: /home/lubuntu/town_ws/install/village_wang/share/village_wang/environment/path.sh
+[1.060s] -- Up-to-date: /home/lubuntu/town_ws/install/village_wang/share/village_wang/environment/path.dsv
+[1.061s] -- Up-to-date: /home/lubuntu/town_ws/install/village_wang/share/village_wang/local_setup.bash
+[1.061s] -- Up-to-date: /home/lubuntu/town_ws/install/village_wang/share/village_wang/local_setup.sh
+[1.061s] -- Up-to-date: /home/lubuntu/town_ws/install/village_wang/share/village_wang/local_setup.zsh
+[1.061s] -- Up-to-date: /home/lubuntu/town_ws/install/village_wang/share/village_wang/local_setup.dsv
+[1.062s] -- Installing: /home/lubuntu/town_ws/install/village_wang/share/village_wang/package.dsv
+[1.062s] -- Up-to-date: /home/lubuntu/town_ws/install/village_wang/share/ament_index/resource_index/packages/village_wang
+[1.062s] -- Up-to-date: /home/lubuntu/town_ws/install/village_wang/share/village_wang/cmake/village_wangConfig.cmake
+[1.063s] -- Up-to-date: /home/lubuntu/town_ws/install/village_wang/share/village_wang/cmake/village_wangConfig-version.cmake
+[1.063s] -- Up-to-date: /home/lubuntu/town_ws/install/village_wang/share/village_wang/package.xml
+[1.063s] -- Up-to-date: /home/lubuntu/town_ws/install/village_wang/lib/village_wang/wang2_node
+[1.071s] Invoked command in '/home/lubuntu/town_ws/build/village_wang' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/lubuntu/town_ws/build/village_wang

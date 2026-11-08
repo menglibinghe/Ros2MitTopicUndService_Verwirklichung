@@ -1,0 +1,53 @@
+[0.068s] Invoking command in '/home/lubuntu/town_ws/build/village_wang': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/lubuntu/town_ws/build/village_wang -- -j2 -l2
+[0.376s] [ 50%] [32mBuilding CXX object CMakeFiles/wang2_node.dir/src/wang2.cpp.o[0m
+[9.716s] [01m[K/home/lubuntu/town_ws/src/village_wang/src/wang2.cpp:29:42:[m[K [01;31m[Kerror: [m[K‘[01m[KUint32[m[K’ is not a member of ‘[01m[Kstd_msgs::msg[m[K’; did you mean ‘[01m[KUInt32[m[K’?
+[9.717s]    29 |         rclcpp::Publisher<std_msgs::msg::[01;31m[KUint32[m[K>::SharedPtr Payed_fee;
+[9.717s]       |                                          [01;31m[K^~~~~~[m[K
+[9.717s]       |                                          [32m[KUInt32[m[K
+[9.717s] [01m[K/home/lubuntu/town_ws/src/village_wang/src/wang2.cpp:29:48:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[9.717s]    29 |         rclcpp::Publisher<std_msgs::msg::Uint32[01;31m[K>[m[K::SharedPtr Payed_fee;
+[9.717s]       |                                                [01;31m[K^[m[K
+[9.726s] [01m[K/home/lubuntu/town_ws/src/village_wang/src/wang2.cpp:29:51:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+[9.727s]    29 |      rclcpp::Publisher<std_msgs::msg::Uint32>::[01;31m[KSharedPtr[m[K Payed_fee;
+[9.727s]       |                                                [01;31m[K^~~~~~~~~[m[K
+[9.727s]       |                                                         [32m[K;[m[K
+[9.742s] [01m[K/home/lubuntu/town_ws/src/village_wang/src/wang2.cpp:29:61:[m[K [01;31m[Kerror: [m[K‘[01m[KPayed_fee[m[K’ does not name a type
+[9.742s]    29 | pp::Publisher<std_msgs::msg::Uint32>::SharedPtr [01;31m[KPayed_fee[m[K;
+[9.742s]       |                                                 [01;31m[K^~~~~~~~~[m[K
+[9.742s] 
+[9.762s] [01m[K/home/lubuntu/town_ws/src/village_wang/src/wang2.cpp:[m[K In constructor ‘[01m[KSingleDogNode::SingleDogNode(std::string)[m[K’:
+[9.762s] [01m[K/home/lubuntu/town_ws/src/village_wang/src/wang2.cpp:20:13:[m[K [01;31m[Kerror: [m[K‘[01m[KPayed_fee[m[K’ was not declared in this scope
+[9.762s]    20 |             [01;31m[KPayed_fee[m[K = this->create_publisher<std_msgs::msg::Uint32>("sexy_girl_money", 10);
+[9.762s]       |             [01;31m[K^~~~~~~~~[m[K
+[9.763s] [01m[K/home/lubuntu/town_ws/src/village_wang/src/wang2.cpp:20:63:[m[K [01;31m[Kerror: [m[K‘[01m[KUint32[m[K’ is not a member of ‘[01m[Kstd_msgs::msg[m[K’; did you mean ‘[01m[KUInt32[m[K’?
+[9.763s]    20 | ed_fee = this->create_publisher<std_msgs::msg::[01;31m[KUint32[m[K>("sexy_girl_money", 10);
+[9.763s]       |                                                [01;31m[K^~~~~~[m[K
+[9.763s]       |                                                [32m[KUInt32[m[K
+[9.763s] [01m[K/home/lubuntu/town_ws/src/village_wang/src/wang2.cpp:20:70:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KSingleDogNode::create_publisher<<expression error> >(const char [16], int)[m[K’
+[9.763s]    20 | = [01;31m[Kthis->create_publisher<std_msgs::msg::Uint32>("sexy_girl_money", 10)[m[K;
+[9.763s]       |   [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[9.763s] 
+[9.768s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[9.768s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+[9.768s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[9.768s]                  from [01m[K/home/lubuntu/town_ws/src/village_wang/src/wang2.cpp:1[m[K:
+[9.768s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:195:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class MessageT, class AllocatorT, class PublisherT> std::shared_ptr<PublisherT> rclcpp::Node::create_publisher(const string&, const rclcpp::QoS&, const rclcpp::PublisherOptionsWithAllocator<AllocatorT>&)[m[K’
+[9.769s]   195 |   [01;36m[Kcreate_publisher[m[K(
+[9.769s]       |   [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[9.769s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:195:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[9.769s] [01m[K/home/lubuntu/town_ws/src/village_wang/src/wang2.cpp:20:70:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[9.769s]    20 | = [01;31m[Kthis->create_publisher<std_msgs::msg::Uint32>("sexy_girl_money", 10)[m[K;
+[9.769s]       |   [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[9.769s] 
+[9.774s] [01m[K/home/lubuntu/town_ws/src/village_wang/src/wang2.cpp:[m[K In member function ‘[01m[Kvoid SingleDogNode::topic_callback(std_msgs::msg::String_<std::allocator<void> >::SharedPtr)[m[K’:
+[9.774s] [01m[K/home/lubuntu/town_ws/src/village_wang/src/wang2.cpp:38:28:[m[K [01;31m[Kerror: [m[K‘[01m[KUint32[m[K’ is not a member of ‘[01m[Kstd_msgs::msg[m[K’; did you mean ‘[01m[KUInt32[m[K’?
+[9.774s]    38 |             std_msgs::msg::[01;31m[KUint32[m[K money;
+[9.774s]       |                            [01;31m[K^~~~~~[m[K
+[9.774s]       |                            [32m[KUInt32[m[K
+[9.780s] [01m[K/home/lubuntu/town_ws/src/village_wang/src/wang2.cpp:39:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kmoney[m[K’ was not declared in this scope
+[9.781s]    39 |             [01;31m[Kmoney[m[K.data = 1
+[9.781s]       |             [01;31m[K^~~~~[m[K
+[13.666s] gmake[2]: *** [CMakeFiles/wang2_node.dir/build.make:76: CMakeFiles/wang2_node.dir/src/wang2.cpp.o] Error 1
+[13.666s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/wang2_node.dir/all] Error 2
+[13.667s] gmake: *** [Makefile:146: all] Error 2
+[13.766s] Invoked command in '/home/lubuntu/town_ws/build/village_wang' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/lubuntu/town_ws/build/village_wang -- -j2 -l2

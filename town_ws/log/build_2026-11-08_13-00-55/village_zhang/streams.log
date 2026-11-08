@@ -1,0 +1,25 @@
+[0.007s] Invoking command in '/home/lubuntu/town_ws/build/village_zhang': AMENT_PREFIX_PATH=/home/lubuntu/town_ws/install/village_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lubuntu/town_ws/install/village_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/lubuntu/town_ws/install/village_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/lubuntu/town_ws/install/village_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/lubuntu/town_ws/build/village_zhang -- -j2 -l2
+[0.064s] [35m[1mConsolidate compiler generated dependencies of target zhang4_node[0m
+[0.100s] [ 50%] Built target zhang3_node
+[0.102s] [100%] Built target zhang4_node
+[0.131s] Invoked command in '/home/lubuntu/town_ws/build/village_zhang' returned '0': AMENT_PREFIX_PATH=/home/lubuntu/town_ws/install/village_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lubuntu/town_ws/install/village_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/lubuntu/town_ws/install/village_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/lubuntu/town_ws/install/village_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/lubuntu/town_ws/build/village_zhang -- -j2 -l2
+[0.144s] Invoking command in '/home/lubuntu/town_ws/build/village_zhang': AMENT_PREFIX_PATH=/home/lubuntu/town_ws/install/village_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lubuntu/town_ws/install/village_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/lubuntu/town_ws/install/village_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/lubuntu/town_ws/install/village_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/lubuntu/town_ws/build/village_zhang
+[0.156s] -- Install configuration: ""
+[0.157s] -- Up-to-date: /home/lubuntu/town_ws/install/village_zhang/share/ament_index/resource_index/package_run_dependencies/village_zhang
+[0.157s] -- Up-to-date: /home/lubuntu/town_ws/install/village_zhang/share/ament_index/resource_index/parent_prefix_path/village_zhang
+[0.158s] -- Up-to-date: /home/lubuntu/town_ws/install/village_zhang/share/village_zhang/environment/ament_prefix_path.sh
+[0.158s] -- Up-to-date: /home/lubuntu/town_ws/install/village_zhang/share/village_zhang/environment/ament_prefix_path.dsv
+[0.158s] -- Up-to-date: /home/lubuntu/town_ws/install/village_zhang/share/village_zhang/environment/path.sh
+[0.159s] -- Up-to-date: /home/lubuntu/town_ws/install/village_zhang/share/village_zhang/environment/path.dsv
+[0.159s] -- Up-to-date: /home/lubuntu/town_ws/install/village_zhang/share/village_zhang/local_setup.bash
+[0.159s] -- Up-to-date: /home/lubuntu/town_ws/install/village_zhang/share/village_zhang/local_setup.sh
+[0.159s] -- Up-to-date: /home/lubuntu/town_ws/install/village_zhang/share/village_zhang/local_setup.zsh
+[0.160s] -- Up-to-date: /home/lubuntu/town_ws/install/village_zhang/share/village_zhang/local_setup.dsv
+[0.160s] -- Installing: /home/lubuntu/town_ws/install/village_zhang/share/village_zhang/package.dsv
+[0.161s] -- Up-to-date: /home/lubuntu/town_ws/install/village_zhang/share/ament_index/resource_index/packages/village_zhang
+[0.161s] -- Up-to-date: /home/lubuntu/town_ws/install/village_zhang/share/village_zhang/cmake/village_zhangConfig.cmake
+[0.161s] -- Up-to-date: /home/lubuntu/town_ws/install/village_zhang/share/village_zhang/cmake/village_zhangConfig-version.cmake
+[0.161s] -- Up-to-date: /home/lubuntu/town_ws/install/village_zhang/share/village_zhang/package.xml
+[0.162s] -- Up-to-date: /home/lubuntu/town_ws/install/village_zhang/lib/village_zhang/zhang3_node
+[0.163s] -- Up-to-date: /home/lubuntu/town_ws/install/village_zhang/lib/village_zhang/zhang4_node
+[0.168s] Invoked command in '/home/lubuntu/town_ws/build/village_zhang' returned '0': AMENT_PREFIX_PATH=/home/lubuntu/town_ws/install/village_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lubuntu/town_ws/install/village_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/lubuntu/town_ws/install/village_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/lubuntu/town_ws/install/village_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/lubuntu/town_ws/build/village_zhang

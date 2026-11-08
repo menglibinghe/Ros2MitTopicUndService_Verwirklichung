@@ -1,0 +1,228 @@
+[0.006s] Invoking command in '/home/lubuntu/town_ws/build/village_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/lubuntu/town_ws/src/village_interfaces -DCMAKE_INSTALL_PREFIX=/home/lubuntu/town_ws/install/village_interfaces
+[0.024s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.189s] -- Found sensor_msgs: 4.9.2 (/opt/ros/humble/share/sensor_msgs/cmake)
+[0.242s] -- Found rosidl_generator_c: 3.1.9 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.246s] -- Found rosidl_adapter: 3.1.9 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.258s] -- Found rosidl_generator_cpp: 3.1.9 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.271s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.291s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.366s] -- Found rosidl_default_generators: 1.2.1 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.956s] -- Found ament_cmake_ros: 0.10.1 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[1.772s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.023s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.070s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[2.103s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[2.199s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[2.200s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.200s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[2.200s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[2.250s] -- Found PythonExtra: .so  
+[2.610s] -- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.819s] -- Added test 'lint_cmake' to check CMake code style
+[2.831s] -- Added test 'xmllint' to check XML markup files
+[2.848s] -- Configuring done
+[2.920s] -- Generating done
+[2.941s] -- Build files have been written to: /home/lubuntu/town_ws/build/village_interfaces
+[2.955s] Invoked command in '/home/lubuntu/town_ws/build/village_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/lubuntu/town_ws/src/village_interfaces -DCMAKE_INSTALL_PREFIX=/home/lubuntu/town_ws/install/village_interfaces
+[2.957s] Invoking command in '/home/lubuntu/town_ws/build/village_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/lubuntu/town_ws/build/village_interfaces -- -j2 -l2
+[3.003s] [  3%] [34m[1mGenerating C code for ROS interfaces[0m
+[3.023s] [  6%] [34m[1mGenerating Rust code for ROS interfaces[0m
+[3.640s] [  6%] Built target village_interfaces__rs
+[3.670s] [  9%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[3.719s] [ 12%] [32mBuilding C object CMakeFiles/village_interfaces__rosidl_generator_c.dir/rosidl_generator_c/village_interfaces/msg/detail/novel__functions.c.o[0m
+[4.096s] [ 12%] Built target village_interfaces__cpp
+[4.128s] [ 12%] Built target ament_cmake_python_copy_village_interfaces
+[4.143s] [ 15%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[4.547s] [ 18%] [32mBuilding CXX object CMakeFiles/village_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/village_interfaces/msg/detail/dds_fastrtps/novel__type_support.cpp.o[0m
+[4.556s] [ 21%] [32m[1mLinking C shared library libvillage_interfaces__rosidl_generator_c.so[0m
+[4.768s] [ 21%] Built target village_interfaces__rosidl_generator_c
+[4.783s] [ 25%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[5.226s] [ 28%] [32mBuilding CXX object CMakeFiles/village_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/village_interfaces/msg/detail/novel__type_support.cpp.o[0m
+[7.226s] [ 31%] [32m[1mLinking CXX shared library libvillage_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[7.381s] [ 34%] [32m[1mLinking CXX shared library libvillage_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[7.399s] [ 34%] Built target village_interfaces__rosidl_typesupport_introspection_cpp
+[7.414s] [ 37%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[7.558s] [ 37%] Built target village_interfaces__rosidl_typesupport_fastrtps_cpp
+[7.899s] [ 40%] [32mBuilding CXX object CMakeFiles/village_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/village_interfaces/msg/novel__type_support.cpp.o[0m
+[7.929s] running egg_info
+[7.929s] creating village_interfaces.egg-info
+[7.933s] writing village_interfaces.egg-info/PKG-INFO
+[7.934s] writing dependency_links to village_interfaces.egg-info/dependency_links.txt
+[7.934s] writing top-level names to village_interfaces.egg-info/top_level.txt
+[7.934s] writing manifest file 'village_interfaces.egg-info/SOURCES.txt'
+[7.946s] reading manifest file 'village_interfaces.egg-info/SOURCES.txt'
+[7.946s] writing manifest file 'village_interfaces.egg-info/SOURCES.txt'
+[8.038s] [ 40%] Built target ament_cmake_python_build_village_interfaces_egg
+[8.078s] [ 43%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[8.429s] [ 46%] [32mBuilding CXX object CMakeFiles/village_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/village_interfaces/msg/detail/novel__type_support_c.cpp.o[0m
+[8.459s] [ 50%] [32m[1mLinking CXX shared library libvillage_interfaces__rosidl_typesupport_cpp.so[0m
+[8.600s] [ 50%] Built target village_interfaces__rosidl_typesupport_cpp
+[8.621s] [ 53%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[8.998s] [ 56%] [32mBuilding C object CMakeFiles/village_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/village_interfaces/msg/detail/novel__type_support.c.o[0m
+[9.088s] [ 59%] [32m[1mLinking CXX shared library libvillage_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[9.142s] [ 62%] [32m[1mLinking C shared library libvillage_interfaces__rosidl_typesupport_introspection_c.so[0m
+[9.243s] [ 62%] Built target village_interfaces__rosidl_typesupport_introspection_c
+[9.258s] [ 65%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[9.342s] [ 65%] Built target village_interfaces__rosidl_typesupport_fastrtps_c
+[9.562s] [ 68%] [32mBuilding CXX object CMakeFiles/village_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/village_interfaces/msg/novel__type_support.cpp.o[0m
+[9.662s] [ 71%] [32m[1mLinking CXX shared library libvillage_interfaces__rosidl_typesupport_c.so[0m
+[9.748s] [ 71%] Built target village_interfaces__rosidl_typesupport_c
+[9.771s] [ 71%] Built target village_interfaces
+[9.794s] [ 75%] [34m[1mGenerating Python code for ROS interfaces[0m
+[10.312s] [ 75%] Built target village_interfaces__py
+[10.347s] [ 78%] [32mBuilding C object CMakeFiles/village_interfaces__rosidl_generator_py.dir/rosidl_generator_py/village_interfaces/msg/_novel_s.c.o[0m
+[10.969s] [ 81%] [32m[1mLinking C shared library rosidl_generator_py/village_interfaces/libvillage_interfaces__rosidl_generator_py.so[0m
+[11.065s] [ 81%] Built target village_interfaces__rosidl_generator_py
+[11.089s] [ 87%] [32mBuilding C object CMakeFiles/village_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/village_interfaces/_village_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[11.089s] [ 87%] [32mBuilding C object CMakeFiles/village_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/village_interfaces/_village_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[11.384s] [ 90%] [32m[1mLinking C shared library rosidl_generator_py/village_interfaces/village_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[11.395s] [ 93%] [32m[1mLinking C shared library rosidl_generator_py/village_interfaces/village_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[11.438s] [ 93%] Built target village_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[11.461s] [ 93%] Built target village_interfaces__rosidl_typesupport_introspection_c__pyext
+[11.464s] [ 96%] [32mBuilding C object CMakeFiles/village_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/village_interfaces/_village_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[11.588s] [100%] [32m[1mLinking C shared library rosidl_generator_py/village_interfaces/village_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[11.644s] [100%] Built target village_interfaces__rosidl_typesupport_c__pyext
+[11.724s] Invoked command in '/home/lubuntu/town_ws/build/village_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/lubuntu/town_ws/build/village_interfaces -- -j2 -l2
+[11.735s] Invoking command in '/home/lubuntu/town_ws/build/village_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/lubuntu/town_ws/build/village_interfaces
+[11.744s] -- Install configuration: ""
+[11.745s] -- Installing: /home/lubuntu/town_ws/install/village_interfaces/share/ament_index/resource_index/rosidl_interfaces/village_interfaces
+[11.745s] -- Installing: /home/lubuntu/town_ws/install/village_interfaces/include/village_interfaces/village_interfaces
+[11.745s] -- Installing: /home/lubuntu/town_ws/install/village_interfaces/include/village_interfaces/village_interfaces/msg
+[11.746s] -- Installing: /home/lubuntu/town_ws/install/village_interfaces/include/village_interfaces/village_interfaces/msg/novel.h
+[11.746s] -- Installing: /home/lubuntu/town_ws/install/village_interfaces/include/village_interfaces/village_interfaces/msg/detail
+[11.746s] -- Installing: /home/lubuntu/town_ws/install/village_interfaces/include/village_interfaces/village_interfaces/msg/detail/novel__struct.h
+[11.747s] -- Installing: /home/lubuntu/town_ws/install/village_interfaces/include/village_interfaces/village_interfaces/msg/detail/novel__functions.h
+[11.747s] -- Installing: /home/lubuntu/town_ws/install/village_interfaces/include/village_interfaces/village_interfaces/msg/detail/novel__functions.c
+[11.748s] -- Installing: /home/lubuntu/town_ws/install/village_interfaces/include/village_interfaces/village_interfaces/msg/detail/novel__type_support.h
+[11.748s] -- Installing: /home/lubuntu/town_ws/install/village_interfaces/include/village_interfaces/village_interfaces/msg/rosidl_generator_c__visibility_control.h
+[11.749s] -- Installing: /home/lubuntu/town_ws/install/village_interfaces/share/village_interfaces/environment/library_path.sh
+[11.749s] -- Installing: /home/lubuntu/town_ws/install/village_interfaces/share/village_interfaces/environment/library_path.dsv
+[11.750s] -- Installing: /home/lubuntu/town_ws/install/village_interfaces/lib/libvillage_interfaces__rosidl_generator_c.so
+[11.751s] -- Set runtime path of "/home/lubuntu/town_ws/install/village_interfaces/lib/libvillage_interfaces__rosidl_generator_c.so" to ""
+[11.751s] -- Up-to-date: /home/lubuntu/town_ws/install/village_interfaces/include/village_interfaces/village_interfaces
+[11.751s] -- Up-to-date: /home/lubuntu/town_ws/install/village_interfaces/include/village_interfaces/village_interfaces/msg
+[11.752s] -- Up-to-date: /home/lubuntu/town_ws/install/village_interfaces/include/village_interfaces/village_interfaces/msg/detail
+[11.752s] -- Installing: /home/lubuntu/town_ws/install/village_interfaces/include/village_interfaces/village_interfaces/msg/detail/novel__rosidl_typesupport_fastrtps_c.h
+[11.752s] -- Installing: /home/lubuntu/town_ws/install/village_interfaces/include/village_interfaces/village_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[11.753s] -- Installing: /home/lubuntu/town_ws/install/village_interfaces/lib/libvillage_interfaces__rosidl_typesupport_fastrtps_c.so
+[11.754s] -- Set runtime path of "/home/lubuntu/town_ws/install/village_interfaces/lib/libvillage_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[11.754s] -- Up-to-date: /home/lubuntu/town_ws/install/village_interfaces/include/village_interfaces/village_interfaces
+[11.754s] -- Up-to-date: /home/lubuntu/town_ws/install/village_interfaces/include/village_interfaces/village_interfaces/msg
+[11.755s] -- Installing: /home/lubuntu/town_ws/install/village_interfaces/include/village_interfaces/village_interfaces/msg/novel.hpp
+[11.758s] -- Up-to-date: /home/lubuntu/town_ws/install/village_interfaces/include/village_interfaces/village_interfaces/msg/detail
+[11.758s] -- Installing: /home/lubuntu/town_ws/install/village_interfaces/include/village_interfaces/village_interfaces/msg/detail/novel__type_support.hpp
+[11.758s] -- Installing: /home/lubuntu/town_ws/install/village_interfaces/include/village_interfaces/village_interfaces/msg/detail/novel__struct.hpp
+[11.758s] -- Installing: /home/lubuntu/town_ws/install/village_interfaces/include/village_interfaces/village_interfaces/msg/detail/novel__traits.hpp
+[11.759s] -- Installing: /home/lubuntu/town_ws/install/village_interfaces/include/village_interfaces/village_interfaces/msg/detail/novel__builder.hpp
+[11.759s] -- Installing: /home/lubuntu/town_ws/install/village_interfaces/include/village_interfaces/village_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
+[11.759s] -- Up-to-date: /home/lubuntu/town_ws/install/village_interfaces/include/village_interfaces/village_interfaces
+[11.760s] -- Up-to-date: /home/lubuntu/town_ws/install/village_interfaces/include/village_interfaces/village_interfaces/msg
+[11.760s] -- Up-to-date: /home/lubuntu/town_ws/install/village_interfaces/include/village_interfaces/village_interfaces/msg/detail
+[11.760s] -- Installing: /home/lubuntu/town_ws/install/village_interfaces/include/village_interfaces/village_interfaces/msg/detail/dds_fastrtps
+[11.761s] -- Installing: /home/lubuntu/town_ws/install/village_interfaces/include/village_interfaces/village_interfaces/msg/detail/novel__rosidl_typesupport_fastrtps_cpp.hpp
+[11.761s] -- Installing: /home/lubuntu/town_ws/install/village_interfaces/include/village_interfaces/village_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[11.762s] -- Installing: /home/lubuntu/town_ws/install/village_interfaces/lib/libvillage_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[11.763s] -- Set runtime path of "/home/lubuntu/town_ws/install/village_interfaces/lib/libvillage_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[11.763s] -- Up-to-date: /home/lubuntu/town_ws/install/village_interfaces/include/village_interfaces/village_interfaces
+[11.763s] -- Up-to-date: /home/lubuntu/town_ws/install/village_interfaces/include/village_interfaces/village_interfaces/msg
+[11.763s] -- Up-to-date: /home/lubuntu/town_ws/install/village_interfaces/include/village_interfaces/village_interfaces/msg/detail
+[11.763s] -- Installing: /home/lubuntu/town_ws/install/village_interfaces/include/village_interfaces/village_interfaces/msg/detail/novel__type_support.c
+[11.764s] -- Installing: /home/lubuntu/town_ws/install/village_interfaces/include/village_interfaces/village_interfaces/msg/detail/novel__rosidl_typesupport_introspection_c.h
+[11.764s] -- Installing: /home/lubuntu/town_ws/install/village_interfaces/include/village_interfaces/village_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[11.765s] -- Installing: /home/lubuntu/town_ws/install/village_interfaces/lib/libvillage_interfaces__rosidl_typesupport_introspection_c.so
+[11.766s] -- Set runtime path of "/home/lubuntu/town_ws/install/village_interfaces/lib/libvillage_interfaces__rosidl_typesupport_introspection_c.so" to ""
+[11.766s] -- Installing: /home/lubuntu/town_ws/install/village_interfaces/lib/libvillage_interfaces__rosidl_typesupport_c.so
+[11.767s] -- Set runtime path of "/home/lubuntu/town_ws/install/village_interfaces/lib/libvillage_interfaces__rosidl_typesupport_c.so" to ""
+[11.767s] -- Up-to-date: /home/lubuntu/town_ws/install/village_interfaces/include/village_interfaces/village_interfaces
+[11.768s] -- Up-to-date: /home/lubuntu/town_ws/install/village_interfaces/include/village_interfaces/village_interfaces/msg
+[11.768s] -- Up-to-date: /home/lubuntu/town_ws/install/village_interfaces/include/village_interfaces/village_interfaces/msg/detail
+[11.768s] -- Installing: /home/lubuntu/town_ws/install/village_interfaces/include/village_interfaces/village_interfaces/msg/detail/novel__rosidl_typesupport_introspection_cpp.hpp
+[11.768s] -- Installing: /home/lubuntu/town_ws/install/village_interfaces/include/village_interfaces/village_interfaces/msg/detail/novel__type_support.cpp
+[11.769s] -- Installing: /home/lubuntu/town_ws/install/village_interfaces/lib/libvillage_interfaces__rosidl_typesupport_introspection_cpp.so
+[11.770s] -- Set runtime path of "/home/lubuntu/town_ws/install/village_interfaces/lib/libvillage_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[11.770s] -- Installing: /home/lubuntu/town_ws/install/village_interfaces/lib/libvillage_interfaces__rosidl_typesupport_cpp.so
+[11.771s] -- Set runtime path of "/home/lubuntu/town_ws/install/village_interfaces/lib/libvillage_interfaces__rosidl_typesupport_cpp.so" to ""
+[11.771s] -- Installing: /home/lubuntu/town_ws/install/village_interfaces/share/village_interfaces/environment/pythonpath.sh
+[11.772s] -- Installing: /home/lubuntu/town_ws/install/village_interfaces/share/village_interfaces/environment/pythonpath.dsv
+[11.772s] -- Installing: /home/lubuntu/town_ws/install/village_interfaces/local/lib/python3.10/dist-packages/village_interfaces-0.0.0-py3.10.egg-info
+[11.773s] -- Installing: /home/lubuntu/town_ws/install/village_interfaces/local/lib/python3.10/dist-packages/village_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt
+[11.774s] -- Installing: /home/lubuntu/town_ws/install/village_interfaces/local/lib/python3.10/dist-packages/village_interfaces-0.0.0-py3.10.egg-info/PKG-INFO
+[11.774s] -- Installing: /home/lubuntu/town_ws/install/village_interfaces/local/lib/python3.10/dist-packages/village_interfaces-0.0.0-py3.10.egg-info/top_level.txt
+[11.775s] -- Installing: /home/lubuntu/town_ws/install/village_interfaces/local/lib/python3.10/dist-packages/village_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt
+[11.775s] -- Installing: /home/lubuntu/town_ws/install/village_interfaces/local/lib/python3.10/dist-packages/village_interfaces
+[11.776s] -- Installing: /home/lubuntu/town_ws/install/village_interfaces/local/lib/python3.10/dist-packages/village_interfaces/village_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[11.776s] -- Installing: /home/lubuntu/town_ws/install/village_interfaces/local/lib/python3.10/dist-packages/village_interfaces/_village_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[11.777s] -- Installing: /home/lubuntu/town_ws/install/village_interfaces/local/lib/python3.10/dist-packages/village_interfaces/libvillage_interfaces__rosidl_generator_py.so
+[11.777s] -- Installing: /home/lubuntu/town_ws/install/village_interfaces/local/lib/python3.10/dist-packages/village_interfaces/village_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[11.778s] -- Installing: /home/lubuntu/town_ws/install/village_interfaces/local/lib/python3.10/dist-packages/village_interfaces/village_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[11.779s] -- Installing: /home/lubuntu/town_ws/install/village_interfaces/local/lib/python3.10/dist-packages/village_interfaces/__init__.py
+[11.779s] -- Installing: /home/lubuntu/town_ws/install/village_interfaces/local/lib/python3.10/dist-packages/village_interfaces/_village_interfaces_s.ep.rosidl_typesupport_c.c
+[11.780s] -- Installing: /home/lubuntu/town_ws/install/village_interfaces/local/lib/python3.10/dist-packages/village_interfaces/_village_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[11.780s] -- Installing: /home/lubuntu/town_ws/install/village_interfaces/local/lib/python3.10/dist-packages/village_interfaces/msg
+[11.780s] -- Installing: /home/lubuntu/town_ws/install/village_interfaces/local/lib/python3.10/dist-packages/village_interfaces/msg/_novel_s.c
+[11.781s] -- Installing: /home/lubuntu/town_ws/install/village_interfaces/local/lib/python3.10/dist-packages/village_interfaces/msg/__init__.py
+[11.781s] -- Installing: /home/lubuntu/town_ws/install/village_interfaces/local/lib/python3.10/dist-packages/village_interfaces/msg/_novel.py
+[11.866s] Listing '/home/lubuntu/town_ws/install/village_interfaces/local/lib/python3.10/dist-packages/village_interfaces'...
+[11.866s] Compiling '/home/lubuntu/town_ws/install/village_interfaces/local/lib/python3.10/dist-packages/village_interfaces/__init__.py'...
+[11.866s] Listing '/home/lubuntu/town_ws/install/village_interfaces/local/lib/python3.10/dist-packages/village_interfaces/msg'...
+[11.866s] Compiling '/home/lubuntu/town_ws/install/village_interfaces/local/lib/python3.10/dist-packages/village_interfaces/msg/__init__.py'...
+[11.866s] Compiling '/home/lubuntu/town_ws/install/village_interfaces/local/lib/python3.10/dist-packages/village_interfaces/msg/_novel.py'...
+[11.873s] -- Installing: /home/lubuntu/town_ws/install/village_interfaces/local/lib/python3.10/dist-packages/village_interfaces/village_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[11.874s] -- Set runtime path of "/home/lubuntu/town_ws/install/village_interfaces/local/lib/python3.10/dist-packages/village_interfaces/village_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[11.874s] -- Installing: /home/lubuntu/town_ws/install/village_interfaces/local/lib/python3.10/dist-packages/village_interfaces/village_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[11.875s] -- Set runtime path of "/home/lubuntu/town_ws/install/village_interfaces/local/lib/python3.10/dist-packages/village_interfaces/village_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[11.876s] -- Installing: /home/lubuntu/town_ws/install/village_interfaces/local/lib/python3.10/dist-packages/village_interfaces/village_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[11.877s] -- Set runtime path of "/home/lubuntu/town_ws/install/village_interfaces/local/lib/python3.10/dist-packages/village_interfaces/village_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[11.877s] -- Installing: /home/lubuntu/town_ws/install/village_interfaces/lib/libvillage_interfaces__rosidl_generator_py.so
+[11.877s] -- Set runtime path of "/home/lubuntu/town_ws/install/village_interfaces/lib/libvillage_interfaces__rosidl_generator_py.so" to ""
+[11.877s] -- Installing: /home/lubuntu/town_ws/install/village_interfaces/share/village_interfaces/rust
+[11.878s] -- Installing: /home/lubuntu/town_ws/install/village_interfaces/share/village_interfaces/rust/build.rs
+[11.878s] -- Installing: /home/lubuntu/town_ws/install/village_interfaces/share/village_interfaces/rust/src
+[11.878s] -- Installing: /home/lubuntu/town_ws/install/village_interfaces/share/village_interfaces/rust/src/lib.rs
+[11.878s] -- Installing: /home/lubuntu/town_ws/install/village_interfaces/share/village_interfaces/rust/src/msg
+[11.879s] -- Installing: /home/lubuntu/town_ws/install/village_interfaces/share/village_interfaces/rust/src/msg/rmw.rs
+[11.879s] -- Installing: /home/lubuntu/town_ws/install/village_interfaces/share/village_interfaces/rust/src/msg.rs
+[11.879s] -- Installing: /home/lubuntu/town_ws/install/village_interfaces/share/village_interfaces/rust/Cargo.toml
+[11.879s] -- Installing: /home/lubuntu/town_ws/install/village_interfaces/share/village_interfaces/msg/Novel.idl
+[11.880s] -- Installing: /home/lubuntu/town_ws/install/village_interfaces/share/village_interfaces/msg/Novel.msg
+[11.881s] -- Installing: /home/lubuntu/town_ws/install/village_interfaces/share/ament_index/resource_index/package_run_dependencies/village_interfaces
+[11.881s] -- Installing: /home/lubuntu/town_ws/install/village_interfaces/share/ament_index/resource_index/parent_prefix_path/village_interfaces
+[11.882s] -- Installing: /home/lubuntu/town_ws/install/village_interfaces/share/village_interfaces/environment/ament_prefix_path.sh
+[11.882s] -- Installing: /home/lubuntu/town_ws/install/village_interfaces/share/village_interfaces/environment/ament_prefix_path.dsv
+[11.883s] -- Installing: /home/lubuntu/town_ws/install/village_interfaces/share/village_interfaces/environment/path.sh
+[11.884s] -- Installing: /home/lubuntu/town_ws/install/village_interfaces/share/village_interfaces/environment/path.dsv
+[11.885s] -- Installing: /home/lubuntu/town_ws/install/village_interfaces/share/village_interfaces/local_setup.bash
+[11.885s] -- Installing: /home/lubuntu/town_ws/install/village_interfaces/share/village_interfaces/local_setup.sh
+[11.886s] -- Installing: /home/lubuntu/town_ws/install/village_interfaces/share/village_interfaces/local_setup.zsh
+[11.887s] -- Installing: /home/lubuntu/town_ws/install/village_interfaces/share/village_interfaces/local_setup.dsv
+[11.888s] -- Installing: /home/lubuntu/town_ws/install/village_interfaces/share/village_interfaces/package.dsv
+[11.889s] -- Installing: /home/lubuntu/town_ws/install/village_interfaces/share/ament_index/resource_index/packages/village_interfaces
+[11.890s] -- Installing: /home/lubuntu/town_ws/install/village_interfaces/share/village_interfaces/cmake/export_village_interfaces__rosidl_generator_cExport.cmake
+[11.890s] -- Installing: /home/lubuntu/town_ws/install/village_interfaces/share/village_interfaces/cmake/export_village_interfaces__rosidl_generator_cExport-noconfig.cmake
+[11.891s] -- Installing: /home/lubuntu/town_ws/install/village_interfaces/share/village_interfaces/cmake/export_village_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[11.892s] -- Installing: /home/lubuntu/town_ws/install/village_interfaces/share/village_interfaces/cmake/export_village_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[11.893s] -- Installing: /home/lubuntu/town_ws/install/village_interfaces/share/village_interfaces/cmake/export_village_interfaces__rosidl_generator_cppExport.cmake
+[11.894s] -- Installing: /home/lubuntu/town_ws/install/village_interfaces/share/village_interfaces/cmake/export_village_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[11.895s] -- Installing: /home/lubuntu/town_ws/install/village_interfaces/share/village_interfaces/cmake/export_village_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[11.895s] -- Installing: /home/lubuntu/town_ws/install/village_interfaces/share/village_interfaces/cmake/village_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[11.896s] -- Installing: /home/lubuntu/town_ws/install/village_interfaces/share/village_interfaces/cmake/village_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[11.897s] -- Installing: /home/lubuntu/town_ws/install/village_interfaces/share/village_interfaces/cmake/village_interfaces__rosidl_typesupport_cExport.cmake
+[11.898s] -- Installing: /home/lubuntu/town_ws/install/village_interfaces/share/village_interfaces/cmake/village_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[11.899s] -- Installing: /home/lubuntu/town_ws/install/village_interfaces/share/village_interfaces/cmake/village_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[11.899s] -- Installing: /home/lubuntu/town_ws/install/village_interfaces/share/village_interfaces/cmake/village_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[11.900s] -- Installing: /home/lubuntu/town_ws/install/village_interfaces/share/village_interfaces/cmake/village_interfaces__rosidl_typesupport_cppExport.cmake
+[11.901s] -- Installing: /home/lubuntu/town_ws/install/village_interfaces/share/village_interfaces/cmake/village_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[11.902s] -- Installing: /home/lubuntu/town_ws/install/village_interfaces/share/village_interfaces/cmake/export_village_interfaces__rosidl_generator_pyExport.cmake
+[11.903s] -- Installing: /home/lubuntu/town_ws/install/village_interfaces/share/village_interfaces/cmake/export_village_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[11.904s] -- Installing: /home/lubuntu/town_ws/install/village_interfaces/share/village_interfaces/cmake/rosidl_cmake-extras.cmake
+[11.905s] -- Installing: /home/lubuntu/town_ws/install/village_interfaces/share/village_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[11.905s] -- Installing: /home/lubuntu/town_ws/install/village_interfaces/share/village_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[11.907s] -- Installing: /home/lubuntu/town_ws/install/village_interfaces/share/village_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[11.910s] -- Installing: /home/lubuntu/town_ws/install/village_interfaces/share/village_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[11.910s] -- Installing: /home/lubuntu/town_ws/install/village_interfaces/share/village_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[11.910s] -- Installing: /home/lubuntu/town_ws/install/village_interfaces/share/village_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[11.910s] -- Installing: /home/lubuntu/town_ws/install/village_interfaces/share/village_interfaces/cmake/rosidl_cmake_aggregate_target-extras.cmake
+[11.910s] -- Installing: /home/lubuntu/town_ws/install/village_interfaces/share/village_interfaces/cmake/village_interfacesConfig.cmake
+[11.910s] -- Installing: /home/lubuntu/town_ws/install/village_interfaces/share/village_interfaces/cmake/village_interfacesConfig-version.cmake
+[11.910s] -- Installing: /home/lubuntu/town_ws/install/village_interfaces/share/village_interfaces/package.xml
+[11.913s] Invoked command in '/home/lubuntu/town_ws/build/village_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/lubuntu/town_ws/build/village_interfaces

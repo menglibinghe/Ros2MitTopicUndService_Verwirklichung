@@ -1,0 +1,48 @@
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/lubuntu/town_ws/src/village_zhang/src/zhang4.cpp:1[m[K:
+[01m[K/home/lubuntu/town_ws/src/village_zhang/src/zhang4.cpp:[m[K In constructor ‘[01m[KPoorManNode::PoorManNode(std::string)[m[K’:
+[01m[K/home/lubuntu/town_ws/src/village_zhang/src/zhang4.cpp:16:44:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%ld[m[K’ expects argument of type ‘[01m[Klong int[m[K’, but argument 6 has type ‘[01m[Kuint32_t[m[K’ {aka ‘[01m[Kunsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+   16 |             RCLCPP_INFO(this->get_logger(),[01;35m[K"大家好，我是穷鬼%s，但我有买书的%ld钱"[m[K,name.c_str(), [32m[KmoneyForNovel[m[K);
+      |                                            [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K               [32m[K~~~~~~~~~~~~~[m[K
+      |                                                                                                  [32m[K|[m[K
+      |                                                                                                  [32m[Kuint32_t {aka unsigned int}[m[K
+[01m[K/home/lubuntu/town_ws/src/village_zhang/src/zhang4.cpp:16:79:[m[K [01;36m[Knote: [m[Kformat string is defined here
+   16 |             RCLCPP_INFO(this->get_logger(),"大家好，我是穷鬼%s，但我有买书的[01;36m[K%ld[m[K钱",name.c_str(), moneyForNovel);
+      |                                                                             [01;36m[K~~^[m[K
+      |                                                                               [01;36m[K|[m[K
+      |                                                                               [01;36m[Klong int[m[K
+      |                                                                             [32m[K%d[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/lubuntu/town_ws/src/village_zhang/src/zhang4.cpp:1[m[K:
+[01m[K/home/lubuntu/town_ws/src/village_zhang/src/zhang4.cpp:[m[K In member function ‘[01m[Kvoid PoorManNode::buy_novel()[m[K’:
+[01m[K/home/lubuntu/town_ws/src/village_zhang/src/zhang4.cpp:45:49:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%ld[m[K’ expects argument of type ‘[01m[Klong int[m[K’, but argument 6 has type ‘[01m[Kuint32_t[m[K’ {aka ‘[01m[Kunsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+   45 |                 RCLCPP_INFO(this->get_logger(), [01;35m[K"穷鬼%s还剩%ld钱，又来买小说了"[m[K,this->get_name(), [32m[KmoneyForNovel[m[K);
+      |                                                 [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K                   [32m[K~~~~~~~~~~~~~[m[K
+      |                                                                                                   [32m[K|[m[K
+      |                                                                                                   [32m[Kuint32_t {aka unsigned int}[m[K
+[01m[K/home/lubuntu/town_ws/src/village_zhang/src/zhang4.cpp:45:62:[m[K [01;36m[Knote: [m[Kformat string is defined here
+   45 |                 RCLCPP_INFO(this->get_logger(), "穷鬼%s还剩[01;36m[K%ld[m[K钱，又来买小说了",this->get_name(), moneyForNovel);
+      |                                                            [01;36m[K~~^[m[K
+      |                                                              [01;36m[K|[m[K
+      |                                                              [01;36m[Klong int[m[K
+      |                                                            [32m[K%d[m[K

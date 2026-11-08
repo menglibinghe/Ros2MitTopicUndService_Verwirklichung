@@ -1,0 +1,7 @@
+string lender_name
+string borrower_name
+uint32 money            #想借的钱
+---
+#表示借款是否成功
+bool success
+uint32 money            #同意出借的钱

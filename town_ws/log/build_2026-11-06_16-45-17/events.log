@@ -1,0 +1,321 @@
+[0.000000] (-) TimerEvent: {}
+[0.000218] (-) JobUnselected: {'identifier': 'village_li'}
+[0.000267] (-) JobUnselected: {'identifier': 'village_wang'}
+[0.000294] (-) JobUnselected: {'identifier': 'village_zhang'}
+[0.000320] (village_interfaces) JobQueued: {'identifier': 'village_interfaces', 'dependencies': OrderedDict()}
+[0.000348] (village_interfaces) JobStarted: {'identifier': 'village_interfaces'}
+[0.006483] (village_interfaces) JobProgress: {'identifier': 'village_interfaces', 'progress': 'cmake'}
+[0.006590] (village_interfaces) JobProgress: {'identifier': 'village_interfaces', 'progress': 'build'}
+[0.006628] (village_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/lubuntu/town_ws/build/village_interfaces', '--', '-j2', '-l2'], 'cwd': '/home/lubuntu/town_ws/build/village_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('GTK_CSD', '0'), ('USER', 'lubuntu'), ('LC_TIME', 'en_US.UTF-8'), ('XDG_SEAT', 'seat0'), ('SSH_AGENT_PID', '1264'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('XDG_CACHE_HOME', '/home/lubuntu/.cache'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', 'firefox'), ('HOME', '/home/lubuntu'), ('CHROME_DESKTOP', 'com.microsoft.VSCode.desktop'), ('OLDPWD', '/home/lubuntu/town_ws/src'), ('TERM_PROGRAM_VERSION', '1.139.0'), ('DESKTOP_SESSION', 'Lubuntu'), ('ROS_PYTHON_VERSION', '3'), ('XDG_SEAT_PATH', '/org/freedesktop/DisplayManager/Seat0'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'en_US.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('BUNDLED_DEBUGPY_PATH', '/home/lubuntu/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/libs/debugpy'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('QT_QPA_PLATFORMTHEME', 'lxqt'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'fcitx'), ('LOGNAME', 'lubuntu'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('SAL_VCL_QT5_USE_CAIRO', 'true'), ('TERM', 'xterm-256color'), ('GTK_OVERLAY_SCROLLING', '0'), ('XDG_SESSION_ID', '3'), ('FC_FONTATIONS', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('SAL_USE_VCLPLUGIN', 'qt5'), ('PATH', '/home/lubuntu/.config/Code/User/globalStorage/github.copilot-chat/debugCommand:/home/lubuntu/.config/Code/User/globalStorage/github.copilot-chat/copilotCli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/lubuntu/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/scripts/noConfigScripts'), ('XDG_SESSION_PATH', '/org/freedesktop/DisplayManager/Session1'), ('XDG_MENU_PREFIX', 'lxqt-'), ('LC_ADDRESS', 'en_US.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/lubuntu/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-90429b62120757a3.txt'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'LXQt'), ('PYTHONSTARTUP', '/home/lubuntu/.config/Code/User/workspaceStorage/4178f65ae2d32567875ae9d2cfb39c58/ms-python.python/pythonrc.py'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('XDG_DATA_HOME', '/home/lubuntu/.local/share'), ('XDG_CONFIG_HOME', '/home/lubuntu/.config'), ('XMODIFIERS', '@im=fcitx'), ('XDG_SESSION_DESKTOP', ''), ('XAUTHORITY', '/home/lubuntu/.Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-969401e65b.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/tmp/ssh-XXXXXXkyJeao/agent.1194'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LXQT_SESSION_CONFIG', 'session'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'fcitx'), ('XDG_VTNR', '1'), ('PWD', '/home/lubuntu/town_ws/build/village_interfaces'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-Lubuntu:/etc/xdg:/etc:/usr/share'), ('COPILOT_DEBUG_NONCE', '5151a2e5fa14603627cb0ac0123291f0'), ('CLUTTER_IM_MODULE', 'xim'), ('XDG_DATA_DIRS', '/usr/share/Lubuntu:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('QT_PLATFORM_PLUGIN', 'lxqt'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.037753] (village_interfaces) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.092136] (-) TimerEvent: {}
+[0.192740] (-) TimerEvent: {}
+[0.216757] (village_interfaces) StdoutLine: {'line': b'-- Found sensor_msgs: 4.9.2 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[0.254851] (village_interfaces) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.9 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.262862] (village_interfaces) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.9 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.270215] (village_interfaces) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.9 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.288359] (village_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.293332] (-) TimerEvent: {}
+[0.310871] (village_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.392613] (village_interfaces) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.1 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[0.393831] (-) TimerEvent: {}
+[0.494428] (-) TimerEvent: {}
+[0.595028] (-) TimerEvent: {}
+[0.695577] (-) TimerEvent: {}
+[0.796149] (-) TimerEvent: {}
+[0.853345] (village_interfaces) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.1 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[0.896720] (-) TimerEvent: {}
+[1.002835] (-) TimerEvent: {}
+[1.103379] (-) TimerEvent: {}
+[1.203958] (-) TimerEvent: {}
+[1.304542] (-) TimerEvent: {}
+[1.405097] (-) TimerEvent: {}
+[1.496974] (village_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.505657] (-) TimerEvent: {}
+[1.620746] (-) TimerEvent: {}
+[1.721328] (-) TimerEvent: {}
+[1.780232] (village_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.806017] (village_interfaces) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[1.821899] (-) TimerEvent: {}
+[1.833199] (village_interfaces) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[1.833468] (village_interfaces) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[1.833754] (village_interfaces) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[1.922476] (-) TimerEvent: {}
+[2.017903] (village_interfaces) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[2.023029] (-) TimerEvent: {}
+[2.032843] (village_interfaces) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[2.034965] (village_interfaces) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[2.041018] (village_interfaces) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.123176] (-) TimerEvent: {}
+[2.151677] (village_interfaces) StdoutLine: {'line': b'-- Generating done\n'}
+[2.174903] (village_interfaces) StdoutLine: {'line': b'-- Build files have been written to: /home/lubuntu/town_ws/build/village_interfaces\n'}
+[2.203210] (village_interfaces) StdoutLine: {'line': b'[  3%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[2.215049] (village_interfaces) StdoutLine: {'line': b'[  6%] \x1b[34m\x1b[1mGenerating Rust code for ROS interfaces\x1b[0m\n'}
+[2.223694] (-) TimerEvent: {}
+[2.324268] (-) TimerEvent: {}
+[2.424886] (-) TimerEvent: {}
+[2.530885] (-) TimerEvent: {}
+[2.635010] (-) TimerEvent: {}
+[2.651027] (village_interfaces) StdoutLine: {'line': b'[  6%] Built target village_interfaces__rs\n'}
+[2.686480] (village_interfaces) StdoutLine: {'line': b'[  9%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[2.735194] (-) TimerEvent: {}
+[2.835647] (-) TimerEvent: {}
+[2.904661] (village_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target village_interfaces__rosidl_generator_c\x1b[0m\n'}
+[2.935848] (-) TimerEvent: {}
+[2.939740] (village_interfaces) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding C object CMakeFiles/village_interfaces__rosidl_generator_c.dir/rosidl_generator_c/village_interfaces/msg/detail/novel__functions.c.o\x1b[0m\n'}
+[3.016612] (village_interfaces) StdoutLine: {'line': b'[ 15%] \x1b[32m\x1b[1mLinking C shared library libvillage_interfaces__rosidl_generator_c.so\x1b[0m\n'}
+[3.036279] (-) TimerEvent: {}
+[3.120974] (village_interfaces) StdoutLine: {'line': b'[ 15%] Built target village_interfaces__rosidl_generator_c\n'}
+[3.136867] (-) TimerEvent: {}
+[3.163045] (village_interfaces) StdoutLine: {'line': b'[ 15%] Built target village_interfaces__cpp\n'}
+[3.175573] (village_interfaces) StdoutLine: {'line': b'[ 18%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[3.183257] (village_interfaces) StdoutLine: {'line': b'[ 18%] Built target ament_cmake_python_copy_village_interfaces\n'}
+[3.194906] (village_interfaces) StdoutLine: {'line': b'[ 21%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[3.237438] (-) TimerEvent: {}
+[3.338008] (-) TimerEvent: {}
+[3.438576] (-) TimerEvent: {}
+[3.488465] (village_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target village_interfaces__rosidl_typesupport_fastrtps_c\x1b[0m\n'}
+[3.507188] (village_interfaces) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/village_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/village_interfaces/msg/detail/novel__type_support_c.cpp.o\x1b[0m\n'}
+[3.526509] (village_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target village_interfaces__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[3.538985] (-) TimerEvent: {}
+[3.562723] (village_interfaces) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding CXX object CMakeFiles/village_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/village_interfaces/msg/detail/dds_fastrtps/novel__type_support.cpp.o\x1b[0m\n'}
+[3.639238] (-) TimerEvent: {}
+[3.742117] (-) TimerEvent: {}
+[3.842737] (-) TimerEvent: {}
+[3.947014] (-) TimerEvent: {}
+[4.051068] (-) TimerEvent: {}
+[4.151614] (-) TimerEvent: {}
+[4.252552] (-) TimerEvent: {}
+[4.279139] (village_interfaces) StdoutLine: {'line': b'[ 31%] \x1b[32m\x1b[1mLinking CXX shared library libvillage_interfaces__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[4.352770] (-) TimerEvent: {}
+[4.397691] (village_interfaces) StdoutLine: {'line': b'[ 31%] Built target village_interfaces__rosidl_typesupport_fastrtps_c\n'}
+[4.400448] (village_interfaces) StdoutLine: {'line': b'[ 34%] \x1b[32m\x1b[1mLinking CXX shared library libvillage_interfaces__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[4.410514] (village_interfaces) StdoutLine: {'line': b'[ 37%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[4.453327] (-) TimerEvent: {}
+[4.521375] (village_interfaces) StdoutLine: {'line': b'[ 37%] Built target village_interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[4.533019] (village_interfaces) StdoutLine: {'line': b'[ 40%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[4.553899] (-) TimerEvent: {}
+[4.654976] (-) TimerEvent: {}
+[4.755834] (-) TimerEvent: {}
+[4.856624] (-) TimerEvent: {}
+[4.870090] (village_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target village_interfaces__rosidl_typesupport_introspection_c\x1b[0m\n'}
+[4.886243] (village_interfaces) StdoutLine: {'line': b'[ 43%] \x1b[32mBuilding C object CMakeFiles/village_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/village_interfaces/msg/detail/novel__type_support.c.o\x1b[0m\n'}
+[4.931274] (village_interfaces) StdoutLine: {'line': b'[ 46%] \x1b[32m\x1b[1mLinking C shared library libvillage_interfaces__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[4.946086] (village_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target village_interfaces__rosidl_typesupport_c\x1b[0m\n'}
+[4.957204] (-) TimerEvent: {}
+[4.957804] (village_interfaces) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/village_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/village_interfaces/msg/novel__type_support.cpp.o\x1b[0m\n'}
+[4.977718] (village_interfaces) StdoutLine: {'line': b'[ 50%] Built target village_interfaces__rosidl_typesupport_introspection_c\n'}
+[4.992662] (village_interfaces) StdoutLine: {'line': b'[ 56%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[4.993118] (village_interfaces) StdoutLine: {'line': b'[ 56%] \x1b[32m\x1b[1mLinking CXX shared library libvillage_interfaces__rosidl_typesupport_c.so\x1b[0m\n'}
+[5.043411] (village_interfaces) StdoutLine: {'line': b'[ 56%] Built target village_interfaces__rosidl_typesupport_c\n'}
+[5.057771] (-) TimerEvent: {}
+[5.058847] (village_interfaces) StdoutLine: {'line': b'[ 59%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[5.158352] (-) TimerEvent: {}
+[5.259426] (-) TimerEvent: {}
+[5.359984] (-) TimerEvent: {}
+[5.425117] (village_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target village_interfaces__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[5.445208] (village_interfaces) StdoutLine: {'line': b'[ 62%] \x1b[32mBuilding CXX object CMakeFiles/village_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/village_interfaces/msg/detail/novel__type_support.cpp.o\x1b[0m\n'}
+[5.460572] (-) TimerEvent: {}
+[5.488293] (village_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target village_interfaces__rosidl_typesupport_cpp\x1b[0m\n'}
+[5.522871] (village_interfaces) StdoutLine: {'line': b'[ 65%] \x1b[32mBuilding CXX object CMakeFiles/village_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/village_interfaces/msg/novel__type_support.cpp.o\x1b[0m\n'}
+[5.561913] (-) TimerEvent: {}
+[5.662743] (-) TimerEvent: {}
+[5.763801] (-) TimerEvent: {}
+[5.864895] (-) TimerEvent: {}
+[5.965943] (-) TimerEvent: {}
+[6.025689] (village_interfaces) StdoutLine: {'line': b'[ 68%] \x1b[32m\x1b[1mLinking CXX shared library libvillage_interfaces__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[6.067083] (-) TimerEvent: {}
+[6.122384] (village_interfaces) StdoutLine: {'line': b'[ 68%] Built target village_interfaces__rosidl_typesupport_cpp\n'}
+[6.167590] (-) TimerEvent: {}
+[6.247441] (village_interfaces) StdoutLine: {'line': b'[ 71%] \x1b[32m\x1b[1mLinking CXX shared library libvillage_interfaces__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[6.268155] (-) TimerEvent: {}
+[6.364570] (village_interfaces) StdoutLine: {'line': b'[ 71%] Built target village_interfaces__rosidl_typesupport_introspection_cpp\n'}
+[6.368714] (-) TimerEvent: {}
+[6.392245] (village_interfaces) StdoutLine: {'line': b'[ 71%] Built target village_interfaces\n'}
+[6.431776] (village_interfaces) StdoutLine: {'line': b'[ 75%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[6.469304] (-) TimerEvent: {}
+[6.544776] (village_interfaces) StdoutLine: {'line': b'running egg_info\n'}
+[6.546194] (village_interfaces) StdoutLine: {'line': b'writing village_interfaces.egg-info/PKG-INFO\n'}
+[6.546877] (village_interfaces) StdoutLine: {'line': b'writing dependency_links to village_interfaces.egg-info/dependency_links.txt\n'}
+[6.547439] (village_interfaces) StdoutLine: {'line': b'writing top-level names to village_interfaces.egg-info/top_level.txt\n'}
+[6.550121] (village_interfaces) StdoutLine: {'line': b"reading manifest file 'village_interfaces.egg-info/SOURCES.txt'\n"}
+[6.551077] (village_interfaces) StdoutLine: {'line': b"writing manifest file 'village_interfaces.egg-info/SOURCES.txt'\n"}
+[6.569896] (-) TimerEvent: {}
+[6.600287] (village_interfaces) StdoutLine: {'line': b'[ 75%] Built target ament_cmake_python_build_village_interfaces_egg\n'}
+[6.670457] (-) TimerEvent: {}
+[6.771017] (-) TimerEvent: {}
+[6.871534] (-) TimerEvent: {}
+[6.884127] (village_interfaces) StdoutLine: {'line': b'[ 75%] Built target village_interfaces__py\n'}
+[6.900378] (village_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target village_interfaces__rosidl_generator_py\x1b[0m\n'}
+[6.917018] (village_interfaces) StdoutLine: {'line': b'[ 78%] \x1b[32mBuilding C object CMakeFiles/village_interfaces__rosidl_generator_py.dir/rosidl_generator_py/village_interfaces/msg/_novel_s.c.o\x1b[0m\n'}
+[6.971676] (-) TimerEvent: {}
+[7.070541] (village_interfaces) StdoutLine: {'line': b'[ 81%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/village_interfaces/libvillage_interfaces__rosidl_generator_py.so\x1b[0m\n'}
+[7.072227] (-) TimerEvent: {}
+[7.120450] (village_interfaces) StdoutLine: {'line': b'[ 81%] Built target village_interfaces__rosidl_generator_py\n'}
+[7.132700] (village_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target village_interfaces__rosidl_typesupport_introspection_c__pyext\x1b[0m\n'}
+[7.132944] (village_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target village_interfaces__rosidl_typesupport_fastrtps_c__pyext\x1b[0m\n'}
+[7.147454] (village_interfaces) StdoutLine: {'line': b'[ 84%] \x1b[32mBuilding C object CMakeFiles/village_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/village_interfaces/_village_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[7.152761] (village_interfaces) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/village_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/village_interfaces/_village_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[7.172827] (-) TimerEvent: {}
+[7.273436] (-) TimerEvent: {}
+[7.375015] (-) TimerEvent: {}
+[7.384565] (village_interfaces) StdoutLine: {'line': b'[ 90%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/village_interfaces/village_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[7.388809] (village_interfaces) StdoutLine: {'line': b'[ 93%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/village_interfaces/village_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[7.475263] (-) TimerEvent: {}
+[7.498502] (village_interfaces) StdoutLine: {'line': b'[ 93%] Built target village_interfaces__rosidl_typesupport_introspection_c__pyext\n'}
+[7.510295] (village_interfaces) StdoutLine: {'line': b'[ 93%] Built target village_interfaces__rosidl_typesupport_fastrtps_c__pyext\n'}
+[7.520615] (village_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target village_interfaces__rosidl_typesupport_c__pyext\x1b[0m\n'}
+[7.540533] (village_interfaces) StdoutLine: {'line': b'[ 96%] \x1b[32mBuilding C object CMakeFiles/village_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/village_interfaces/_village_interfaces_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[7.575613] (-) TimerEvent: {}
+[7.658190] (village_interfaces) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/village_interfaces/village_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[7.676206] (-) TimerEvent: {}
+[7.727077] (village_interfaces) StdoutLine: {'line': b'[100%] Built target village_interfaces__rosidl_typesupport_c__pyext\n'}
+[7.750634] (village_interfaces) CommandEnded: {'returncode': 0}
+[7.751495] (village_interfaces) JobProgress: {'identifier': 'village_interfaces', 'progress': 'install'}
+[7.761549] (village_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/lubuntu/town_ws/build/village_interfaces'], 'cwd': '/home/lubuntu/town_ws/build/village_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('GTK_CSD', '0'), ('USER', 'lubuntu'), ('LC_TIME', 'en_US.UTF-8'), ('XDG_SEAT', 'seat0'), ('SSH_AGENT_PID', '1264'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('XDG_CACHE_HOME', '/home/lubuntu/.cache'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', 'firefox'), ('HOME', '/home/lubuntu'), ('CHROME_DESKTOP', 'com.microsoft.VSCode.desktop'), ('OLDPWD', '/home/lubuntu/town_ws/src'), ('TERM_PROGRAM_VERSION', '1.139.0'), ('DESKTOP_SESSION', 'Lubuntu'), ('ROS_PYTHON_VERSION', '3'), ('XDG_SEAT_PATH', '/org/freedesktop/DisplayManager/Seat0'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'en_US.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('BUNDLED_DEBUGPY_PATH', '/home/lubuntu/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/libs/debugpy'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('QT_QPA_PLATFORMTHEME', 'lxqt'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'fcitx'), ('LOGNAME', 'lubuntu'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('SAL_VCL_QT5_USE_CAIRO', 'true'), ('TERM', 'xterm-256color'), ('GTK_OVERLAY_SCROLLING', '0'), ('XDG_SESSION_ID', '3'), ('FC_FONTATIONS', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('SAL_USE_VCLPLUGIN', 'qt5'), ('PATH', '/home/lubuntu/.config/Code/User/globalStorage/github.copilot-chat/debugCommand:/home/lubuntu/.config/Code/User/globalStorage/github.copilot-chat/copilotCli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/lubuntu/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/scripts/noConfigScripts'), ('XDG_SESSION_PATH', '/org/freedesktop/DisplayManager/Session1'), ('XDG_MENU_PREFIX', 'lxqt-'), ('LC_ADDRESS', 'en_US.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/lubuntu/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-90429b62120757a3.txt'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'LXQt'), ('PYTHONSTARTUP', '/home/lubuntu/.config/Code/User/workspaceStorage/4178f65ae2d32567875ae9d2cfb39c58/ms-python.python/pythonrc.py'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('XDG_DATA_HOME', '/home/lubuntu/.local/share'), ('XDG_CONFIG_HOME', '/home/lubuntu/.config'), ('XMODIFIERS', '@im=fcitx'), ('XDG_SESSION_DESKTOP', ''), ('XAUTHORITY', '/home/lubuntu/.Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-969401e65b.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/tmp/ssh-XXXXXXkyJeao/agent.1194'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LXQT_SESSION_CONFIG', 'session'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'fcitx'), ('XDG_VTNR', '1'), ('PWD', '/home/lubuntu/town_ws/build/village_interfaces'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-Lubuntu:/etc/xdg:/etc:/usr/share'), ('COPILOT_DEBUG_NONCE', '5151a2e5fa14603627cb0ac0123291f0'), ('CLUTTER_IM_MODULE', 'xim'), ('XDG_DATA_DIRS', '/usr/share/Lubuntu:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('QT_PLATFORM_PLUGIN', 'lxqt'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[7.771940] (village_interfaces) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[7.772430] (village_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/lubuntu/town_ws/install/village_interfaces/share/ament_index/resource_index/rosidl_interfaces/village_interfaces\n'}
+[7.772729] (village_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/lubuntu/town_ws/install/village_interfaces/include/village_interfaces/village_interfaces\n'}
+[7.773061] (village_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/lubuntu/town_ws/install/village_interfaces/include/village_interfaces/village_interfaces/msg\n'}
+[7.773369] (village_interfaces) StdoutLine: {'line': b'-- Installing: /home/lubuntu/town_ws/install/village_interfaces/include/village_interfaces/village_interfaces/msg/novel.h\n'}
+[7.773862] (village_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/lubuntu/town_ws/install/village_interfaces/include/village_interfaces/village_interfaces/msg/detail\n'}
+[7.774141] (village_interfaces) StdoutLine: {'line': b'-- Installing: /home/lubuntu/town_ws/install/village_interfaces/include/village_interfaces/village_interfaces/msg/detail/novel__struct.h\n'}
+[7.774563] (village_interfaces) StdoutLine: {'line': b'-- Installing: /home/lubuntu/town_ws/install/village_interfaces/include/village_interfaces/village_interfaces/msg/detail/novel__functions.h\n'}
+[7.775151] (village_interfaces) StdoutLine: {'line': b'-- Installing: /home/lubuntu/town_ws/install/village_interfaces/include/village_interfaces/village_interfaces/msg/detail/novel__functions.c\n'}
+[7.775586] (village_interfaces) StdoutLine: {'line': b'-- Installing: /home/lubuntu/town_ws/install/village_interfaces/include/village_interfaces/village_interfaces/msg/detail/novel__type_support.h\n'}
+[7.776008] (village_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/lubuntu/town_ws/install/village_interfaces/include/village_interfaces/village_interfaces/msg/rosidl_generator_c__visibility_control.h\n'}
+[7.776343] (village_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/lubuntu/town_ws/install/village_interfaces/share/village_interfaces/environment/library_path.sh\n'}
+[7.776493] (-) TimerEvent: {}
+[7.776970] (village_interfaces) StdoutLine: {'line': b'-- Installing: /home/lubuntu/town_ws/install/village_interfaces/share/village_interfaces/environment/library_path.dsv\n'}
+[7.777601] (village_interfaces) StdoutLine: {'line': b'-- Installing: /home/lubuntu/town_ws/install/village_interfaces/lib/libvillage_interfaces__rosidl_generator_c.so\n'}
+[7.778309] (village_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/lubuntu/town_ws/install/village_interfaces/lib/libvillage_interfaces__rosidl_generator_c.so" to ""\n'}
+[7.778619] (village_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/lubuntu/town_ws/install/village_interfaces/include/village_interfaces/village_interfaces\n'}
+[7.778927] (village_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/lubuntu/town_ws/install/village_interfaces/include/village_interfaces/village_interfaces/msg\n'}
+[7.779207] (village_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/lubuntu/town_ws/install/village_interfaces/include/village_interfaces/village_interfaces/msg/detail\n'}
+[7.779480] (village_interfaces) StdoutLine: {'line': b'-- Installing: /home/lubuntu/town_ws/install/village_interfaces/include/village_interfaces/village_interfaces/msg/detail/novel__rosidl_typesupport_fastrtps_c.h\n'}
+[7.779886] (village_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/lubuntu/town_ws/install/village_interfaces/include/village_interfaces/village_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[7.780348] (village_interfaces) StdoutLine: {'line': b'-- Installing: /home/lubuntu/town_ws/install/village_interfaces/lib/libvillage_interfaces__rosidl_typesupport_fastrtps_c.so\n'}
+[7.781023] (village_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/lubuntu/town_ws/install/village_interfaces/lib/libvillage_interfaces__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[7.781335] (village_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/lubuntu/town_ws/install/village_interfaces/include/village_interfaces/village_interfaces\n'}
+[7.781606] (village_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/lubuntu/town_ws/install/village_interfaces/include/village_interfaces/village_interfaces/msg\n'}
+[7.781893] (village_interfaces) StdoutLine: {'line': b'-- Installing: /home/lubuntu/town_ws/install/village_interfaces/include/village_interfaces/village_interfaces/msg/novel.hpp\n'}
+[7.782850] (village_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/lubuntu/town_ws/install/village_interfaces/include/village_interfaces/village_interfaces/msg/detail\n'}
+[7.783136] (village_interfaces) StdoutLine: {'line': b'-- Installing: /home/lubuntu/town_ws/install/village_interfaces/include/village_interfaces/village_interfaces/msg/detail/novel__type_support.hpp\n'}
+[7.783512] (village_interfaces) StdoutLine: {'line': b'-- Installing: /home/lubuntu/town_ws/install/village_interfaces/include/village_interfaces/village_interfaces/msg/detail/novel__struct.hpp\n'}
+[7.784030] (village_interfaces) StdoutLine: {'line': b'-- Installing: /home/lubuntu/town_ws/install/village_interfaces/include/village_interfaces/village_interfaces/msg/detail/novel__traits.hpp\n'}
+[7.784483] (village_interfaces) StdoutLine: {'line': b'-- Installing: /home/lubuntu/town_ws/install/village_interfaces/include/village_interfaces/village_interfaces/msg/detail/novel__builder.hpp\n'}
+[7.784899] (village_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/lubuntu/town_ws/install/village_interfaces/include/village_interfaces/village_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[7.785231] (village_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/lubuntu/town_ws/install/village_interfaces/include/village_interfaces/village_interfaces\n'}
+[7.785519] (village_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/lubuntu/town_ws/install/village_interfaces/include/village_interfaces/village_interfaces/msg\n'}
+[7.785797] (village_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/lubuntu/town_ws/install/village_interfaces/include/village_interfaces/village_interfaces/msg/detail\n'}
+[7.786065] (village_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/lubuntu/town_ws/install/village_interfaces/include/village_interfaces/village_interfaces/msg/detail/dds_fastrtps\n'}
+[7.786343] (village_interfaces) StdoutLine: {'line': b'-- Installing: /home/lubuntu/town_ws/install/village_interfaces/include/village_interfaces/village_interfaces/msg/detail/novel__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[7.786772] (village_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/lubuntu/town_ws/install/village_interfaces/include/village_interfaces/village_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[7.787234] (village_interfaces) StdoutLine: {'line': b'-- Installing: /home/lubuntu/town_ws/install/village_interfaces/lib/libvillage_interfaces__rosidl_typesupport_fastrtps_cpp.so\n'}
+[7.788021] (village_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/lubuntu/town_ws/install/village_interfaces/lib/libvillage_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[7.788301] (village_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/lubuntu/town_ws/install/village_interfaces/include/village_interfaces/village_interfaces\n'}
+[7.788513] (village_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/lubuntu/town_ws/install/village_interfaces/include/village_interfaces/village_interfaces/msg\n'}
+[7.788722] (village_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/lubuntu/town_ws/install/village_interfaces/include/village_interfaces/village_interfaces/msg/detail\n'}
+[7.788928] (village_interfaces) StdoutLine: {'line': b'-- Installing: /home/lubuntu/town_ws/install/village_interfaces/include/village_interfaces/village_interfaces/msg/detail/novel__type_support.c\n'}
+[7.789285] (village_interfaces) StdoutLine: {'line': b'-- Installing: /home/lubuntu/town_ws/install/village_interfaces/include/village_interfaces/village_interfaces/msg/detail/novel__rosidl_typesupport_introspection_c.h\n'}
+[7.789597] (village_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/lubuntu/town_ws/install/village_interfaces/include/village_interfaces/village_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[7.790018] (village_interfaces) StdoutLine: {'line': b'-- Installing: /home/lubuntu/town_ws/install/village_interfaces/lib/libvillage_interfaces__rosidl_typesupport_introspection_c.so\n'}
+[7.790608] (village_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/lubuntu/town_ws/install/village_interfaces/lib/libvillage_interfaces__rosidl_typesupport_introspection_c.so" to ""\n'}
+[7.791005] (village_interfaces) StdoutLine: {'line': b'-- Installing: /home/lubuntu/town_ws/install/village_interfaces/lib/libvillage_interfaces__rosidl_typesupport_c.so\n'}
+[7.791596] (village_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/lubuntu/town_ws/install/village_interfaces/lib/libvillage_interfaces__rosidl_typesupport_c.so" to ""\n'}
+[7.791900] (village_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/lubuntu/town_ws/install/village_interfaces/include/village_interfaces/village_interfaces\n'}
+[7.792131] (village_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/lubuntu/town_ws/install/village_interfaces/include/village_interfaces/village_interfaces/msg\n'}
+[7.792535] (village_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/lubuntu/town_ws/install/village_interfaces/include/village_interfaces/village_interfaces/msg/detail\n'}
+[7.792805] (village_interfaces) StdoutLine: {'line': b'-- Installing: /home/lubuntu/town_ws/install/village_interfaces/include/village_interfaces/village_interfaces/msg/detail/novel__rosidl_typesupport_introspection_cpp.hpp\n'}
+[7.793189] (village_interfaces) StdoutLine: {'line': b'-- Installing: /home/lubuntu/town_ws/install/village_interfaces/include/village_interfaces/village_interfaces/msg/detail/novel__type_support.cpp\n'}
+[7.793760] (village_interfaces) StdoutLine: {'line': b'-- Installing: /home/lubuntu/town_ws/install/village_interfaces/lib/libvillage_interfaces__rosidl_typesupport_introspection_cpp.so\n'}
+[7.794493] (village_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/lubuntu/town_ws/install/village_interfaces/lib/libvillage_interfaces__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[7.794992] (village_interfaces) StdoutLine: {'line': b'-- Installing: /home/lubuntu/town_ws/install/village_interfaces/lib/libvillage_interfaces__rosidl_typesupport_cpp.so\n'}
+[7.795712] (village_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/lubuntu/town_ws/install/village_interfaces/lib/libvillage_interfaces__rosidl_typesupport_cpp.so" to ""\n'}
+[7.796029] (village_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/lubuntu/town_ws/install/village_interfaces/share/village_interfaces/environment/pythonpath.sh\n'}
+[7.796341] (village_interfaces) StdoutLine: {'line': b'-- Installing: /home/lubuntu/town_ws/install/village_interfaces/share/village_interfaces/environment/pythonpath.dsv\n'}
+[7.796812] (village_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/lubuntu/town_ws/install/village_interfaces/local/lib/python3.10/dist-packages/village_interfaces-0.0.0-py3.10.egg-info\n'}
+[7.797114] (village_interfaces) StdoutLine: {'line': b'-- Installing: /home/lubuntu/town_ws/install/village_interfaces/local/lib/python3.10/dist-packages/village_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[7.797536] (village_interfaces) StdoutLine: {'line': b'-- Installing: /home/lubuntu/town_ws/install/village_interfaces/local/lib/python3.10/dist-packages/village_interfaces-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[7.797972] (village_interfaces) StdoutLine: {'line': b'-- Installing: /home/lubuntu/town_ws/install/village_interfaces/local/lib/python3.10/dist-packages/village_interfaces-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[7.798381] (village_interfaces) StdoutLine: {'line': b'-- Installing: /home/lubuntu/town_ws/install/village_interfaces/local/lib/python3.10/dist-packages/village_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[7.798843] (village_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/lubuntu/town_ws/install/village_interfaces/local/lib/python3.10/dist-packages/village_interfaces\n'}
+[7.799141] (village_interfaces) StdoutLine: {'line': b'-- Installing: /home/lubuntu/town_ws/install/village_interfaces/local/lib/python3.10/dist-packages/village_interfaces/village_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[7.799649] (village_interfaces) StdoutLine: {'line': b'-- Installing: /home/lubuntu/town_ws/install/village_interfaces/local/lib/python3.10/dist-packages/village_interfaces/_village_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[7.800043] (village_interfaces) StdoutLine: {'line': b'-- Installing: /home/lubuntu/town_ws/install/village_interfaces/local/lib/python3.10/dist-packages/village_interfaces/libvillage_interfaces__rosidl_generator_py.so\n'}
+[7.800476] (village_interfaces) StdoutLine: {'line': b'-- Installing: /home/lubuntu/town_ws/install/village_interfaces/local/lib/python3.10/dist-packages/village_interfaces/village_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[7.800902] (village_interfaces) StdoutLine: {'line': b'-- Installing: /home/lubuntu/town_ws/install/village_interfaces/local/lib/python3.10/dist-packages/village_interfaces/village_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[7.801343] (village_interfaces) StdoutLine: {'line': b'-- Installing: /home/lubuntu/town_ws/install/village_interfaces/local/lib/python3.10/dist-packages/village_interfaces/__init__.py\n'}
+[7.801775] (village_interfaces) StdoutLine: {'line': b'-- Installing: /home/lubuntu/town_ws/install/village_interfaces/local/lib/python3.10/dist-packages/village_interfaces/_village_interfaces_s.ep.rosidl_typesupport_c.c\n'}
+[7.802297] (village_interfaces) StdoutLine: {'line': b'-- Installing: /home/lubuntu/town_ws/install/village_interfaces/local/lib/python3.10/dist-packages/village_interfaces/_village_interfaces_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[7.802636] (village_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/lubuntu/town_ws/install/village_interfaces/local/lib/python3.10/dist-packages/village_interfaces/msg\n'}
+[7.802999] (village_interfaces) StdoutLine: {'line': b'-- Installing: /home/lubuntu/town_ws/install/village_interfaces/local/lib/python3.10/dist-packages/village_interfaces/msg/_novel_s.c\n'}
+[7.803336] (village_interfaces) StdoutLine: {'line': b'-- Installing: /home/lubuntu/town_ws/install/village_interfaces/local/lib/python3.10/dist-packages/village_interfaces/msg/__init__.py\n'}
+[7.803638] (village_interfaces) StdoutLine: {'line': b'-- Installing: /home/lubuntu/town_ws/install/village_interfaces/local/lib/python3.10/dist-packages/village_interfaces/msg/_novel.py\n'}
+[7.845476] (village_interfaces) StdoutLine: {'line': b"Listing '/home/lubuntu/town_ws/install/village_interfaces/local/lib/python3.10/dist-packages/village_interfaces'...\n"}
+[7.845862] (village_interfaces) StdoutLine: {'line': b"Compiling '/home/lubuntu/town_ws/install/village_interfaces/local/lib/python3.10/dist-packages/village_interfaces/__init__.py'...\n"}
+[7.846336] (village_interfaces) StdoutLine: {'line': b"Listing '/home/lubuntu/town_ws/install/village_interfaces/local/lib/python3.10/dist-packages/village_interfaces/msg'...\n"}
+[7.846502] (village_interfaces) StdoutLine: {'line': b"Compiling '/home/lubuntu/town_ws/install/village_interfaces/local/lib/python3.10/dist-packages/village_interfaces/msg/__init__.py'...\n"}
+[7.846658] (village_interfaces) StdoutLine: {'line': b"Compiling '/home/lubuntu/town_ws/install/village_interfaces/local/lib/python3.10/dist-packages/village_interfaces/msg/_novel.py'...\n"}
+[7.854293] (village_interfaces) StdoutLine: {'line': b'-- Installing: /home/lubuntu/town_ws/install/village_interfaces/local/lib/python3.10/dist-packages/village_interfaces/village_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[7.855063] (village_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/lubuntu/town_ws/install/village_interfaces/local/lib/python3.10/dist-packages/village_interfaces/village_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[7.855634] (village_interfaces) StdoutLine: {'line': b'-- Installing: /home/lubuntu/town_ws/install/village_interfaces/local/lib/python3.10/dist-packages/village_interfaces/village_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[7.856285] (village_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/lubuntu/town_ws/install/village_interfaces/local/lib/python3.10/dist-packages/village_interfaces/village_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[7.856837] (village_interfaces) StdoutLine: {'line': b'-- Installing: /home/lubuntu/town_ws/install/village_interfaces/local/lib/python3.10/dist-packages/village_interfaces/village_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[7.857516] (village_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/lubuntu/town_ws/install/village_interfaces/local/lib/python3.10/dist-packages/village_interfaces/village_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[7.857987] (village_interfaces) StdoutLine: {'line': b'-- Installing: /home/lubuntu/town_ws/install/village_interfaces/lib/libvillage_interfaces__rosidl_generator_py.so\n'}
+[7.858658] (village_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/lubuntu/town_ws/install/village_interfaces/lib/libvillage_interfaces__rosidl_generator_py.so" to ""\n'}
+[7.859019] (village_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/lubuntu/town_ws/install/village_interfaces/share/village_interfaces/rust\n'}
+[7.859334] (village_interfaces) StdoutLine: {'line': b'-- Installing: /home/lubuntu/town_ws/install/village_interfaces/share/village_interfaces/rust/build.rs\n'}
+[7.859756] (village_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/lubuntu/town_ws/install/village_interfaces/share/village_interfaces/rust/src\n'}
+[7.860049] (village_interfaces) StdoutLine: {'line': b'-- Installing: /home/lubuntu/town_ws/install/village_interfaces/share/village_interfaces/rust/src/lib.rs\n'}
+[7.860462] (village_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/lubuntu/town_ws/install/village_interfaces/share/village_interfaces/rust/src/msg\n'}
+[7.860733] (village_interfaces) StdoutLine: {'line': b'-- Installing: /home/lubuntu/town_ws/install/village_interfaces/share/village_interfaces/rust/src/msg/rmw.rs\n'}
+[7.861148] (village_interfaces) StdoutLine: {'line': b'-- Installing: /home/lubuntu/town_ws/install/village_interfaces/share/village_interfaces/rust/src/msg.rs\n'}
+[7.861520] (village_interfaces) StdoutLine: {'line': b'-- Installing: /home/lubuntu/town_ws/install/village_interfaces/share/village_interfaces/rust/Cargo.toml\n'}
+[7.861936] (village_interfaces) StdoutLine: {'line': b'-- Installing: /home/lubuntu/town_ws/install/village_interfaces/share/village_interfaces/msg/Novel.idl\n'}
+[7.862355] (village_interfaces) StdoutLine: {'line': b'-- Installing: /home/lubuntu/town_ws/install/village_interfaces/share/village_interfaces/msg/Novel.msg\n'}
+[7.862827] (village_interfaces) StdoutLine: {'line': b'-- Installing: /home/lubuntu/town_ws/install/village_interfaces/share/ament_index/resource_index/package_run_dependencies/village_interfaces\n'}
+[7.863225] (village_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/lubuntu/town_ws/install/village_interfaces/share/ament_index/resource_index/parent_prefix_path/village_interfaces\n'}
+[7.863526] (village_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/lubuntu/town_ws/install/village_interfaces/share/village_interfaces/environment/ament_prefix_path.sh\n'}
+[7.863834] (village_interfaces) StdoutLine: {'line': b'-- Installing: /home/lubuntu/town_ws/install/village_interfaces/share/village_interfaces/environment/ament_prefix_path.dsv\n'}
+[7.864332] (village_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/lubuntu/town_ws/install/village_interfaces/share/village_interfaces/environment/path.sh\n'}
+[7.864625] (village_interfaces) StdoutLine: {'line': b'-- Installing: /home/lubuntu/town_ws/install/village_interfaces/share/village_interfaces/environment/path.dsv\n'}
+[7.865043] (village_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/lubuntu/town_ws/install/village_interfaces/share/village_interfaces/local_setup.bash\n'}
+[7.865358] (village_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/lubuntu/town_ws/install/village_interfaces/share/village_interfaces/local_setup.sh\n'}
+[7.865649] (village_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/lubuntu/town_ws/install/village_interfaces/share/village_interfaces/local_setup.zsh\n'}
+[7.865950] (village_interfaces) StdoutLine: {'line': b'-- Installing: /home/lubuntu/town_ws/install/village_interfaces/share/village_interfaces/local_setup.dsv\n'}
+[7.866409] (village_interfaces) StdoutLine: {'line': b'-- Installing: /home/lubuntu/town_ws/install/village_interfaces/share/village_interfaces/package.dsv\n'}
+[7.866915] (village_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/lubuntu/town_ws/install/village_interfaces/share/ament_index/resource_index/packages/village_interfaces\n'}
+[7.867482] (village_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/lubuntu/town_ws/install/village_interfaces/share/village_interfaces/cmake/export_village_interfaces__rosidl_generator_cExport.cmake\n'}
+[7.867784] (village_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/lubuntu/town_ws/install/village_interfaces/share/village_interfaces/cmake/export_village_interfaces__rosidl_generator_cExport-noconfig.cmake\n'}
+[7.868270] (village_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/lubuntu/town_ws/install/village_interfaces/share/village_interfaces/cmake/export_village_interfaces__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[7.868572] (village_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/lubuntu/town_ws/install/village_interfaces/share/village_interfaces/cmake/export_village_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[7.868933] (village_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/lubuntu/town_ws/install/village_interfaces/share/village_interfaces/cmake/export_village_interfaces__rosidl_generator_cppExport.cmake\n'}
+[7.869304] (village_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/lubuntu/town_ws/install/village_interfaces/share/village_interfaces/cmake/export_village_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[7.869577] (village_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/lubuntu/town_ws/install/village_interfaces/share/village_interfaces/cmake/export_village_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[7.870037] (village_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/lubuntu/town_ws/install/village_interfaces/share/village_interfaces/cmake/village_interfaces__rosidl_typesupport_introspection_cExport.cmake\n'}
+[7.870366] (village_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/lubuntu/town_ws/install/village_interfaces/share/village_interfaces/cmake/village_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[7.870842] (village_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/lubuntu/town_ws/install/village_interfaces/share/village_interfaces/cmake/village_interfaces__rosidl_typesupport_cExport.cmake\n'}
+[7.871177] (village_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/lubuntu/town_ws/install/village_interfaces/share/village_interfaces/cmake/village_interfaces__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[7.871656] (village_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/lubuntu/town_ws/install/village_interfaces/share/village_interfaces/cmake/village_interfaces__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[7.872006] (village_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/lubuntu/town_ws/install/village_interfaces/share/village_interfaces/cmake/village_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[7.872471] (village_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/lubuntu/town_ws/install/village_interfaces/share/village_interfaces/cmake/village_interfaces__rosidl_typesupport_cppExport.cmake\n'}
+[7.872795] (village_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/lubuntu/town_ws/install/village_interfaces/share/village_interfaces/cmake/village_interfaces__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[7.873405] (village_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/lubuntu/town_ws/install/village_interfaces/share/village_interfaces/cmake/export_village_interfaces__rosidl_generator_pyExport.cmake\n'}
+[7.873701] (village_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/lubuntu/town_ws/install/village_interfaces/share/village_interfaces/cmake/export_village_interfaces__rosidl_generator_pyExport-noconfig.cmake\n'}
+[7.874025] (village_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/lubuntu/town_ws/install/village_interfaces/share/village_interfaces/cmake/rosidl_cmake-extras.cmake\n'}
+[7.874348] (village_interfaces) StdoutLine: {'line': b'-- Installing: /home/lubuntu/town_ws/install/village_interfaces/share/village_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[7.875058] (village_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/lubuntu/town_ws/install/village_interfaces/share/village_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[7.875450] (village_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/lubuntu/town_ws/install/village_interfaces/share/village_interfaces/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[7.875809] (village_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/lubuntu/town_ws/install/village_interfaces/share/village_interfaces/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[7.876114] (village_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/lubuntu/town_ws/install/village_interfaces/share/village_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[7.876421] (village_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/lubuntu/town_ws/install/village_interfaces/share/village_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[7.876559] (-) TimerEvent: {}
+[7.877037] (village_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/lubuntu/town_ws/install/village_interfaces/share/village_interfaces/cmake/rosidl_cmake_aggregate_target-extras.cmake\n'}
+[7.877356] (village_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/lubuntu/town_ws/install/village_interfaces/share/village_interfaces/cmake/village_interfacesConfig.cmake\n'}
+[7.877619] (village_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/lubuntu/town_ws/install/village_interfaces/share/village_interfaces/cmake/village_interfacesConfig-version.cmake\n'}
+[7.877928] (village_interfaces) StdoutLine: {'line': b'-- Installing: /home/lubuntu/town_ws/install/village_interfaces/share/village_interfaces/package.xml\n'}
+[7.882824] (village_interfaces) CommandEnded: {'returncode': 0}
+[7.911951] (village_interfaces) JobEnded: {'identifier': 'village_interfaces', 'rc': 0}
+[7.913321] (-) EventReactorShutdown: {}

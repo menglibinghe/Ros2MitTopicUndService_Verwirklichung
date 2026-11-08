@@ -1,0 +1,88 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-bdbbd7dec71423487b98.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "village_zhang",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-a15179190d51c44526e3.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "village_zhang_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-village_zhang_uninstall-763aa62e5adbd0afc636.json",
+					"name" : "village_zhang_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "zhang3_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-zhang3_node-1e178294d72531e330a2.json",
+					"name" : "zhang3_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "zhang4_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-zhang4_node-b19cc49a6900a24cab05.json",
+					"name" : "zhang4_node",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/lubuntu/town_ws/build/village_zhang",
+		"source" : "/home/lubuntu/town_ws/src/village_zhang"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

@@ -1,0 +1,3 @@
+[0.043s] Invoking command in '/home/lubuntu/town_ws/build/village_wang': CMAKE_PREFIX_PATH=/home/lubuntu/town_ws/install/village_interfaces:/home/lubuntu/town_ws/install/village_wang:/home/lubuntu/town_ws/install/village_zhang:/home/lubuntu/town_ws/install/village_li:/opt/ros/humble /usr/bin/cmake --build /home/lubuntu/town_ws/build/village_wang -- -j2 -l2
+[0.268s] [35m[1mConsolidate compiler generated dependencies of target wang2_node[0m
+[0.353s] [ 50%] [32mBuilding CXX object CMakeFiles/wang2_node.dir/src/wang2.cpp.o[0m

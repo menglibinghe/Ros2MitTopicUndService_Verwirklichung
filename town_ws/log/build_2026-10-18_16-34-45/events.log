@@ -1,0 +1,200 @@
+[0.000000] (-) TimerEvent: {}
+[0.000280] (-) JobUnselected: {'identifier': 'village_li'}
+[0.000353] (-) JobUnselected: {'identifier': 'village_zhang'}
+[0.000379] (village_wang) JobQueued: {'identifier': 'village_wang', 'dependencies': OrderedDict()}
+[0.000750] (village_wang) JobStarted: {'identifier': 'village_wang'}
+[0.041487] (village_wang) JobProgress: {'identifier': 'village_wang', 'progress': 'cmake'}
+[0.063397] (village_wang) JobProgress: {'identifier': 'village_wang', 'progress': 'build'}
+[0.065793] (village_wang) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/lubuntu/town_ws/build/village_wang', '--', '-j2', '-l2'], 'cwd': '/home/lubuntu/town_ws/build/village_wang', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', ''), ('GTK_CSD', '0'), ('USER', 'lubuntu'), ('LC_TIME', 'en_US.UTF-8'), ('XDG_SEAT', 'seat0'), ('SSH_AGENT_PID', '1264'), ('XDG_SESSION_TYPE', 'x11'), ('XDG_CACHE_HOME', '/home/lubuntu/.cache'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', 'firefox'), ('HOME', '/home/lubuntu'), ('OLDPWD', '/home/lubuntu'), ('DESKTOP_SESSION', 'Lubuntu'), ('ROS_PYTHON_VERSION', '3'), ('XDG_SEAT_PATH', '/org/freedesktop/DisplayManager/Seat0'), ('LC_MONETARY', 'en_US.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('QT_QPA_PLATFORMTHEME', 'lxqt'), ('COLCON_PREFIX_PATH', '/home/lubuntu/town_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'fcitx'), ('LOGNAME', 'lubuntu'), ('WINDOWID', '0'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('COLORFGBG', '15;0'), ('SAL_VCL_QT5_USE_CAIRO', 'true'), ('TERM', 'xterm-256color'), ('GTK_OVERLAY_SCROLLING', '0'), ('XDG_SESSION_ID', '3'), ('ROS_LOCALHOST_ONLY', '0'), ('SAL_USE_VCLPLUGIN', 'qt5'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_SESSION_PATH', '/org/freedesktop/DisplayManager/Session1'), ('XDG_MENU_PREFIX', 'lxqt-'), ('LC_ADDRESS', 'en_US.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'LXQt'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('XDG_DATA_HOME', '/home/lubuntu/.local/share'), ('XDG_CONFIG_HOME', '/home/lubuntu/.config'), ('XMODIFIERS', '@im=fcitx'), ('XDG_SESSION_DESKTOP', ''), ('XAUTHORITY', '/home/lubuntu/.Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/tmp/ssh-XXXXXXkyJeao/agent.1194'), ('AMENT_PREFIX_PATH', '/home/lubuntu/town_ws/install/village_wang:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LXQT_SESSION_CONFIG', 'session'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('QT_IM_MODULE', 'fcitx'), ('XDG_VTNR', '1'), ('PWD', '/home/lubuntu/town_ws/build/village_wang'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-Lubuntu:/etc/xdg:/etc:/usr/share'), ('CLUTTER_IM_MODULE', 'xim'), ('XDG_DATA_DIRS', '/usr/share/Lubuntu:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('QT_PLATFORM_PLUGIN', 'lxqt'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/lubuntu/town_ws/install/village_wang:/opt/ros/humble')]), 'shell': False}
+[0.099357] (-) TimerEvent: {}
+[0.200517] (-) TimerEvent: {}
+[0.301035] (-) TimerEvent: {}
+[0.376316] (village_wang) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/wang2_node.dir/src/wang2.cpp.o\x1b[0m\n'}
+[0.401172] (-) TimerEvent: {}
+[0.501788] (-) TimerEvent: {}
+[0.602163] (-) TimerEvent: {}
+[0.702854] (-) TimerEvent: {}
+[0.803377] (-) TimerEvent: {}
+[0.904278] (-) TimerEvent: {}
+[1.005381] (-) TimerEvent: {}
+[1.106923] (-) TimerEvent: {}
+[1.209511] (-) TimerEvent: {}
+[1.310964] (-) TimerEvent: {}
+[1.411935] (-) TimerEvent: {}
+[1.512782] (-) TimerEvent: {}
+[1.614311] (-) TimerEvent: {}
+[1.715122] (-) TimerEvent: {}
+[1.815857] (-) TimerEvent: {}
+[1.917064] (-) TimerEvent: {}
+[2.018035] (-) TimerEvent: {}
+[2.119575] (-) TimerEvent: {}
+[2.220825] (-) TimerEvent: {}
+[2.321584] (-) TimerEvent: {}
+[2.422061] (-) TimerEvent: {}
+[2.522581] (-) TimerEvent: {}
+[2.623407] (-) TimerEvent: {}
+[2.724437] (-) TimerEvent: {}
+[2.824977] (-) TimerEvent: {}
+[2.926039] (-) TimerEvent: {}
+[3.026999] (-) TimerEvent: {}
+[3.127905] (-) TimerEvent: {}
+[3.228492] (-) TimerEvent: {}
+[3.329373] (-) TimerEvent: {}
+[3.429837] (-) TimerEvent: {}
+[3.530624] (-) TimerEvent: {}
+[3.631625] (-) TimerEvent: {}
+[3.732599] (-) TimerEvent: {}
+[3.833239] (-) TimerEvent: {}
+[3.933774] (-) TimerEvent: {}
+[4.034334] (-) TimerEvent: {}
+[4.136147] (-) TimerEvent: {}
+[4.236703] (-) TimerEvent: {}
+[4.337790] (-) TimerEvent: {}
+[4.439724] (-) TimerEvent: {}
+[4.540457] (-) TimerEvent: {}
+[4.641113] (-) TimerEvent: {}
+[4.742116] (-) TimerEvent: {}
+[4.842804] (-) TimerEvent: {}
+[4.943615] (-) TimerEvent: {}
+[5.044756] (-) TimerEvent: {}
+[5.145702] (-) TimerEvent: {}
+[5.246446] (-) TimerEvent: {}
+[5.347442] (-) TimerEvent: {}
+[5.448538] (-) TimerEvent: {}
+[5.549314] (-) TimerEvent: {}
+[5.649836] (-) TimerEvent: {}
+[5.750806] (-) TimerEvent: {}
+[5.851449] (-) TimerEvent: {}
+[5.952174] (-) TimerEvent: {}
+[6.053241] (-) TimerEvent: {}
+[6.154386] (-) TimerEvent: {}
+[6.255029] (-) TimerEvent: {}
+[6.355672] (-) TimerEvent: {}
+[6.456304] (-) TimerEvent: {}
+[6.557419] (-) TimerEvent: {}
+[6.658240] (-) TimerEvent: {}
+[6.758764] (-) TimerEvent: {}
+[6.859354] (-) TimerEvent: {}
+[6.959918] (-) TimerEvent: {}
+[7.060478] (-) TimerEvent: {}
+[7.161214] (-) TimerEvent: {}
+[7.261768] (-) TimerEvent: {}
+[7.362321] (-) TimerEvent: {}
+[7.462768] (-) TimerEvent: {}
+[7.563249] (-) TimerEvent: {}
+[7.664153] (-) TimerEvent: {}
+[7.764765] (-) TimerEvent: {}
+[7.865274] (-) TimerEvent: {}
+[7.965836] (-) TimerEvent: {}
+[8.066443] (-) TimerEvent: {}
+[8.166989] (-) TimerEvent: {}
+[8.267670] (-) TimerEvent: {}
+[8.368167] (-) TimerEvent: {}
+[8.468647] (-) TimerEvent: {}
+[8.569248] (-) TimerEvent: {}
+[8.669677] (-) TimerEvent: {}
+[8.770382] (-) TimerEvent: {}
+[8.892658] (-) TimerEvent: {}
+[8.993476] (-) TimerEvent: {}
+[9.094227] (-) TimerEvent: {}
+[9.194777] (-) TimerEvent: {}
+[9.295163] (-) TimerEvent: {}
+[9.395749] (-) TimerEvent: {}
+[9.496325] (-) TimerEvent: {}
+[9.597177] (-) TimerEvent: {}
+[9.697733] (-) TimerEvent: {}
+[9.716279] (village_wang) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lubuntu/town_ws/src/village_wang/src/wang2.cpp:29:42:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KUint32\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Kstd_msgs::msg\x1b[m\x1b[K\xe2\x80\x99; did you mean \xe2\x80\x98\x1b[01m\x1b[KUInt32\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[9.717141] (village_wang) StderrLine: {'line': b'   29 |         rclcpp::Publisher<std_msgs::msg::\x1b[01;31m\x1b[KUint32\x1b[m\x1b[K>::SharedPtr Payed_fee;\n'}
+[9.717349] (village_wang) StderrLine: {'line': b'      |                                          \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[9.717479] (village_wang) StderrLine: {'line': b'      |                                          \x1b[32m\x1b[KUInt32\x1b[m\x1b[K\n'}
+[9.717583] (village_wang) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lubuntu/town_ws/src/village_wang/src/wang2.cpp:29:48:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[9.717722] (village_wang) StderrLine: {'line': b'   29 |         rclcpp::Publisher<std_msgs::msg::Uint32\x1b[01;31m\x1b[K>\x1b[m\x1b[K::SharedPtr Payed_fee;\n'}
+[9.717819] (village_wang) StderrLine: {'line': b'      |                                                \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[9.727034] (village_wang) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lubuntu/town_ws/src/village_wang/src/wang2.cpp:29:51:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 at end of member declaration\n'}
+[9.727300] (village_wang) StderrLine: {'line': b'   29 |      rclcpp::Publisher<std_msgs::msg::Uint32>::\x1b[01;31m\x1b[KSharedPtr\x1b[m\x1b[K Payed_fee;\n'}
+[9.727438] (village_wang) StderrLine: {'line': b'      |                                                \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[9.727597] (village_wang) StderrLine: {'line': b'      |                                                         \x1b[32m\x1b[K;\x1b[m\x1b[K\n'}
+[9.742522] (village_wang) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lubuntu/town_ws/src/village_wang/src/wang2.cpp:29:61:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KPayed_fee\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[9.742785] (village_wang) StderrLine: {'line': b'   29 | pp::Publisher<std_msgs::msg::Uint32>::SharedPtr \x1b[01;31m\x1b[KPayed_fee\x1b[m\x1b[K;\n'}
+[9.742892] (village_wang) StderrLine: {'line': b'      |                                                 \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[9.742983] (village_wang) StderrLine: {'line': b'\n'}
+[9.762436] (village_wang) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lubuntu/town_ws/src/village_wang/src/wang2.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KSingleDogNode::SingleDogNode(std::string)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[9.762673] (village_wang) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lubuntu/town_ws/src/village_wang/src/wang2.cpp:20:13:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KPayed_fee\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[9.762814] (village_wang) StderrLine: {'line': b'   20 |             \x1b[01;31m\x1b[KPayed_fee\x1b[m\x1b[K = this->create_publisher<std_msgs::msg::Uint32>("sexy_girl_money", 10);\n'}
+[9.762951] (village_wang) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[9.763241] (village_wang) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lubuntu/town_ws/src/village_wang/src/wang2.cpp:20:63:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KUint32\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Kstd_msgs::msg\x1b[m\x1b[K\xe2\x80\x99; did you mean \xe2\x80\x98\x1b[01m\x1b[KUInt32\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[9.763382] (village_wang) StderrLine: {'line': b'   20 | ed_fee = this->create_publisher<std_msgs::msg::\x1b[01;31m\x1b[KUint32\x1b[m\x1b[K>("sexy_girl_money", 10);\n'}
+[9.763505] (village_wang) StderrLine: {'line': b'      |                                                \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[9.763607] (village_wang) StderrLine: {'line': b'      |                                                \x1b[32m\x1b[KUInt32\x1b[m\x1b[K\n'}
+[9.763879] (village_wang) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lubuntu/town_ws/src/village_wang/src/wang2.cpp:20:70:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[KSingleDogNode::create_publisher<<expression error> >(const char [16], int)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.763993] (village_wang) StderrLine: {'line': b'   20 | = \x1b[01;31m\x1b[Kthis->create_publisher<std_msgs::msg::Uint32>("sexy_girl_money", 10)\x1b[m\x1b[K;\n'}
+[9.764088] (village_wang) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[9.764173] (village_wang) StderrLine: {'line': b'\n'}
+[9.768448] (village_wang) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28\x1b[m\x1b[K,\n'}
+[9.768661] (village_wang) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[9.768829] (village_wang) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[9.768997] (village_wang) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lubuntu/town_ws/src/village_wang/src/wang2.cpp:1\x1b[m\x1b[K:\n'}
+[9.769096] (village_wang) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:195:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class MessageT, class AllocatorT, class PublisherT> std::shared_ptr<PublisherT> rclcpp::Node::create_publisher(const string&, const rclcpp::QoS&, const rclcpp::PublisherOptionsWithAllocator<AllocatorT>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.769270] (village_wang) StderrLine: {'line': b'  195 |   \x1b[01;36m\x1b[Kcreate_publisher\x1b[m\x1b[K(\n'}
+[9.769445] (village_wang) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[9.769557] (village_wang) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:195:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[9.769652] (village_wang) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lubuntu/town_ws/src/village_wang/src/wang2.cpp:20:70:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[9.769727] (village_wang) StderrLine: {'line': b'   20 | = \x1b[01;31m\x1b[Kthis->create_publisher<std_msgs::msg::Uint32>("sexy_girl_money", 10)\x1b[m\x1b[K;\n'}
+[9.769810] (village_wang) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[9.769993] (village_wang) StderrLine: {'line': b'\n'}
+[9.774500] (village_wang) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lubuntu/town_ws/src/village_wang/src/wang2.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid SingleDogNode::topic_callback(std_msgs::msg::String_<std::allocator<void> >::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[9.774721] (village_wang) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lubuntu/town_ws/src/village_wang/src/wang2.cpp:38:28:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KUint32\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Kstd_msgs::msg\x1b[m\x1b[K\xe2\x80\x99; did you mean \xe2\x80\x98\x1b[01m\x1b[KUInt32\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[9.774832] (village_wang) StderrLine: {'line': b'   38 |             std_msgs::msg::\x1b[01;31m\x1b[KUint32\x1b[m\x1b[K money;\n'}
+[9.774962] (village_wang) StderrLine: {'line': b'      |                            \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[9.775058] (village_wang) StderrLine: {'line': b'      |                            \x1b[32m\x1b[KUInt32\x1b[m\x1b[K\n'}
+[9.781006] (village_wang) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lubuntu/town_ws/src/village_wang/src/wang2.cpp:39:13:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kmoney\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[9.781214] (village_wang) StderrLine: {'line': b'   39 |             \x1b[01;31m\x1b[Kmoney\x1b[m\x1b[K.data = 1\n'}
+[9.781338] (village_wang) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[9.798030] (-) TimerEvent: {}
+[9.898643] (-) TimerEvent: {}
+[9.999313] (-) TimerEvent: {}
+[10.100367] (-) TimerEvent: {}
+[10.201366] (-) TimerEvent: {}
+[10.301741] (-) TimerEvent: {}
+[10.402521] (-) TimerEvent: {}
+[10.502989] (-) TimerEvent: {}
+[10.603676] (-) TimerEvent: {}
+[10.704261] (-) TimerEvent: {}
+[10.804791] (-) TimerEvent: {}
+[10.905405] (-) TimerEvent: {}
+[11.006016] (-) TimerEvent: {}
+[11.106845] (-) TimerEvent: {}
+[11.207431] (-) TimerEvent: {}
+[11.308014] (-) TimerEvent: {}
+[11.408609] (-) TimerEvent: {}
+[11.509194] (-) TimerEvent: {}
+[11.609895] (-) TimerEvent: {}
+[11.710459] (-) TimerEvent: {}
+[11.810876] (-) TimerEvent: {}
+[11.911597] (-) TimerEvent: {}
+[12.012175] (-) TimerEvent: {}
+[12.112815] (-) TimerEvent: {}
+[12.213181] (-) TimerEvent: {}
+[12.313894] (-) TimerEvent: {}
+[12.414474] (-) TimerEvent: {}
+[12.515154] (-) TimerEvent: {}
+[12.616020] (-) TimerEvent: {}
+[12.716696] (-) TimerEvent: {}
+[12.817654] (-) TimerEvent: {}
+[12.918258] (-) TimerEvent: {}
+[13.018770] (-) TimerEvent: {}
+[13.119396] (-) TimerEvent: {}
+[13.219937] (-) TimerEvent: {}
+[13.320546] (-) TimerEvent: {}
+[13.421620] (-) TimerEvent: {}
+[13.522209] (-) TimerEvent: {}
+[13.622826] (-) TimerEvent: {}
+[13.666321] (village_wang) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/wang2_node.dir/build.make:76: CMakeFiles/wang2_node.dir/src/wang2.cpp.o] Error 1\n'}
+[13.666854] (village_wang) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/wang2_node.dir/all] Error 2\n'}
+[13.667223] (village_wang) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[13.723826] (-) TimerEvent: {}
+[13.764409] (village_wang) CommandEnded: {'returncode': 2}
+[13.824176] (-) TimerEvent: {}
+[13.925720] (-) TimerEvent: {}
+[13.967683] (village_wang) JobEnded: {'identifier': 'village_wang', 'rc': 2}
+[13.983174] (-) EventReactorShutdown: {}

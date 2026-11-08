@@ -1,0 +1,300 @@
+[35m[1mConsolidate compiler generated dependencies of target wang2_node[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/wang2_node.dir/src/wang2.cpp.o[0m
+[01m[K/home/lubuntu/town_ws/src/village_wang/src/wang2.cpp:34:2:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ after class definition
+   34 | }
+      |  [01;31m[K^[m[K
+      |  [32m[K;[m[K
+[01m[K/home/lubuntu/town_ws/src/village_wang/src/wang2.cpp:[m[K In constructor ‘[01m[KSingleDogNode::SingleDogNode(std::string)[m[K’:
+[01m[K/home/lubuntu/town_ws/src/village_wang/src/wang2.cpp:18:13:[m[K [01;31m[Kerror: [m[K‘[01m[Ksub_novel[m[K’ was not declared in this scope
+   18 |             [01;31m[Ksub_novel[m[K = this->create_subscription<std_msgs::msg::String>(
+      |             [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/lubuntu/town_ws/src/village_wang/src/wang2.cpp:19:60:[m[K [01;31m[Kerror: [m[K‘[01m[Ktopic_callback[m[K’ is not a member of ‘[01m[KSingleDogNode[m[K’
+   19 |                 "sexy_girl", 10, std::bind(&SingleDogNode::[01;31m[Ktopic_callback[m[K, this, _1));
+      |                                                            [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/lubuntu/town_ws/src/village_wang/src/wang2.cpp:22:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kpayed_fee[m[K’ was not declared in this scope
+   22 |             [01;31m[Kpayed_fee[m[K = this->create_publisher<std_msgs::msg::UInt32>("sexy_girl_money", 10);
+      |             [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/lubuntu/town_ws/src/village_wang/src/wang2.cpp:26:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kcallback_group_service_[m[K’ was not declared in this scope
+   26 |         [01;31m[Kcallback_group_service_[m[K = this->create_callback_group(
+      |         [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/lubuntu/town_ws/src/village_wang/src/wang2.cpp:29:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kserver_[m[K’ was not declared in this scope
+   29 |         [01;31m[Kserver_[m[K = this->create_service<village_interfaces::srv::SellNovel>(
+      |         [01;31m[K^~~~~~~[m[K
+[01m[K/home/lubuntu/town_ws/src/village_wang/src/wang2.cpp:30:52:[m[K [01;31m[Kerror: [m[K‘[01m[Ksell_book_callback[m[K’ is not a member of ‘[01m[KSingleDogNode[m[K’
+   30 |             "sell_novel",std::bind(&SingleDogNode::[01;31m[Ksell_book_callback[m[K,this,_1,_2),
+      |                                                    [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/lubuntu/town_ws/src/village_wang/src/wang2.cpp:[m[K At global scope:
+[01m[K/home/lubuntu/town_ws/src/village_wang/src/wang2.cpp:36:5:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kprivate[m[K’
+   36 |     [01;31m[Kprivate[m[K:
+      |     [01;31m[K^~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/lubuntu/town_ws/src/village_wang/src/wang2.cpp:1[m[K:
+[01m[K/home/lubuntu/town_ws/src/village_wang/src/wang2.cpp:[m[K In function ‘[01m[Kvoid topic_callback(std_msgs::msg::String_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/lubuntu/town_ws/src/village_wang/src/wang2.cpp:48:32:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+   48 |             RCLCPP_INFO_STREAM([01;31m[Kthis[m[K->get_logger(), "朕已阅：" << msg->data);
+      |                                [01;31m[K^~~~[m[K
+[01m[K/home/lubuntu/town_ws/src/village_wang/src/wang2.cpp:48:32:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[01m[K/home/lubuntu/town_ws/src/village_wang/src/wang2.cpp:48:13:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   48 |             [01;31m[KRCLCPP_INFO_STREAM[m[K(this->get_logger(), "朕已阅：" << msg->data);
+      |             [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/lubuntu/town_ws/src/village_wang/src/wang2.cpp:1[m[K:
+[01m[K/home/lubuntu/town_ws/src/village_wang/src/wang2.cpp:48:32:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+   48 |             RCLCPP_INFO_STREAM([01;31m[Kthis[m[K->get_logger(), "朕已阅：" << msg->data);
+      |                                [01;31m[K^~~~[m[K
+[01m[K/home/lubuntu/town_ws/src/village_wang/src/wang2.cpp:48:32:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+   48 |             RCLCPP_INFO_STREAM([01;31m[Kthis[m[K->get_logger(), "朕已阅：" << msg->data);
+      |                                [01;31m[K^~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/lubuntu/town_ws/src/village_wang/src/wang2.cpp:1[m[K:
+[01m[K/home/lubuntu/town_ws/src/village_wang/src/wang2.cpp:53:32:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+   53 |             RCLCPP_INFO_STREAM([01;31m[Kthis[m[K->get_logger(), "朕打赏了：" << money.data << " 元");
+      |                                [01;31m[K^~~~[m[K
+[01m[K/home/lubuntu/town_ws/src/village_wang/src/wang2.cpp:53:32:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[01m[K/home/lubuntu/town_ws/src/village_wang/src/wang2.cpp:53:13:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   53 |             [01;31m[KRCLCPP_INFO_STREAM[m[K(this->get_logger(), "朕打赏了：" << money.data << " 元");
+      |             [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/lubuntu/town_ws/src/village_wang/src/wang2.cpp:1[m[K:
+[01m[K/home/lubuntu/town_ws/src/village_wang/src/wang2.cpp:53:32:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+   53 |             RCLCPP_INFO_STREAM([01;31m[Kthis[m[K->get_logger(), "朕打赏了：" << money.data << " 元");
+      |                                [01;31m[K^~~~[m[K
+[01m[K/home/lubuntu/town_ws/src/village_wang/src/wang2.cpp:53:32:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+   53 |             RCLCPP_INFO_STREAM([01;31m[Kthis[m[K->get_logger(), "朕打赏了：" << money.data << " 元");
+      |                                [01;31m[K^~~~[m[K
+[01m[K/home/lubuntu/town_ws/src/village_wang/src/wang2.cpp:56:13:[m[K [01;31m[Kerror: [m[K‘[01m[Knovels_queue[m[K’ was not declared in this scope
+   56 |             [01;31m[Knovels_queue[m[K.push(msg->data);
+      |             [01;31m[K^~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/lubuntu/town_ws/src/village_wang/src/wang2.cpp:1[m[K:
+[01m[K/home/lubuntu/town_ws/src/village_wang/src/wang2.cpp:[m[K In function ‘[01m[Kvoid sell_book_callback(village_interfaces::srv::SellNovel_Request_<std::allocator<void> >::SharedPtr, village_interfaces::srv::SellNovel_Response_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/lubuntu/town_ws/src/village_wang/src/wang2.cpp:73:25:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+   73 |             RCLCPP_INFO([01;31m[Kthis[m[K->get_logger(), "收到一个买书请求，一共给了%d钱",request->money);
+      |                         [01;31m[K^~~~[m[K
+[01m[K/home/lubuntu/town_ws/src/village_wang/src/wang2.cpp:73:25:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[01m[K/home/lubuntu/town_ws/src/village_wang/src/wang2.cpp:73:13:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   73 |             [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "收到一个买书请求，一共给了%d钱",request->money);
+      |             [01;31m[K^~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/lubuntu/town_ws/src/village_wang/src/wang2.cpp:1[m[K:
+[01m[K/home/lubuntu/town_ws/src/village_wang/src/wang2.cpp:73:25:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+   73 |             RCLCPP_INFO([01;31m[Kthis[m[K->get_logger(), "收到一个买书请求，一共给了%d钱",request->money);
+      |                         [01;31m[K^~~~[m[K
+[01m[K/home/lubuntu/town_ws/src/village_wang/src/wang2.cpp:73:25:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+   73 |             RCLCPP_INFO([01;31m[Kthis[m[K->get_logger(), "收到一个买书请求，一共给了%d钱",request->money);
+      |                         [01;31m[K^~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/lubuntu/town_ws/src/village_wang/src/wang2.cpp:1[m[K:
+[01m[K/home/lubuntu/town_ws/src/village_wang/src/wang2.cpp:79:29:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+   79 |                 RCLCPP_INFO([01;31m[Kthis[m[K->get_logger(), "当前艳娘传奇章节存量为%d：不能满足需求,开始等待",novels_queue.size());
+      |                             [01;31m[K^~~~[m[K
+[01m[K/home/lubuntu/town_ws/src/village_wang/src/wang2.cpp:79:29:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[01m[K/home/lubuntu/town_ws/src/village_wang/src/wang2.cpp:79:17:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   79 |                 [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "当前艳娘传奇章节存量为%d：不能满足需求,开始等待",novels_queue.size());
+      |                 [01;31m[K^~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/lubuntu/town_ws/src/village_wang/src/wang2.cpp:1[m[K:
+[01m[K/home/lubuntu/town_ws/src/village_wang/src/wang2.cpp:79:29:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+   79 |                 RCLCPP_INFO([01;31m[Kthis[m[K->get_logger(), "当前艳娘传奇章节存量为%d：不能满足需求,开始等待",novels_queue.size());
+      |                             [01;31m[K^~~~[m[K
+[01m[K/home/lubuntu/town_ws/src/village_wang/src/wang2.cpp:79:29:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+   79 |                 RCLCPP_INFO([01;31m[Kthis[m[K->get_logger(), "当前艳娘传奇章节存量为%d：不能满足需求,开始等待",novels_queue.size());
+      |                             [01;31m[K^~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/lubuntu/town_ws/src/village_wang/src/wang2.cpp:1[m[K:
+[01m[K/home/lubuntu/town_ws/src/village_wang/src/wang2.cpp:90:38:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+   90 |                         RCLCPP_ERROR([01;31m[Kthis[m[K->get_logger(), "程序被终止了");
+      |                                      [01;31m[K^~~~[m[K
+[01m[K/home/lubuntu/town_ws/src/village_wang/src/wang2.cpp:90:38:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[01m[K/home/lubuntu/town_ws/src/village_wang/src/wang2.cpp:90:25:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   90 |                         [01;31m[KRCLCPP_ERROR[m[K(this->get_logger(), "程序被终止了");
+      |                         [01;31m[K^~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/lubuntu/town_ws/src/village_wang/src/wang2.cpp:1[m[K:
+[01m[K/home/lubuntu/town_ws/src/village_wang/src/wang2.cpp:90:38:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+   90 |                         RCLCPP_ERROR([01;31m[Kthis[m[K->get_logger(), "程序被终止了");
+      |                                      [01;31m[K^~~~[m[K
+[01m[K/home/lubuntu/town_ws/src/village_wang/src/wang2.cpp:90:38:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+   90 |                         RCLCPP_ERROR([01;31m[Kthis[m[K->get_logger(), "程序被终止了");
+      |                                      [01;31m[K^~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/lubuntu/town_ws/src/village_wang/src/wang2.cpp:1[m[K:
+[01m[K/home/lubuntu/town_ws/src/village_wang/src/wang2.cpp:94:33:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+   94 |                     RCLCPP_INFO([01;31m[Kthis[m[K->get_logger(), "等待中，目前已有%d章，还差%d章",novels_queue.size(),novelsNum-novels_queue.size());
+      |                                 [01;31m[K^~~~[m[K
+[01m[K/home/lubuntu/town_ws/src/village_wang/src/wang2.cpp:94:33:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[01m[K/home/lubuntu/town_ws/src/village_wang/src/wang2.cpp:94:21:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   94 |                     [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "等待中，目前已有%d章，还差%d章",novels_queue.size(),novelsNum-novels_queue.size());
+      |                     [01;31m[K^~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/lubuntu/town_ws/src/village_wang/src/wang2.cpp:1[m[K:
+[01m[K/home/lubuntu/town_ws/src/village_wang/src/wang2.cpp:94:33:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+   94 |                     RCLCPP_INFO([01;31m[Kthis[m[K->get_logger(), "等待中，目前已有%d章，还差%d章",novels_queue.size(),novelsNum-novels_queue.size());
+      |                                 [01;31m[K^~~~[m[K
+[01m[K/home/lubuntu/town_ws/src/village_wang/src/wang2.cpp:94:33:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+   94 |                     RCLCPP_INFO([01;31m[Kthis[m[K->get_logger(), "等待中，目前已有%d章，还差%d章",novels_queue.size(),novelsNum-novels_queue.size());
+      |                                 [01;31m[K^~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/lubuntu/town_ws/src/village_wang/src/wang2.cpp:1[m[K:
+[01m[K/home/lubuntu/town_ws/src/village_wang/src/wang2.cpp:101:25:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+  101 |             RCLCPP_INFO([01;31m[Kthis[m[K->get_logger(), "当前艳娘传奇章节存量为%d：已经满足需求",novels_queue.size());
+      |                         [01;31m[K^~~~[m[K
+[01m[K/home/lubuntu/town_ws/src/village_wang/src/wang2.cpp:101:25:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[01m[K/home/lubuntu/town_ws/src/village_wang/src/wang2.cpp:101:13:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  101 |             [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "当前艳娘传奇章节存量为%d：已经满足需求",novels_queue.size());
+      |             [01;31m[K^~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/lubuntu/town_ws/src/village_wang/src/wang2.cpp:1[m[K:
+[01m[K/home/lubuntu/town_ws/src/village_wang/src/wang2.cpp:101:25:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+  101 |             RCLCPP_INFO([01;31m[Kthis[m[K->get_logger(), "当前艳娘传奇章节存量为%d：已经满足需求",novels_queue.size());
+      |                         [01;31m[K^~~~[m[K
+[01m[K/home/lubuntu/town_ws/src/village_wang/src/wang2.cpp:101:25:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+  101 |             RCLCPP_INFO([01;31m[Kthis[m[K->get_logger(), "当前艳娘传奇章节存量为%d：已经满足需求",novels_queue.size());
+      |                         [01;31m[K^~~~[m[K
+[01m[K/home/lubuntu/town_ws/src/village_wang/src/wang2.cpp:[m[K At global scope:
+[01m[K/home/lubuntu/town_ws/src/village_wang/src/wang2.cpp:111:1:[m[K [01;31m[Kerror: [m[Kexpected declaration before ‘[01m[K}[m[K’ token
+  111 | [01;31m[K}[m[K;
+      | [01;31m[K^[m[K
+[01m[K/home/lubuntu/town_ws/src/village_wang/src/wang2.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/lubuntu/town_ws/src/village_wang/src/wang2.cpp:122:20:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[Kreturn[m[K’
+  122 |     executor.spin()
+      |                    [01;31m[K^[m[K
+      |                    [32m[K;[m[K
+  123 |     [32m[Kreturn[m[K 0;
+      |     [32m[K~~~~~~[m[K          
+gmake[2]: *** [CMakeFiles/wang2_node.dir/build.make:76: CMakeFiles/wang2_node.dir/src/wang2.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/wang2_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

@@ -1,0 +1,167 @@
+[0.000000] (-) TimerEvent: {}
+[0.000274] (-) JobUnselected: {'identifier': 'village_interfaces'}
+[0.000331] (-) JobUnselected: {'identifier': 'village_li'}
+[0.000391] (-) JobUnselected: {'identifier': 'village_wang'}
+[0.000438] (village_zhang) JobQueued: {'identifier': 'village_zhang', 'dependencies': OrderedDict([('village_interfaces', '/home/lubuntu/town_ws/install/village_interfaces')])}
+[0.000488] (village_zhang) JobStarted: {'identifier': 'village_zhang'}
+[0.013081] (village_zhang) JobProgress: {'identifier': 'village_zhang', 'progress': 'cmake'}
+[0.013172] (village_zhang) Command: {'cmd': ['/usr/bin/cmake', '/home/lubuntu/town_ws/src/village_zhang', '-DCMAKE_INSTALL_PREFIX=/home/lubuntu/town_ws/install/village_zhang'], 'cwd': '/home/lubuntu/town_ws/build/village_zhang', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('GTK_CSD', '0'), ('USER', 'lubuntu'), ('LC_TIME', 'en_US.UTF-8'), ('XDG_SEAT', 'seat0'), ('SSH_AGENT_PID', '1236'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('XDG_CACHE_HOME', '/home/lubuntu/.cache'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/lubuntu/town_ws/install/village_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', 'firefox'), ('HOME', '/home/lubuntu'), ('CHROME_DESKTOP', 'com.microsoft.VSCode.desktop'), ('TERM_PROGRAM_VERSION', '1.139.0'), ('DESKTOP_SESSION', 'Lubuntu'), ('ROS_PYTHON_VERSION', '3'), ('XDG_SEAT_PATH', '/org/freedesktop/DisplayManager/Seat0'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'en_US.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('BUNDLED_DEBUGPY_PATH', '/home/lubuntu/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/libs/debugpy'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('QT_QPA_PLATFORMTHEME', 'lxqt'), ('COLCON_PREFIX_PATH', '/home/lubuntu/town_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'fcitx'), ('LOGNAME', 'lubuntu'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('SAL_VCL_QT5_USE_CAIRO', 'true'), ('TERM', 'xterm-256color'), ('GTK_OVERLAY_SCROLLING', '0'), ('XDG_SESSION_ID', '3'), ('FC_FONTATIONS', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('SAL_USE_VCLPLUGIN', 'qt5'), ('PATH', '/opt/ros/humble/bin:/home/lubuntu/.config/Code/User/globalStorage/github.copilot-chat/debugCommand:/home/lubuntu/.config/Code/User/globalStorage/github.copilot-chat/copilotCli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/lubuntu/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/scripts/noConfigScripts'), ('XDG_SESSION_PATH', '/org/freedesktop/DisplayManager/Session3'), ('XDG_MENU_PREFIX', 'lxqt-'), ('LC_ADDRESS', 'en_US.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/lubuntu/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-c6602e04843805bc.txt'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'LXQt'), ('PYTHONSTARTUP', '/home/lubuntu/.config/Code/User/workspaceStorage/4178f65ae2d32567875ae9d2cfb39c58/ms-python.python/pythonrc.py'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('XDG_DATA_HOME', '/home/lubuntu/.local/share'), ('XDG_CONFIG_HOME', '/home/lubuntu/.config'), ('XMODIFIERS', '@im=fcitx'), ('XDG_SESSION_DESKTOP', ''), ('XAUTHORITY', '/home/lubuntu/.Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-969401e65b.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/tmp/ssh-XXXXXXQVvhBL/agent.1184'), ('AMENT_PREFIX_PATH', '/home/lubuntu/town_ws/install/village_zhang:/home/lubuntu/town_ws/install/village_wang:/home/lubuntu/town_ws/install/village_li:/home/lubuntu/town_ws/install/village_interfaces:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LXQT_SESSION_CONFIG', 'session'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'fcitx'), ('XDG_VTNR', '1'), ('PWD', '/home/lubuntu/town_ws/build/village_zhang'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-Lubuntu:/etc/xdg:/etc:/usr/share'), ('COPILOT_DEBUG_NONCE', '5151a2e5fa14603627cb0ac0123291f0'), ('CLUTTER_IM_MODULE', 'xim'), ('XDG_DATA_DIRS', '/usr/share/Lubuntu:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/lubuntu/town_ws/install/village_zhang/lib/python3.10/site-packages:/home/lubuntu/town_ws/install/village_li/lib/python3.10/site-packages:/home/lubuntu/town_ws/install/village_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('QT_PLATFORM_PLUGIN', 'lxqt'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/lubuntu/town_ws/install/village_interfaces:/home/lubuntu/town_ws/install/village_wang:/home/lubuntu/town_ws/install/village_zhang:/home/lubuntu/town_ws/install/village_li:/opt/ros/humble')]), 'shell': False}
+[0.090188] (-) TimerEvent: {}
+[0.190751] (-) TimerEvent: {}
+[0.291344] (-) TimerEvent: {}
+[0.391903] (-) TimerEvent: {}
+[0.492476] (-) TimerEvent: {}
+[0.523665] (village_zhang) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.593046] (-) TimerEvent: {}
+[0.693626] (-) TimerEvent: {}
+[0.713426] (village_zhang) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.741067] (village_zhang) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.794292] (-) TimerEvent: {}
+[0.894675] (-) TimerEvent: {}
+[0.985343] (village_zhang) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.993623] (village_zhang) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.994755] (-) TimerEvent: {}
+[0.999014] (village_zhang) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.012830] (village_zhang) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.041428] (village_zhang) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.094926] (-) TimerEvent: {}
+[1.195437] (-) TimerEvent: {}
+[1.200480] (village_zhang) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.209494] (village_zhang) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[1.209737] (village_zhang) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.213240] (village_zhang) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.252228] (village_zhang) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[1.295912] (-) TimerEvent: {}
+[1.396447] (-) TimerEvent: {}
+[1.484831] (village_zhang) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[1.497023] (-) TimerEvent: {}
+[1.597492] (-) TimerEvent: {}
+[1.693015] (village_zhang) StdoutLine: {'line': b'-- Found rclcpp: 16.0.21 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[1.697658] (-) TimerEvent: {}
+[1.782796] (village_zhang) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.9 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[1.792029] (village_zhang) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.9 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[1.798120] (-) TimerEvent: {}
+[1.810182] (village_zhang) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.9 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[1.838014] (village_zhang) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.866993] (village_zhang) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.898339] (-) TimerEvent: {}
+[1.960391] (village_zhang) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.4 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[1.965521] (village_zhang) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.998430] (-) TimerEvent: {}
+[2.099088] (-) TimerEvent: {}
+[2.167786] (village_zhang) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[2.199590] (-) TimerEvent: {}
+[2.199938] (village_zhang) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[2.251130] (village_zhang) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[2.278077] (village_zhang) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[2.299734] (-) TimerEvent: {}
+[2.379097] (village_zhang) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[2.382532] (village_zhang) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[2.399999] (-) TimerEvent: {}
+[2.500608] (-) TimerEvent: {}
+[2.521192] (village_zhang) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[2.521417] (village_zhang) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[2.600833] (-) TimerEvent: {}
+[2.640394] (village_zhang) StdoutLine: {'line': b'-- Found village_interfaces: 0.0.0 (/home/lubuntu/town_ws/install/village_interfaces/share/village_interfaces/cmake)\n'}
+[2.701240] (-) TimerEvent: {}
+[2.723245] (village_zhang) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[2.802429] (-) TimerEvent: {}
+[2.833551] (village_zhang) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[2.833923] (village_zhang) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[2.834096] (village_zhang) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[2.835053] (village_zhang) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[2.836133] (village_zhang) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[2.837177] (village_zhang) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[2.838573] (village_zhang) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[2.838754] (village_zhang) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[2.839890] (village_zhang) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[2.856363] (village_zhang) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.874609] (village_zhang) StdoutLine: {'line': b'-- Generating done\n'}
+[2.880975] (village_zhang) StdoutLine: {'line': b'-- Build files have been written to: /home/lubuntu/town_ws/build/village_zhang\n'}
+[2.895673] (village_zhang) CommandEnded: {'returncode': 0}
+[2.896538] (village_zhang) JobProgress: {'identifier': 'village_zhang', 'progress': 'build'}
+[2.898012] (village_zhang) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/lubuntu/town_ws/build/village_zhang', '--', '-j2', '-l2'], 'cwd': '/home/lubuntu/town_ws/build/village_zhang', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('GTK_CSD', '0'), ('USER', 'lubuntu'), ('LC_TIME', 'en_US.UTF-8'), ('XDG_SEAT', 'seat0'), ('SSH_AGENT_PID', '1236'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('XDG_CACHE_HOME', '/home/lubuntu/.cache'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/lubuntu/town_ws/install/village_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', 'firefox'), ('HOME', '/home/lubuntu'), ('CHROME_DESKTOP', 'com.microsoft.VSCode.desktop'), ('TERM_PROGRAM_VERSION', '1.139.0'), ('DESKTOP_SESSION', 'Lubuntu'), ('ROS_PYTHON_VERSION', '3'), ('XDG_SEAT_PATH', '/org/freedesktop/DisplayManager/Seat0'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'en_US.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('BUNDLED_DEBUGPY_PATH', '/home/lubuntu/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/libs/debugpy'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('QT_QPA_PLATFORMTHEME', 'lxqt'), ('COLCON_PREFIX_PATH', '/home/lubuntu/town_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'fcitx'), ('LOGNAME', 'lubuntu'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('SAL_VCL_QT5_USE_CAIRO', 'true'), ('TERM', 'xterm-256color'), ('GTK_OVERLAY_SCROLLING', '0'), ('XDG_SESSION_ID', '3'), ('FC_FONTATIONS', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('SAL_USE_VCLPLUGIN', 'qt5'), ('PATH', '/opt/ros/humble/bin:/home/lubuntu/.config/Code/User/globalStorage/github.copilot-chat/debugCommand:/home/lubuntu/.config/Code/User/globalStorage/github.copilot-chat/copilotCli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/lubuntu/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/scripts/noConfigScripts'), ('XDG_SESSION_PATH', '/org/freedesktop/DisplayManager/Session3'), ('XDG_MENU_PREFIX', 'lxqt-'), ('LC_ADDRESS', 'en_US.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/lubuntu/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-c6602e04843805bc.txt'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'LXQt'), ('PYTHONSTARTUP', '/home/lubuntu/.config/Code/User/workspaceStorage/4178f65ae2d32567875ae9d2cfb39c58/ms-python.python/pythonrc.py'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('XDG_DATA_HOME', '/home/lubuntu/.local/share'), ('XDG_CONFIG_HOME', '/home/lubuntu/.config'), ('XMODIFIERS', '@im=fcitx'), ('XDG_SESSION_DESKTOP', ''), ('XAUTHORITY', '/home/lubuntu/.Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-969401e65b.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/tmp/ssh-XXXXXXQVvhBL/agent.1184'), ('AMENT_PREFIX_PATH', '/home/lubuntu/town_ws/install/village_zhang:/home/lubuntu/town_ws/install/village_wang:/home/lubuntu/town_ws/install/village_li:/home/lubuntu/town_ws/install/village_interfaces:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LXQT_SESSION_CONFIG', 'session'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'fcitx'), ('XDG_VTNR', '1'), ('PWD', '/home/lubuntu/town_ws/build/village_zhang'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-Lubuntu:/etc/xdg:/etc:/usr/share'), ('COPILOT_DEBUG_NONCE', '5151a2e5fa14603627cb0ac0123291f0'), ('CLUTTER_IM_MODULE', 'xim'), ('XDG_DATA_DIRS', '/usr/share/Lubuntu:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/lubuntu/town_ws/install/village_zhang/lib/python3.10/site-packages:/home/lubuntu/town_ws/install/village_li/lib/python3.10/site-packages:/home/lubuntu/town_ws/install/village_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('QT_PLATFORM_PLUGIN', 'lxqt'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/lubuntu/town_ws/install/village_interfaces:/home/lubuntu/town_ws/install/village_wang:/home/lubuntu/town_ws/install/village_zhang:/home/lubuntu/town_ws/install/village_li:/opt/ros/humble')]), 'shell': False}
+[2.902975] (-) TimerEvent: {}
+[2.965317] (village_zhang) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/zhang3_node.dir/src/zhang3.cpp.o\x1b[0m\n'}
+[3.003573] (-) TimerEvent: {}
+[3.104645] (-) TimerEvent: {}
+[3.205146] (-) TimerEvent: {}
+[3.305806] (-) TimerEvent: {}
+[3.406381] (-) TimerEvent: {}
+[3.517710] (-) TimerEvent: {}
+[3.618563] (-) TimerEvent: {}
+[3.719140] (-) TimerEvent: {}
+[3.819748] (-) TimerEvent: {}
+[3.920263] (-) TimerEvent: {}
+[4.020837] (-) TimerEvent: {}
+[4.122992] (-) TimerEvent: {}
+[4.223631] (-) TimerEvent: {}
+[4.324521] (-) TimerEvent: {}
+[4.425091] (-) TimerEvent: {}
+[4.526679] (-) TimerEvent: {}
+[4.627234] (-) TimerEvent: {}
+[4.728334] (-) TimerEvent: {}
+[4.828901] (-) TimerEvent: {}
+[4.929477] (-) TimerEvent: {}
+[5.030031] (-) TimerEvent: {}
+[5.130470] (-) TimerEvent: {}
+[5.231205] (-) TimerEvent: {}
+[5.331754] (-) TimerEvent: {}
+[5.432318] (-) TimerEvent: {}
+[5.532912] (-) TimerEvent: {}
+[5.635254] (-) TimerEvent: {}
+[5.736084] (-) TimerEvent: {}
+[5.836657] (-) TimerEvent: {}
+[5.937213] (-) TimerEvent: {}
+[6.037827] (-) TimerEvent: {}
+[6.138401] (-) TimerEvent: {}
+[6.238922] (-) TimerEvent: {}
+[6.339519] (-) TimerEvent: {}
+[6.440055] (-) TimerEvent: {}
+[6.540672] (-) TimerEvent: {}
+[6.599610] (village_zhang) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24\x1b[m\x1b[K,\n'}
+[6.599956] (village_zhang) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[6.600161] (village_zhang) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[6.600316] (village_zhang) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[6.600467] (village_zhang) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[6.600608] (village_zhang) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[6.600738] (village_zhang) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[6.600855] (village_zhang) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[6.600971] (village_zhang) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[6.601121] (village_zhang) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[6.601237] (village_zhang) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[6.601351] (village_zhang) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lubuntu/town_ws/src/village_zhang/src/zhang3.cpp:1\x1b[m\x1b[K:\n'}
+[6.601464] (village_zhang) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lubuntu/town_ws/src/village_zhang/src/zhang3.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid PoorManNode::novels_callback(rclcpp::Client<village_interfaces::srv::SellNovel>::SharedFuture)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[6.601602] (village_zhang) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lubuntu/town_ws/src/village_zhang/src/zhang3.cpp:59:45:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kformat \xe2\x80\x98\x1b[01m\x1b[K%d\x1b[m\x1b[K\xe2\x80\x99 expects argument of type \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99, but argument 5 has type \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<std::__cxx11::basic_string<char> >::size_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=\x07-Wformat=\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[6.601757] (village_zhang) StderrLine: {'line': b'   59 |             RCLCPP_INFO(this->get_logger(), \x1b[01;35m\x1b[K"\xe6\x94\xb6\xe5\x88\xb0%d\xe7\xab\xa0\xe7\x9a\x84\xe5\xb0\x8f\xe8\xaf\xb4\xef\xbc\x8c\xe7\x8e\xb0\xe5\x9c\xa8\xe5\xbc\x80\xe5\xa7\x8b\xe6\x8c\x89\xe7\xab\xa0\xe8\x8a\x82\xe5\xbc\x80\xe8\xaf\xbb"\x1b[m\x1b[K, \x1b[32m\x1b[Kresult->novels.size()\x1b[m\x1b[K);\n'}
+[6.601874] (village_zhang) StderrLine: {'line': b'      |                                             \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K  \x1b[32m\x1b[K~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.601987] (village_zhang) StderrLine: {'line': b'      |                                                                                                      \x1b[32m\x1b[K|\x1b[m\x1b[K\n'}
+[6.602115] (village_zhang) StderrLine: {'line': b'      |                                                                                                      \x1b[32m\x1b[Kstd::vector<std::__cxx11::basic_string<char> >::size_type {aka long unsigned int}\x1b[m\x1b[K\n'}
+[6.602299] (village_zhang) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lubuntu/town_ws/src/village_zhang/src/zhang3.cpp:59:51:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kformat string is defined here\n'}
+[6.602425] (village_zhang) StderrLine: {'line': b'   59 |             RCLCPP_INFO(this->get_logger(), "\xe6\x94\xb6\xe5\x88\xb0\x1b[01;36m\x1b[K%d\x1b[m\x1b[K\xe7\xab\xa0\xe7\x9a\x84\xe5\xb0\x8f\xe8\xaf\xb4\xef\xbc\x8c\xe7\x8e\xb0\xe5\x9c\xa8\xe5\xbc\x80\xe5\xa7\x8b\xe6\x8c\x89\xe7\xab\xa0\xe8\x8a\x82\xe5\xbc\x80\xe8\xaf\xbb", result->novels.size());\n'}
+[6.602539] (village_zhang) StderrLine: {'line': b'      |                                                  \x1b[01;36m\x1b[K~^\x1b[m\x1b[K\n'}
+[6.602681] (village_zhang) StderrLine: {'line': b'      |                                                   \x1b[01;36m\x1b[K|\x1b[m\x1b[K\n'}
+[6.602794] (village_zhang) StderrLine: {'line': b'      |                                                   \x1b[01;36m\x1b[Kint\x1b[m\x1b[K\n'}
+[6.602905] (village_zhang) StderrLine: {'line': b'      |                                                  \x1b[32m\x1b[K%ld\x1b[m\x1b[K\n'}
+[6.608675] (village_zhang) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lubuntu/town_ws/src/village_zhang/src/zhang3.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kint main(int, char**)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[6.608913] (village_zhang) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lubuntu/town_ws/src/village_zhang/src/zhang3.cpp:79:20:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kvoid PoorManNode::buy_novel()\x1b[m\x1b[K\xe2\x80\x99 is private within this context\n'}
+[6.609056] (village_zhang) StderrLine: {'line': b'   79 |     \x1b[01;31m\x1b[Knode->buy_novel()\x1b[m\x1b[K;\n'}
+[6.609189] (village_zhang) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~^~\x1b[m\x1b[K\n'}
+[6.609289] (village_zhang) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lubuntu/town_ws/src/village_zhang/src/zhang3.cpp:28:14:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared private here\n'}
+[6.609390] (village_zhang) StderrLine: {'line': b'   28 |         void \x1b[01;36m\x1b[Kbuy_novel\x1b[m\x1b[K()\n'}
+[6.609490] (village_zhang) StderrLine: {'line': b'      |              \x1b[01;36m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[6.641458] (-) TimerEvent: {}
+[6.742304] (-) TimerEvent: {}
+[6.842852] (-) TimerEvent: {}
+[6.943441] (-) TimerEvent: {}
+[7.044000] (-) TimerEvent: {}
+[7.144571] (-) TimerEvent: {}
+[7.245150] (-) TimerEvent: {}
+[7.345699] (-) TimerEvent: {}
+[7.446308] (-) TimerEvent: {}
+[7.464834] (village_zhang) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/zhang3_node.dir/build.make:76: CMakeFiles/zhang3_node.dir/src/zhang3.cpp.o] Error 1\n'}
+[7.466514] (village_zhang) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/zhang3_node.dir/all] Error 2\n'}
+[7.470189] (village_zhang) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[7.470599] (village_zhang) CommandEnded: {'returncode': 2}
+[7.482722] (village_zhang) JobEnded: {'identifier': 'village_zhang', 'rc': 2}
+[7.493673] (-) EventReactorShutdown: {}

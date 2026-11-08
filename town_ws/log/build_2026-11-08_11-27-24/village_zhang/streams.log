@@ -1,0 +1,105 @@
+[0.020s] Invoking command in '/home/lubuntu/town_ws/build/village_zhang': CMAKE_PREFIX_PATH=/home/lubuntu/town_ws/install/village_interfaces:/home/lubuntu/town_ws/install/village_zhang:/home/lubuntu/town_ws/install/village_wang:/home/lubuntu/town_ws/install/village_li:/opt/ros/humble /usr/bin/cmake /home/lubuntu/town_ws/src/village_zhang -DCMAKE_INSTALL_PREFIX=/home/lubuntu/town_ws/install/village_zhang
+[0.071s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.274s] -- Found rclcpp: 16.0.21 (/opt/ros/humble/share/rclcpp/cmake)
+[0.353s] -- Found rosidl_generator_c: 3.1.9 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.359s] -- Found rosidl_adapter: 3.1.9 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.376s] -- Found rosidl_generator_cpp: 3.1.9 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.400s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.426s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.488s] -- Found rmw_implementation_cmake: 6.1.4 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.497s] -- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.668s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.775s] -- Found village_interfaces: 0.0.0 (/home/lubuntu/town_ws/install/village_interfaces/share/village_interfaces/cmake)
+[0.844s] -- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.942s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.942s] -- Configured cppcheck include dirs: 
+[0.942s] -- Configured cppcheck exclude dirs and/or files: 
+[0.943s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.944s] -- Added test 'lint_cmake' to check CMake code style
+[0.945s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.946s] -- Added test 'uncrustify' to check C / C++ code style
+[0.947s] -- Configured uncrustify additional arguments: 
+[0.947s] -- Added test 'xmllint' to check XML markup files
+[0.953s] -- Configuring done
+[0.978s] -- Generating done
+[0.987s] -- Build files have been written to: /home/lubuntu/town_ws/build/village_zhang
+[0.999s] Invoked command in '/home/lubuntu/town_ws/build/village_zhang' returned '0': CMAKE_PREFIX_PATH=/home/lubuntu/town_ws/install/village_interfaces:/home/lubuntu/town_ws/install/village_zhang:/home/lubuntu/town_ws/install/village_wang:/home/lubuntu/town_ws/install/village_li:/opt/ros/humble /usr/bin/cmake /home/lubuntu/town_ws/src/village_zhang -DCMAKE_INSTALL_PREFIX=/home/lubuntu/town_ws/install/village_zhang
+[0.999s] Invoking command in '/home/lubuntu/town_ws/build/village_zhang': CMAKE_PREFIX_PATH=/home/lubuntu/town_ws/install/village_interfaces:/home/lubuntu/town_ws/install/village_zhang:/home/lubuntu/town_ws/install/village_wang:/home/lubuntu/town_ws/install/village_li:/opt/ros/humble /usr/bin/cmake --build /home/lubuntu/town_ws/build/village_zhang -- -j2 -l2
+[1.080s] [35m[1mConsolidate compiler generated dependencies of target zhang3_node[0m
+[1.100s] [ 25%] [32mBuilding CXX object CMakeFiles/zhang4_node.dir/src/zhang4.cpp.o[0m
+[1.168s] [ 50%] [32mBuilding CXX object CMakeFiles/zhang3_node.dir/src/zhang3.cpp.o[0m
+[290.645s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[290.657s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[290.657s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[290.657s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[290.657s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[290.657s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[290.657s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[290.657s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[290.658s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[290.658s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[290.658s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[290.658s]                  from [01m[K/home/lubuntu/town_ws/src/village_zhang/src/zhang4.cpp:1[m[K:
+[290.658s] [01m[K/home/lubuntu/town_ws/src/village_zhang/src/zhang4.cpp:[m[K In constructor ‘[01m[KPoorManNode::PoorManNode(std::string)[m[K’:
+[290.658s] [01m[K/home/lubuntu/town_ws/src/village_zhang/src/zhang4.cpp:16:44:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%ld[m[K’ expects argument of type ‘[01m[Klong int[m[K’, but argument 6 has type ‘[01m[Kuint32_t[m[K’ {aka ‘[01m[Kunsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[290.658s]    16 |             RCLCPP_INFO(this->get_logger(),[01;35m[K"大家好，我是穷鬼%s，但我有买书的%ld钱"[m[K,name.c_str(), [32m[KmoneyForNovel[m[K);
+[290.658s]       |                                            [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K               [32m[K~~~~~~~~~~~~~[m[K
+[290.658s]       |                                                                                                  [32m[K|[m[K
+[290.658s]       |                                                                                                  [32m[Kuint32_t {aka unsigned int}[m[K
+[290.658s] [01m[K/home/lubuntu/town_ws/src/village_zhang/src/zhang4.cpp:16:79:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[290.658s]    16 |             RCLCPP_INFO(this->get_logger(),"大家好，我是穷鬼%s，但我有买书的[01;36m[K%ld[m[K钱",name.c_str(), moneyForNovel);
+[290.659s]       |                                                                             [01;36m[K~~^[m[K
+[290.659s]       |                                                                               [01;36m[K|[m[K
+[290.659s]       |                                                                               [01;36m[Klong int[m[K
+[290.667s]       |                                                                             [32m[K%d[m[K
+[290.694s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[290.694s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[290.694s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[290.694s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[290.695s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[290.695s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[290.695s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[290.695s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[290.695s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[290.695s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[290.695s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[290.695s]                  from [01m[K/home/lubuntu/town_ws/src/village_zhang/src/zhang4.cpp:1[m[K:
+[290.695s] [01m[K/home/lubuntu/town_ws/src/village_zhang/src/zhang4.cpp:[m[K In member function ‘[01m[Kvoid PoorManNode::buy_novel()[m[K’:
+[290.696s] [01m[K/home/lubuntu/town_ws/src/village_zhang/src/zhang4.cpp:45:49:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%ld[m[K’ expects argument of type ‘[01m[Klong int[m[K’, but argument 6 has type ‘[01m[Kuint32_t[m[K’ {aka ‘[01m[Kunsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[290.696s]    45 |                 RCLCPP_INFO(this->get_logger(), [01;35m[K"穷鬼%s还剩%ld钱，又来买小说了"[m[K,this->get_name(), [32m[KmoneyForNovel[m[K);
+[290.696s]       |                                                 [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K                   [32m[K~~~~~~~~~~~~~[m[K
+[290.697s]       |                                                                                                   [32m[K|[m[K
+[290.697s]       |                                                                                                   [32m[Kuint32_t {aka unsigned int}[m[K
+[290.697s] [01m[K/home/lubuntu/town_ws/src/village_zhang/src/zhang4.cpp:45:62:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[290.697s]    45 |                 RCLCPP_INFO(this->get_logger(), "穷鬼%s还剩[01;36m[K%ld[m[K钱，又来买小说了",this->get_name(), moneyForNovel);
+[290.697s]       |                                                            [01;36m[K~~^[m[K
+[290.697s]       |                                                              [01;36m[K|[m[K
+[290.697s]       |                                                              [01;36m[Klong int[m[K
+[290.697s]       |                                                            [32m[K%d[m[K
+[296.046s] [ 75%] [32m[1mLinking CXX executable zhang3_node[0m
+[296.787s] [ 75%] Built target zhang3_node
+[297.458s] [100%] [32m[1mLinking CXX executable zhang4_node[0m
+[297.893s] [100%] Built target zhang4_node
+[297.936s] Invoked command in '/home/lubuntu/town_ws/build/village_zhang' returned '0': CMAKE_PREFIX_PATH=/home/lubuntu/town_ws/install/village_interfaces:/home/lubuntu/town_ws/install/village_zhang:/home/lubuntu/town_ws/install/village_wang:/home/lubuntu/town_ws/install/village_li:/opt/ros/humble /usr/bin/cmake --build /home/lubuntu/town_ws/build/village_zhang -- -j2 -l2
+[297.985s] Invoking command in '/home/lubuntu/town_ws/build/village_zhang': CMAKE_PREFIX_PATH=/home/lubuntu/town_ws/install/village_interfaces:/home/lubuntu/town_ws/install/village_zhang:/home/lubuntu/town_ws/install/village_wang:/home/lubuntu/town_ws/install/village_li:/opt/ros/humble /usr/bin/cmake --install /home/lubuntu/town_ws/build/village_zhang
+[298.009s] -- Install configuration: ""
+[298.009s] -- Up-to-date: /home/lubuntu/town_ws/install/village_zhang/share/ament_index/resource_index/package_run_dependencies/village_zhang
+[298.010s] -- Up-to-date: /home/lubuntu/town_ws/install/village_zhang/share/ament_index/resource_index/parent_prefix_path/village_zhang
+[298.013s] -- Up-to-date: /home/lubuntu/town_ws/install/village_zhang/share/village_zhang/environment/ament_prefix_path.sh
+[298.013s] -- Installing: /home/lubuntu/town_ws/install/village_zhang/share/village_zhang/environment/ament_prefix_path.dsv
+[298.014s] -- Up-to-date: /home/lubuntu/town_ws/install/village_zhang/share/village_zhang/environment/path.sh
+[298.014s] -- Installing: /home/lubuntu/town_ws/install/village_zhang/share/village_zhang/environment/path.dsv
+[298.018s] -- Up-to-date: /home/lubuntu/town_ws/install/village_zhang/share/village_zhang/local_setup.bash
+[298.018s] -- Up-to-date: /home/lubuntu/town_ws/install/village_zhang/share/village_zhang/local_setup.sh
+[298.018s] -- Up-to-date: /home/lubuntu/town_ws/install/village_zhang/share/village_zhang/local_setup.zsh
+[298.019s] -- Installing: /home/lubuntu/town_ws/install/village_zhang/share/village_zhang/local_setup.dsv
+[298.024s] -- Installing: /home/lubuntu/town_ws/install/village_zhang/share/village_zhang/package.dsv
+[298.025s] -- Up-to-date: /home/lubuntu/town_ws/install/village_zhang/share/ament_index/resource_index/packages/village_zhang
+[298.025s] -- Up-to-date: /home/lubuntu/town_ws/install/village_zhang/share/village_zhang/cmake/village_zhangConfig.cmake
+[298.025s] -- Up-to-date: /home/lubuntu/town_ws/install/village_zhang/share/village_zhang/cmake/village_zhangConfig-version.cmake
+[298.025s] -- Installing: /home/lubuntu/town_ws/install/village_zhang/share/village_zhang/package.xml
+[298.026s] -- Installing: /home/lubuntu/town_ws/install/village_zhang/lib/village_zhang/zhang3_node
+[298.027s] -- Set runtime path of "/home/lubuntu/town_ws/install/village_zhang/lib/village_zhang/zhang3_node" to ""
+[298.027s] -- Installing: /home/lubuntu/town_ws/install/village_zhang/lib/village_zhang/zhang4_node
+[298.031s] -- Set runtime path of "/home/lubuntu/town_ws/install/village_zhang/lib/village_zhang/zhang4_node" to ""
+[298.039s] Invoked command in '/home/lubuntu/town_ws/build/village_zhang' returned '0': CMAKE_PREFIX_PATH=/home/lubuntu/town_ws/install/village_interfaces:/home/lubuntu/town_ws/install/village_zhang:/home/lubuntu/town_ws/install/village_wang:/home/lubuntu/town_ws/install/village_li:/opt/ros/humble /usr/bin/cmake --install /home/lubuntu/town_ws/build/village_zhang

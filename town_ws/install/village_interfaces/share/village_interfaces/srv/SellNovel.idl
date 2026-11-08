@@ -1,0 +1,19 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from village_interfaces/srv/SellNovel.srv
+// generated code does not contain a copyright notice
+
+
+module village_interfaces {
+  module srv {
+    struct SellNovel_Request {
+      @verbatim (language="comment", text=
+        "买书钱，对应request字段")
+      uint32 money;
+    };
+    struct SellNovel_Response {
+      @verbatim (language="comment", text=
+        "卖出的书的章节数组，对应response字段")
+      sequence<string> novels;
+    };
+  };
+};

@@ -1,0 +1,2 @@
+Invoking command in '/home/lubuntu/town_ws/build/village_interfaces': /usr/bin/cmake --build /home/lubuntu/town_ws/build/village_interfaces -- -j2 -l2
+Invoked command in '/home/lubuntu/town_ws/build/village_interfaces' returned '2': /usr/bin/cmake --build /home/lubuntu/town_ws/build/village_interfaces -- -j2 -l2

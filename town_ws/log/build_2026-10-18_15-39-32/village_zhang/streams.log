@@ -1,0 +1,38 @@
+[1.356s] Invoking command in '/home/lubuntu/town_ws/src/village_zhang': PYTHONPATH=/home/lubuntu/town_ws/build/village_zhang/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/lubuntu/town_ws/install/village_zhang/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/village_zhang build --build-base /home/lubuntu/town_ws/build/village_zhang/build install --record /home/lubuntu/town_ws/build/village_zhang/install.log --install-scripts $base/lib/village_zhang --single-version-externally-managed install_data
+[1.877s] running egg_info
+[1.878s] creating ../../build/village_zhang/village_zhang.egg-info
+[1.878s] writing ../../build/village_zhang/village_zhang.egg-info/PKG-INFO
+[1.878s] writing dependency_links to ../../build/village_zhang/village_zhang.egg-info/dependency_links.txt
+[1.878s] writing entry points to ../../build/village_zhang/village_zhang.egg-info/entry_points.txt
+[1.879s] writing requirements to ../../build/village_zhang/village_zhang.egg-info/requires.txt
+[1.879s] writing top-level names to ../../build/village_zhang/village_zhang.egg-info/top_level.txt
+[1.879s] writing manifest file '../../build/village_zhang/village_zhang.egg-info/SOURCES.txt'
+[1.883s] reading manifest file '../../build/village_zhang/village_zhang.egg-info/SOURCES.txt'
+[1.883s] adding license file 'LICENSE'
+[1.884s] writing manifest file '../../build/village_zhang/village_zhang.egg-info/SOURCES.txt'
+[1.884s] running build
+[1.884s] running build_py
+[1.884s] creating /home/lubuntu/town_ws/build/village_zhang/build
+[1.885s] creating /home/lubuntu/town_ws/build/village_zhang/build/lib
+[1.885s] creating /home/lubuntu/town_ws/build/village_zhang/build/lib/village_zhang
+[1.885s] copying village_zhang/zhang3.py -> /home/lubuntu/town_ws/build/village_zhang/build/lib/village_zhang
+[1.885s] copying village_zhang/__init__.py -> /home/lubuntu/town_ws/build/village_zhang/build/lib/village_zhang
+[1.885s] running install
+[1.885s] running install_lib
+[1.886s] creating /home/lubuntu/town_ws/install/village_zhang/lib/python3.10/site-packages/village_zhang
+[1.886s] copying /home/lubuntu/town_ws/build/village_zhang/build/lib/village_zhang/zhang3.py -> /home/lubuntu/town_ws/install/village_zhang/lib/python3.10/site-packages/village_zhang
+[1.887s] copying /home/lubuntu/town_ws/build/village_zhang/build/lib/village_zhang/__init__.py -> /home/lubuntu/town_ws/install/village_zhang/lib/python3.10/site-packages/village_zhang
+[1.887s] byte-compiling /home/lubuntu/town_ws/install/village_zhang/lib/python3.10/site-packages/village_zhang/zhang3.py to zhang3.cpython-310.pyc
+[1.888s] byte-compiling /home/lubuntu/town_ws/install/village_zhang/lib/python3.10/site-packages/village_zhang/__init__.py to __init__.cpython-310.pyc
+[1.888s] running install_data
+[1.888s] creating /home/lubuntu/town_ws/install/village_zhang/share/ament_index
+[1.889s] creating /home/lubuntu/town_ws/install/village_zhang/share/ament_index/resource_index
+[1.889s] creating /home/lubuntu/town_ws/install/village_zhang/share/ament_index/resource_index/packages
+[1.889s] copying resource/village_zhang -> /home/lubuntu/town_ws/install/village_zhang/share/ament_index/resource_index/packages
+[1.889s] copying package.xml -> /home/lubuntu/town_ws/install/village_zhang/share/village_zhang
+[1.889s] running install_egg_info
+[1.891s] Copying ../../build/village_zhang/village_zhang.egg-info to /home/lubuntu/town_ws/install/village_zhang/lib/python3.10/site-packages/village_zhang-0.0.0-py3.10.egg-info
+[1.897s] running install_scripts
+[1.926s] Installing zhang3_node script to /home/lubuntu/town_ws/install/village_zhang/lib/village_zhang
+[1.927s] writing list of installed files to '/home/lubuntu/town_ws/build/village_zhang/install.log'
+[1.977s] Invoked command in '/home/lubuntu/town_ws/src/village_zhang' returned '0': PYTHONPATH=/home/lubuntu/town_ws/build/village_zhang/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/lubuntu/town_ws/install/village_zhang/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/village_zhang build --build-base /home/lubuntu/town_ws/build/village_zhang/build install --record /home/lubuntu/town_ws/build/village_zhang/install.log --install-scripts $base/lib/village_zhang --single-version-externally-managed install_data

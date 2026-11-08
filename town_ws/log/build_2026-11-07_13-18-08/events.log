@@ -1,0 +1,449 @@
+[0.000000] (-) TimerEvent: {}
+[0.000740] (-) JobUnselected: {'identifier': 'village_interfaces'}
+[0.001182] (-) JobUnselected: {'identifier': 'village_li'}
+[0.001261] (-) JobUnselected: {'identifier': 'village_zhang'}
+[0.001729] (village_wang) JobQueued: {'identifier': 'village_wang', 'dependencies': OrderedDict([('village_interfaces', '/home/lubuntu/town_ws/install/village_interfaces')])}
+[0.001827] (village_wang) JobStarted: {'identifier': 'village_wang'}
+[0.100405] (-) TimerEvent: {}
+[0.136076] (village_wang) JobProgress: {'identifier': 'village_wang', 'progress': 'cmake'}
+[0.158984] (village_wang) JobProgress: {'identifier': 'village_wang', 'progress': 'build'}
+[0.159956] (village_wang) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/lubuntu/town_ws/build/village_wang', '--', '-j2', '-l2'], 'cwd': '/home/lubuntu/town_ws/build/village_wang', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('GTK_CSD', '0'), ('USER', 'lubuntu'), ('LC_TIME', 'en_US.UTF-8'), ('XDG_SEAT', 'seat0'), ('SSH_AGENT_PID', '1264'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('XDG_CACHE_HOME', '/home/lubuntu/.cache'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/lubuntu/town_ws/install/village_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', 'firefox'), ('HOME', '/home/lubuntu'), ('CHROME_DESKTOP', 'com.microsoft.VSCode.desktop'), ('TERM_PROGRAM_VERSION', '1.139.0'), ('DESKTOP_SESSION', 'Lubuntu'), ('ROS_PYTHON_VERSION', '3'), ('XDG_SEAT_PATH', '/org/freedesktop/DisplayManager/Seat0'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'en_US.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('BUNDLED_DEBUGPY_PATH', '/home/lubuntu/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/libs/debugpy'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('QT_QPA_PLATFORMTHEME', 'lxqt'), ('COLCON_PREFIX_PATH', '/home/lubuntu/town_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'fcitx'), ('LOGNAME', 'lubuntu'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('SAL_VCL_QT5_USE_CAIRO', 'true'), ('TERM', 'xterm-256color'), ('GTK_OVERLAY_SCROLLING', '0'), ('XDG_SESSION_ID', '3'), ('FC_FONTATIONS', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('SAL_USE_VCLPLUGIN', 'qt5'), ('PATH', '/home/lubuntu/.config/Code/User/globalStorage/github.copilot-chat/debugCommand:/home/lubuntu/.config/Code/User/globalStorage/github.copilot-chat/copilotCli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/lubuntu/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/scripts/noConfigScripts'), ('XDG_SESSION_PATH', '/org/freedesktop/DisplayManager/Session1'), ('XDG_MENU_PREFIX', 'lxqt-'), ('LC_ADDRESS', 'en_US.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/lubuntu/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-90429b62120757a3.txt'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'LXQt'), ('PYTHONSTARTUP', '/home/lubuntu/.config/Code/User/workspaceStorage/4178f65ae2d32567875ae9d2cfb39c58/ms-python.python/pythonrc.py'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('XDG_DATA_HOME', '/home/lubuntu/.local/share'), ('XDG_CONFIG_HOME', '/home/lubuntu/.config'), ('XMODIFIERS', '@im=fcitx'), ('XDG_SESSION_DESKTOP', ''), ('XAUTHORITY', '/home/lubuntu/.Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-969401e65b.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/tmp/ssh-XXXXXXkyJeao/agent.1194'), ('AMENT_PREFIX_PATH', '/home/lubuntu/town_ws/install/village_interfaces:/home/lubuntu/town_ws/install/village_zhang:/home/lubuntu/town_ws/install/village_wang:/home/lubuntu/town_ws/install/village_li:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LXQT_SESSION_CONFIG', 'session'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'fcitx'), ('XDG_VTNR', '1'), ('PWD', '/home/lubuntu/town_ws/build/village_wang'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-Lubuntu:/etc/xdg:/etc:/usr/share'), ('COPILOT_DEBUG_NONCE', '5151a2e5fa14603627cb0ac0123291f0'), ('CLUTTER_IM_MODULE', 'xim'), ('XDG_DATA_DIRS', '/usr/share/Lubuntu:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/lubuntu/town_ws/install/village_interfaces/local/lib/python3.10/dist-packages:/home/lubuntu/town_ws/install/village_zhang/lib/python3.10/site-packages:/home/lubuntu/town_ws/install/village_li/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('QT_PLATFORM_PLUGIN', 'lxqt'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/lubuntu/town_ws/install/village_interfaces:/home/lubuntu/town_ws/install/village_wang:/home/lubuntu/town_ws/install/village_zhang:/home/lubuntu/town_ws/install/village_li:/opt/ros/humble')]), 'shell': False}
+[0.200774] (-) TimerEvent: {}
+[0.301394] (-) TimerEvent: {}
+[0.401931] (-) TimerEvent: {}
+[0.502606] (-) TimerEvent: {}
+[0.603023] (-) TimerEvent: {}
+[0.703858] (-) TimerEvent: {}
+[0.804781] (-) TimerEvent: {}
+[0.905511] (-) TimerEvent: {}
+[1.005923] (-) TimerEvent: {}
+[1.106698] (-) TimerEvent: {}
+[1.207468] (-) TimerEvent: {}
+[1.308257] (-) TimerEvent: {}
+[1.409360] (-) TimerEvent: {}
+[1.423886] (village_wang) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[1.510011] (-) TimerEvent: {}
+[1.610417] (-) TimerEvent: {}
+[1.716651] (-) TimerEvent: {}
+[1.817437] (-) TimerEvent: {}
+[1.918160] (-) TimerEvent: {}
+[1.962631] (village_wang) StdoutLine: {'line': b'-- Found rclcpp: 16.0.21 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[2.018489] (-) TimerEvent: {}
+[2.119289] (-) TimerEvent: {}
+[2.194668] (village_wang) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.9 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[2.208874] (village_wang) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.9 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[2.219788] (-) TimerEvent: {}
+[2.244948] (village_wang) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.9 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[2.286776] (village_wang) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.319981] (-) TimerEvent: {}
+[2.336571] (village_wang) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.420620] (-) TimerEvent: {}
+[2.495619] (village_wang) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.4 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[2.520888] (-) TimerEvent: {}
+[2.521301] (village_wang) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[2.621428] (-) TimerEvent: {}
+[2.722043] (-) TimerEvent: {}
+[2.823258] (-) TimerEvent: {}
+[2.910279] (village_wang) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[2.923495] (-) TimerEvent: {}
+[3.024202] (-) TimerEvent: {}
+[3.124784] (-) TimerEvent: {}
+[3.221761] (village_wang) StdoutLine: {'line': b'-- Found village_interfaces: 0.0.0 (/home/lubuntu/town_ws/install/village_interfaces/share/village_interfaces/cmake)\n'}
+[3.226383] (-) TimerEvent: {}
+[3.328283] (-) TimerEvent: {}
+[3.410732] (village_wang) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[3.428592] (-) TimerEvent: {}
+[3.529204] (-) TimerEvent: {}
+[3.630074] (-) TimerEvent: {}
+[3.731198] (-) TimerEvent: {}
+[3.793128] (village_wang) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[3.793728] (village_wang) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[3.794002] (village_wang) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[3.806016] (village_wang) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[3.818980] (village_wang) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[3.819322] (village_wang) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[3.822047] (village_wang) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[3.848680] (-) TimerEvent: {}
+[3.949333] (-) TimerEvent: {}
+[3.985442] (village_wang) StdoutLine: {'line': b'-- Configuring done\n'}
+[4.049554] (-) TimerEvent: {}
+[4.116265] (village_wang) StdoutLine: {'line': b'-- Generating done\n'}
+[4.149790] (village_wang) StdoutLine: {'line': b'-- Build files have been written to: /home/lubuntu/town_ws/build/village_wang\n'}
+[4.150055] (-) TimerEvent: {}
+[4.230141] (village_wang) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target wang2_node\x1b[0m\n'}
+[4.250372] (-) TimerEvent: {}
+[4.350988] (-) TimerEvent: {}
+[4.451494] (-) TimerEvent: {}
+[4.552161] (-) TimerEvent: {}
+[4.573948] (village_wang) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/wang2_node.dir/src/wang2.cpp.o\x1b[0m\n'}
+[4.652640] (-) TimerEvent: {}
+[4.753423] (-) TimerEvent: {}
+[4.853989] (-) TimerEvent: {}
+[4.954427] (-) TimerEvent: {}
+[5.055243] (-) TimerEvent: {}
+[5.155836] (-) TimerEvent: {}
+[5.256672] (-) TimerEvent: {}
+[5.357325] (-) TimerEvent: {}
+[5.457874] (-) TimerEvent: {}
+[5.558254] (-) TimerEvent: {}
+[5.658710] (-) TimerEvent: {}
+[5.759711] (-) TimerEvent: {}
+[5.860390] (-) TimerEvent: {}
+[5.960793] (-) TimerEvent: {}
+[6.075596] (-) TimerEvent: {}
+[6.176311] (-) TimerEvent: {}
+[6.277486] (-) TimerEvent: {}
+[6.378923] (-) TimerEvent: {}
+[6.479883] (-) TimerEvent: {}
+[6.580771] (-) TimerEvent: {}
+[6.681566] (-) TimerEvent: {}
+[6.782495] (-) TimerEvent: {}
+[6.882927] (-) TimerEvent: {}
+[6.983519] (-) TimerEvent: {}
+[7.084621] (-) TimerEvent: {}
+[7.185372] (-) TimerEvent: {}
+[7.285867] (-) TimerEvent: {}
+[7.386480] (-) TimerEvent: {}
+[7.487015] (-) TimerEvent: {}
+[7.587878] (-) TimerEvent: {}
+[7.688979] (-) TimerEvent: {}
+[7.790289] (-) TimerEvent: {}
+[7.891148] (-) TimerEvent: {}
+[7.991949] (-) TimerEvent: {}
+[8.092736] (-) TimerEvent: {}
+[8.193512] (-) TimerEvent: {}
+[8.294175] (-) TimerEvent: {}
+[8.395339] (-) TimerEvent: {}
+[8.495901] (-) TimerEvent: {}
+[8.596540] (-) TimerEvent: {}
+[8.697053] (-) TimerEvent: {}
+[8.798171] (-) TimerEvent: {}
+[8.898696] (-) TimerEvent: {}
+[8.999276] (-) TimerEvent: {}
+[9.100277] (-) TimerEvent: {}
+[9.200815] (-) TimerEvent: {}
+[9.301377] (-) TimerEvent: {}
+[9.401962] (-) TimerEvent: {}
+[9.502554] (-) TimerEvent: {}
+[9.602953] (-) TimerEvent: {}
+[9.703764] (-) TimerEvent: {}
+[9.804333] (-) TimerEvent: {}
+[9.905446] (-) TimerEvent: {}
+[10.006032] (-) TimerEvent: {}
+[10.106565] (-) TimerEvent: {}
+[10.207157] (-) TimerEvent: {}
+[10.307702] (-) TimerEvent: {}
+[10.408772] (-) TimerEvent: {}
+[10.509374] (-) TimerEvent: {}
+[10.609931] (-) TimerEvent: {}
+[10.710975] (-) TimerEvent: {}
+[10.811572] (-) TimerEvent: {}
+[10.912144] (-) TimerEvent: {}
+[11.013114] (-) TimerEvent: {}
+[11.114169] (-) TimerEvent: {}
+[11.215579] (-) TimerEvent: {}
+[11.316310] (-) TimerEvent: {}
+[11.417413] (-) TimerEvent: {}
+[11.517943] (-) TimerEvent: {}
+[11.618580] (-) TimerEvent: {}
+[11.755146] (-) TimerEvent: {}
+[11.755864] (village_wang) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lubuntu/town_ws/src/village_wang/src/wang2.cpp:34:1:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected unqualified-id before \xe2\x80\x98\x1b[01m\x1b[K{\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[11.756150] (village_wang) StderrLine: {'line': b'   34 | \x1b[01;31m\x1b[K{\x1b[m\x1b[K\n'}
+[11.756231] (village_wang) StderrLine: {'line': b'      | \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[11.855813] (-) TimerEvent: {}
+[11.901873] (village_wang) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24\x1b[m\x1b[K,\n'}
+[11.902133] (village_wang) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[11.902234] (village_wang) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[11.902317] (village_wang) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[11.902394] (village_wang) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[11.902467] (village_wang) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[11.902586] (village_wang) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[11.902669] (village_wang) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[11.902742] (village_wang) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[11.902813] (village_wang) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[11.902882] (village_wang) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[11.902950] (village_wang) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lubuntu/town_ws/src/village_wang/src/wang2.cpp:1\x1b[m\x1b[K:\n'}
+[11.903042] (village_wang) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lubuntu/town_ws/src/village_wang/src/wang2.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid SingleDogNode::sell_book_callback(village_interfaces::srv::SellNovel_Request_<std::allocator<void> >::SharedPtr, village_interfaces::srv::SellNovel_Response_<std::allocator<void> >::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[11.903141] (village_wang) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lubuntu/town_ws/src/village_wang/src/wang2.cpp:80:49:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kformat \xe2\x80\x98\x1b[01m\x1b[K%d\x1b[m\x1b[K\xe2\x80\x99 expects argument of type \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99, but argument 5 has type \xe2\x80\x98\x1b[01m\x1b[Kstd::queue<std::__cxx11::basic_string<char> >::size_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=\x07-Wformat=\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[11.903257] (village_wang) StderrLine: {'line': b'   80 |            RCLCPP_INFO(this->get_logger(), \x1b[01;35m\x1b[K"\xe5\xbd\x93\xe5\x89\x8d\xe8\x89\xb3\xe5\xa8\x98\xe4\xbc\xa0\xe5\xa5\x87\xe7\xab\xa0\xe8\x8a\x82\xe5\xad\x98\xe9\x87\x8f\xe4\xb8\xba%d\xef\xbc\x9a\xe4\xb8\x8d\xe8\x83\xbd\xe6\xbb\xa1\xe8\xb6\xb3\xe9\x9c\x80\xe6\xb1\x82,\xe5\xbc\x80\xe5\xa7\x8b\xe7\xad\x89\xe5\xbe\x85"\x1b[m\x1b[K,\x1b[32m\x1b[Knovels_queue.size()\x1b[m\x1b[K);\n'}
+[11.903343] (village_wang) StderrLine: {'line': b'      |                                            \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K \x1b[32m\x1b[K~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[11.903431] (village_wang) StderrLine: {'line': b'      |                                                                                                               \x1b[32m\x1b[K|\x1b[m\x1b[K\n'}
+[11.903508] (village_wang) StderrLine: {'line': b'      |                                                                                                               \x1b[32m\x1b[Kstd::queue<std::__cxx11::basic_string<char> >::size_type {aka long unsigned int}\x1b[m\x1b[K\n'}
+[11.903615] (village_wang) StderrLine: {'line': b'\n'}
+[11.922011] (village_wang) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lubuntu/town_ws/src/village_wang/src/wang2.cpp:80:73:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kformat string is defined here\n'}
+[11.922255] (village_wang) StderrLine: {'line': b'   80 | his->get_logger(), "\xe5\xbd\x93\xe5\x89\x8d\xe8\x89\xb3\xe5\xa8\x98\xe4\xbc\xa0\xe5\xa5\x87\xe7\xab\xa0\xe8\x8a\x82\xe5\xad\x98\xe9\x87\x8f\xe4\xb8\xba\x1b[01;36m\x1b[K%d\x1b[m\x1b[K\xef\xbc\x9a\xe4\xb8\x8d\xe8\x83\xbd\xe6\xbb\xa1\xe8\xb6\xb3\xe9\x9c\x80\xe6\xb1\x82,\xe5\xbc\x80\xe5\xa7\x8b\xe7\xad\x89\xe5\xbe\x85",novels_queue.size());\n'}
+[11.922359] (village_wang) StderrLine: {'line': b'      |                                           \x1b[01;36m\x1b[K~^\x1b[m\x1b[K\n'}
+[11.922488] (village_wang) StderrLine: {'line': b'      |                                            \x1b[01;36m\x1b[K|\x1b[m\x1b[K\n'}
+[11.922578] (village_wang) StderrLine: {'line': b'      |                                            \x1b[01;36m\x1b[Kint\x1b[m\x1b[K\n'}
+[11.922666] (village_wang) StderrLine: {'line': b'      |                                           \x1b[32m\x1b[K%ld\x1b[m\x1b[K\n'}
+[11.923713] (village_wang) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24\x1b[m\x1b[K,\n'}
+[11.924010] (village_wang) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[11.924091] (village_wang) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[11.924162] (village_wang) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[11.924230] (village_wang) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[11.924296] (village_wang) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[11.924591] (village_wang) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[11.924667] (village_wang) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[11.924753] (village_wang) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[11.924840] (village_wang) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[11.924964] (village_wang) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[11.925032] (village_wang) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lubuntu/town_ws/src/village_wang/src/wang2.cpp:1\x1b[m\x1b[K:\n'}
+[11.925097] (village_wang) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lubuntu/town_ws/src/village_wang/src/wang2.cpp:95:53:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kformat \xe2\x80\x98\x1b[01m\x1b[K%d\x1b[m\x1b[K\xe2\x80\x99 expects argument of type \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99, but argument 5 has type \xe2\x80\x98\x1b[01m\x1b[Kstd::queue<std::__cxx11::basic_string<char> >::size_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=\x07-Wformat=\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[11.925167] (village_wang) StderrLine: {'line': b'   95 |            RCLCPP_INFO(this->get_logger(), \x1b[01;35m\x1b[K"\xe7\xad\x89\xe5\xbe\x85\xe4\xb8\xad\xef\xbc\x8c\xe7\x9b\xae\xe5\x89\x8d\xe5\xb7\xb2\xe6\x9c\x89%d\xe7\xab\xa0\xef\xbc\x8c\xe8\xbf\x98\xe5\xb7\xae%d\xe7\xab\xa0"\x1b[m\x1b[K,\x1b[32m\x1b[Knovels_queue.size()\x1b[m\x1b[K,novelsNum-novels_queue.size());\n'}
+[11.925235] (village_wang) StderrLine: {'line': b'      |                                            \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K \x1b[32m\x1b[K~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[11.925301] (village_wang) StderrLine: {'line': b'      |                                                                                              \x1b[32m\x1b[K|\x1b[m\x1b[K\n'}
+[11.925399] (village_wang) StderrLine: {'line': b'      |                                                                                              \x1b[32m\x1b[Kstd::queue<std::__cxx11::basic_string<char> >::size_type {aka long unsigned int}\x1b[m\x1b[K\n'}
+[11.925477] (village_wang) StderrLine: {'line': b'\n'}
+[11.925541] (village_wang) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lubuntu/town_ws/src/village_wang/src/wang2.cpp:95:71:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kformat string is defined here\n'}
+[11.925618] (village_wang) StderrLine: {'line': b'   95 | INFO(this->get_logger(), "\xe7\xad\x89\xe5\xbe\x85\xe4\xb8\xad\xef\xbc\x8c\xe7\x9b\xae\xe5\x89\x8d\xe5\xb7\xb2\xe6\x9c\x89\x1b[01;36m\x1b[K%d\x1b[m\x1b[K\xe7\xab\xa0\xef\xbc\x8c\xe8\xbf\x98\xe5\xb7\xae%d\xe7\xab\xa0",novels_queue.size(),novelsNum-novels_queue.size());\n'}
+[11.925688] (village_wang) StderrLine: {'line': b'      |                                           \x1b[01;36m\x1b[K~^\x1b[m\x1b[K\n'}
+[11.925753] (village_wang) StderrLine: {'line': b'      |                                            \x1b[01;36m\x1b[K|\x1b[m\x1b[K\n'}
+[11.925816] (village_wang) StderrLine: {'line': b'      |                                            \x1b[01;36m\x1b[Kint\x1b[m\x1b[K\n'}
+[11.925935] (village_wang) StderrLine: {'line': b'      |                                           \x1b[32m\x1b[K%ld\x1b[m\x1b[K\n'}
+[11.926008] (village_wang) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24\x1b[m\x1b[K,\n'}
+[11.926073] (village_wang) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[11.926138] (village_wang) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[11.926202] (village_wang) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[11.926280] (village_wang) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[11.926357] (village_wang) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[11.926470] (village_wang) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[11.926535] (village_wang) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[11.926600] (village_wang) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[11.926664] (village_wang) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[11.926727] (village_wang) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[11.926791] (village_wang) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lubuntu/town_ws/src/village_wang/src/wang2.cpp:1\x1b[m\x1b[K:\n'}
+[11.926854] (village_wang) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lubuntu/town_ws/src/village_wang/src/wang2.cpp:95:53:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kformat \xe2\x80\x98\x1b[01m\x1b[K%d\x1b[m\x1b[K\xe2\x80\x99 expects argument of type \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99, but argument 6 has type \xe2\x80\x98\x1b[01m\x1b[Kstd::queue<std::__cxx11::basic_string<char> >::size_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=\x07-Wformat=\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[11.926982] (village_wang) StderrLine: {'line': b'   95 |            RCLCPP_INFO(this->get_logger(), \x1b[01;35m\x1b[K"\xe7\xad\x89\xe5\xbe\x85\xe4\xb8\xad\xef\xbc\x8c\xe7\x9b\xae\xe5\x89\x8d\xe5\xb7\xb2\xe6\x9c\x89%d\xe7\xab\xa0\xef\xbc\x8c\xe8\xbf\x98\xe5\xb7\xae%d\xe7\xab\xa0"\x1b[m\x1b[K,novels_queue.size(),\x1b[32m\x1b[KnovelsNum-novels_queue.size()\x1b[m\x1b[K);\n'}
+[11.927051] (village_wang) StderrLine: {'line': b'      |                                            \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K                     \x1b[32m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[11.927118] (village_wang) StderrLine: {'line': b'      |                                                                                                          \x1b[32m\x1b[K|\x1b[m\x1b[K\n'}
+[11.927183] (village_wang) StderrLine: {'line': b'      |                                                                                                          \x1b[32m\x1b[Kstd::queue<std::__cxx11::basic_string<char> >::size_type {aka long unsigned int}\x1b[m\x1b[K\n'}
+[11.927261] (village_wang) StderrLine: {'line': b'\n'}
+[11.927327] (village_wang) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lubuntu/town_ws/src/village_wang/src/wang2.cpp:95:81:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kformat string is defined here\n'}
+[11.927439] (village_wang) StderrLine: {'line': b'   95 | >get_logger(), "\xe7\xad\x89\xe5\xbe\x85\xe4\xb8\xad\xef\xbc\x8c\xe7\x9b\xae\xe5\x89\x8d\xe5\xb7\xb2\xe6\x9c\x89%d\xe7\xab\xa0\xef\xbc\x8c\xe8\xbf\x98\xe5\xb7\xae\x1b[01;36m\x1b[K%d\x1b[m\x1b[K\xe7\xab\xa0",novels_queue.size(),novelsNum-novels_queue.size());\n'}
+[11.927507] (village_wang) StderrLine: {'line': b'      |                                           \x1b[01;36m\x1b[K~^\x1b[m\x1b[K\n'}
+[11.927572] (village_wang) StderrLine: {'line': b'      |                                            \x1b[01;36m\x1b[K|\x1b[m\x1b[K\n'}
+[11.927705] (village_wang) StderrLine: {'line': b'      |                                            \x1b[01;36m\x1b[Kint\x1b[m\x1b[K\n'}
+[11.927780] (village_wang) StderrLine: {'line': b'      |                                           \x1b[32m\x1b[K%ld\x1b[m\x1b[K\n'}
+[11.927845] (village_wang) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24\x1b[m\x1b[K,\n'}
+[11.927960] (village_wang) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[11.928028] (village_wang) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[11.928093] (village_wang) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[11.928156] (village_wang) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[11.928229] (village_wang) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[11.928296] (village_wang) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[11.928370] (village_wang) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[11.928470] (village_wang) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[11.928536] (village_wang) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[11.928600] (village_wang) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[11.928663] (village_wang) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lubuntu/town_ws/src/village_wang/src/wang2.cpp:1\x1b[m\x1b[K:\n'}
+[11.928725] (village_wang) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lubuntu/town_ws/src/village_wang/src/wang2.cpp:102:45:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kformat \xe2\x80\x98\x1b[01m\x1b[K%d\x1b[m\x1b[K\xe2\x80\x99 expects argument of type \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99, but argument 5 has type \xe2\x80\x98\x1b[01m\x1b[Kstd::queue<std::__cxx11::basic_string<char> >::size_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=\x07-Wformat=\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[11.928819] (village_wang) StderrLine: {'line': b'  102 |            RCLCPP_INFO(this->get_logger(), \x1b[01;35m\x1b[K"\xe5\xbd\x93\xe5\x89\x8d\xe8\x89\xb3\xe5\xa8\x98\xe4\xbc\xa0\xe5\xa5\x87\xe7\xab\xa0\xe8\x8a\x82\xe5\xad\x98\xe9\x87\x8f\xe4\xb8\xba%d\xef\xbc\x9a\xe5\xb7\xb2\xe7\xbb\x8f\xe6\xbb\xa1\xe8\xb6\xb3\xe9\x9c\x80\xe6\xb1\x82"\x1b[m\x1b[K,\x1b[32m\x1b[Knovels_queue.size()\x1b[m\x1b[K);\n'}
+[11.928935] (village_wang) StderrLine: {'line': b'      |                                            \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K \x1b[32m\x1b[K~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[11.929004] (village_wang) StderrLine: {'line': b'      |                                                                                                      \x1b[32m\x1b[K|\x1b[m\x1b[K\n'}
+[11.929070] (village_wang) StderrLine: {'line': b'      |                                                                                                      \x1b[32m\x1b[Kstd::queue<std::__cxx11::basic_string<char> >::size_type {aka long unsigned int}\x1b[m\x1b[K\n'}
+[11.929142] (village_wang) StderrLine: {'line': b'\n'}
+[11.929208] (village_wang) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lubuntu/town_ws/src/village_wang/src/wang2.cpp:102:69:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kformat string is defined here\n'}
+[11.929280] (village_wang) StderrLine: {'line': b'  102 | his->get_logger(), "\xe5\xbd\x93\xe5\x89\x8d\xe8\x89\xb3\xe5\xa8\x98\xe4\xbc\xa0\xe5\xa5\x87\xe7\xab\xa0\xe8\x8a\x82\xe5\xad\x98\xe9\x87\x8f\xe4\xb8\xba\x1b[01;36m\x1b[K%d\x1b[m\x1b[K\xef\xbc\x9a\xe5\xb7\xb2\xe7\xbb\x8f\xe6\xbb\xa1\xe8\xb6\xb3\xe9\x9c\x80\xe6\xb1\x82",novels_queue.size());\n'}
+[11.929347] (village_wang) StderrLine: {'line': b'      |                                           \x1b[01;36m\x1b[K~^\x1b[m\x1b[K\n'}
+[11.929458] (village_wang) StderrLine: {'line': b'      |                                            \x1b[01;36m\x1b[K|\x1b[m\x1b[K\n'}
+[11.929525] (village_wang) StderrLine: {'line': b'      |                                            \x1b[01;36m\x1b[Kint\x1b[m\x1b[K\n'}
+[11.929590] (village_wang) StderrLine: {'line': b'      |                                           \x1b[32m\x1b[K%ld\x1b[m\x1b[K\n'}
+[11.942073] (village_wang) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lubuntu/town_ws/src/village_wang/src/wang2.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kint main(int, char**)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[11.943046] (village_wang) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lubuntu/town_ws/src/village_wang/src/wang2.cpp:123:20:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[Kreturn\x1b[m\x1b[K\xe2\x80\x99\n'}
+[11.943760] (village_wang) StderrLine: {'line': b'  123 |     executor.spin()\n'}
+[11.944429] (village_wang) StderrLine: {'line': b'      |                    \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[11.945147] (village_wang) StderrLine: {'line': b'      |                    \x1b[32m\x1b[K;\x1b[m\x1b[K\n'}
+[11.945819] (village_wang) StderrLine: {'line': b'  124 |     \x1b[32m\x1b[Kreturn\x1b[m\x1b[K 0;\n'}
+[11.946562] (village_wang) StderrLine: {'line': b'      |     \x1b[32m\x1b[K~~~~~~\x1b[m\x1b[K          \n'}
+[11.956509] (-) TimerEvent: {}
+[12.057591] (-) TimerEvent: {}
+[12.158416] (-) TimerEvent: {}
+[12.259115] (-) TimerEvent: {}
+[12.359648] (-) TimerEvent: {}
+[12.460298] (-) TimerEvent: {}
+[12.560898] (-) TimerEvent: {}
+[12.661438] (-) TimerEvent: {}
+[12.761835] (-) TimerEvent: {}
+[12.862592] (-) TimerEvent: {}
+[12.963168] (-) TimerEvent: {}
+[13.063570] (-) TimerEvent: {}
+[13.164748] (-) TimerEvent: {}
+[13.265398] (-) TimerEvent: {}
+[13.379771] (-) TimerEvent: {}
+[13.481211] (-) TimerEvent: {}
+[13.582975] (-) TimerEvent: {}
+[13.684170] (-) TimerEvent: {}
+[14.511267] (-) TimerEvent: {}
+[16.778945] (-) TimerEvent: {}
+[16.970009] (-) TimerEvent: {}
+[17.080762] (-) TimerEvent: {}
+[17.223645] (-) TimerEvent: {}
+[17.380781] (-) TimerEvent: {}
+[17.513129] (-) TimerEvent: {}
+[17.827602] (-) TimerEvent: {}
+[17.998617] (-) TimerEvent: {}
+[18.341062] (-) TimerEvent: {}
+[18.830242] (-) TimerEvent: {}
+[19.295953] (-) TimerEvent: {}
+[19.738141] (-) TimerEvent: {}
+[19.962710] (-) TimerEvent: {}
+[20.187768] (-) TimerEvent: {}
+[20.769957] (-) TimerEvent: {}
+[21.190866] (-) TimerEvent: {}
+[21.738981] (-) TimerEvent: {}
+[22.169149] (-) TimerEvent: {}
+[22.505924] (-) TimerEvent: {}
+[23.538606] (-) TimerEvent: {}
+[24.663469] (-) TimerEvent: {}
+[25.151445] (-) TimerEvent: {}
+[25.702081] (-) TimerEvent: {}
+[26.293877] (-) TimerEvent: {}
+[27.230558] (-) TimerEvent: {}
+[27.701772] (-) TimerEvent: {}
+[28.293175] (-) TimerEvent: {}
+[28.543125] (-) TimerEvent: {}
+[29.032667] (-) TimerEvent: {}
+[29.332976] (-) TimerEvent: {}
+[30.021007] (-) TimerEvent: {}
+[30.515857] (-) TimerEvent: {}
+[31.238288] (-) TimerEvent: {}
+[31.594913] (-) TimerEvent: {}
+[32.062268] (-) TimerEvent: {}
+[32.314245] (-) TimerEvent: {}
+[32.603817] (-) TimerEvent: {}
+[33.004941] (-) TimerEvent: {}
+[33.242684] (-) TimerEvent: {}
+[33.524972] (-) TimerEvent: {}
+[33.735404] (-) TimerEvent: {}
+[34.114106] (-) TimerEvent: {}
+[34.519620] (-) TimerEvent: {}
+[34.922818] (-) TimerEvent: {}
+[35.453283] (-) TimerEvent: {}
+[35.906344] (-) TimerEvent: {}
+[36.190066] (-) TimerEvent: {}
+[36.404301] (-) TimerEvent: {}
+[36.663934] (-) TimerEvent: {}
+[37.529136] (-) TimerEvent: {}
+[38.417744] (-) TimerEvent: {}
+[39.033816] (-) TimerEvent: {}
+[39.184872] (-) TimerEvent: {}
+[39.586856] (-) TimerEvent: {}
+[40.093732] (-) TimerEvent: {}
+[41.109726] (-) TimerEvent: {}
+[41.934863] (-) TimerEvent: {}
+[42.788741] (-) TimerEvent: {}
+[44.246008] (-) TimerEvent: {}
+[44.618943] (-) TimerEvent: {}
+[45.378612] (-) TimerEvent: {}
+[45.805366] (-) TimerEvent: {}
+[46.681155] (-) TimerEvent: {}
+[47.412326] (-) TimerEvent: {}
+[48.869437] (-) TimerEvent: {}
+[49.629151] (-) TimerEvent: {}
+[50.295138] (-) TimerEvent: {}
+[51.516967] (-) TimerEvent: {}
+[51.984997] (-) TimerEvent: {}
+[52.737524] (-) TimerEvent: {}
+[53.782441] (-) TimerEvent: {}
+[55.437986] (-) TimerEvent: {}
+[56.342098] (-) TimerEvent: {}
+[57.191107] (-) TimerEvent: {}
+[57.698254] (-) TimerEvent: {}
+[58.773742] (-) TimerEvent: {}
+[59.699997] (-) TimerEvent: {}
+[60.199227] (-) TimerEvent: {}
+[60.559373] (-) TimerEvent: {}
+[60.935050] (-) TimerEvent: {}
+[61.583577] (-) TimerEvent: {}
+[62.163857] (-) TimerEvent: {}
+[62.611853] (-) TimerEvent: {}
+[62.968605] (-) TimerEvent: {}
+[63.719967] (-) TimerEvent: {}
+[64.146684] (-) TimerEvent: {}
+[65.346843] (-) TimerEvent: {}
+[66.367339] (-) TimerEvent: {}
+[68.101962] (-) TimerEvent: {}
+[68.587070] (-) TimerEvent: {}
+[69.138548] (-) TimerEvent: {}
+[69.500513] (-) TimerEvent: {}
+[69.677198] (-) TimerEvent: {}
+[70.596277] (-) TimerEvent: {}
+[71.507080] (-) TimerEvent: {}
+[72.327268] (-) TimerEvent: {}
+[73.792555] (-) TimerEvent: {}
+[75.196797] (-) TimerEvent: {}
+[75.823111] (-) TimerEvent: {}
+[76.378941] (-) TimerEvent: {}
+[76.851767] (-) TimerEvent: {}
+[77.368770] (-) TimerEvent: {}
+[78.038740] (-) TimerEvent: {}
+[78.768019] (-) TimerEvent: {}
+[79.295575] (-) TimerEvent: {}
+[80.272999] (-) TimerEvent: {}
+[80.561932] (-) TimerEvent: {}
+[81.229356] (-) TimerEvent: {}
+[81.928563] (-) TimerEvent: {}
+[82.809814] (-) TimerEvent: {}
+[83.627232] (-) TimerEvent: {}
+[84.655939] (-) TimerEvent: {}
+[85.732054] (-) TimerEvent: {}
+[86.540439] (-) TimerEvent: {}
+[87.138690] (-) TimerEvent: {}
+[87.960640] (-) TimerEvent: {}
+[88.898390] (-) TimerEvent: {}
+[89.948537] (-) TimerEvent: {}
+[92.179972] (-) TimerEvent: {}
+[95.537189] (-) TimerEvent: {}
+[97.758062] (-) TimerEvent: {}
+[98.497772] (-) TimerEvent: {}
+[99.379025] (-) TimerEvent: {}
+[100.286332] (-) TimerEvent: {}
+[101.186884] (-) TimerEvent: {}
+[102.981092] (-) TimerEvent: {}
+[103.770848] (-) TimerEvent: {}
+[105.455551] (-) TimerEvent: {}
+[106.113270] (-) TimerEvent: {}
+[106.907066] (-) TimerEvent: {}
+[108.272053] (-) TimerEvent: {}
+[109.677607] (-) TimerEvent: {}
+[111.878202] (-) TimerEvent: {}
+[116.202200] (-) TimerEvent: {}
+[117.780773] (-) TimerEvent: {}
+[118.985226] (-) TimerEvent: {}
+[119.205018] (-) TimerEvent: {}
+[120.576711] (-) TimerEvent: {}
+[121.903878] (-) TimerEvent: {}
+[125.089302] (-) TimerEvent: {}
+[126.880831] (-) TimerEvent: {}
+[128.487184] (-) TimerEvent: {}
+[128.883915] (-) TimerEvent: {}
+[131.532968] (-) TimerEvent: {}
+[132.356441] (-) TimerEvent: {}
+[135.078829] (-) TimerEvent: {}
+[136.421829] (-) TimerEvent: {}
+[138.879897] (-) TimerEvent: {}
+[140.879037] (-) TimerEvent: {}
+[143.071672] (-) TimerEvent: {}
+[145.402388] (-) TimerEvent: {}
+[146.081629] (-) TimerEvent: {}
+[146.842089] (-) TimerEvent: {}
+[148.350022] (-) TimerEvent: {}
+[150.084461] (-) TimerEvent: {}
+[151.673764] (-) TimerEvent: {}
+[154.778078] (-) TimerEvent: {}
+[157.198148] (-) TimerEvent: {}
+[157.933054] (-) TimerEvent: {}
+[160.533642] (-) TimerEvent: {}
+[161.750073] (-) TimerEvent: {}
+[162.796706] (-) TimerEvent: {}
+[164.369029] (-) TimerEvent: {}
+[164.599130] (-) TimerEvent: {}
+[166.251130] (-) TimerEvent: {}
+[167.837422] (-) TimerEvent: {}
+[169.461407] (-) TimerEvent: {}
+[170.941703] (-) TimerEvent: {}
+[172.440651] (-) TimerEvent: {}
+[176.228433] (-) TimerEvent: {}
+[179.055059] (-) TimerEvent: {}
+[184.925077] (-) TimerEvent: {}
+[192.939787] (-) TimerEvent: {}

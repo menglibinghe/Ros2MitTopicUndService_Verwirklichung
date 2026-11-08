@@ -1,0 +1,38 @@
+[0.020s] Invoking command in '/home/lubuntu/town_ws/build/village_wang': CMAKE_PREFIX_PATH=/home/lubuntu/town_ws/install/village_interfaces:/home/lubuntu/town_ws/install/village_wang:/home/lubuntu/town_ws/install/village_zhang:/home/lubuntu/town_ws/install/village_li:/opt/ros/humble /usr/bin/cmake /home/lubuntu/town_ws/src/village_wang -DCMAKE_INSTALL_PREFIX=/home/lubuntu/town_ws/install/village_wang
+[0.076s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.335s] -- Found rclcpp: 16.0.21 (/opt/ros/humble/share/rclcpp/cmake)
+[0.410s] -- Found rosidl_generator_c: 3.1.9 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.417s] -- Found rosidl_adapter: 3.1.9 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.431s] -- Found rosidl_generator_cpp: 3.1.9 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.456s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.484s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.588s] -- Found rmw_implementation_cmake: 6.1.4 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.593s] -- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.764s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.887s] -- Found village_interfaces: 0.0.0 (/home/lubuntu/town_ws/install/village_interfaces/share/village_interfaces/cmake)
+[0.976s] -- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.121s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.121s] -- Configured cppcheck include dirs: 
+[1.122s] -- Configured cppcheck exclude dirs and/or files: 
+[1.126s] -- Added test 'lint_cmake' to check CMake code style
+[1.128s] -- Added test 'uncrustify' to check C / C++ code style
+[1.128s] -- Configured uncrustify additional arguments: 
+[1.129s] -- Added test 'xmllint' to check XML markup files
+[1.134s] -- Configuring done
+[1.163s] -- Generating done
+[1.171s] -- Build files have been written to: /home/lubuntu/town_ws/build/village_wang
+[1.183s] Invoked command in '/home/lubuntu/town_ws/build/village_wang' returned '0': CMAKE_PREFIX_PATH=/home/lubuntu/town_ws/install/village_interfaces:/home/lubuntu/town_ws/install/village_wang:/home/lubuntu/town_ws/install/village_zhang:/home/lubuntu/town_ws/install/village_li:/opt/ros/humble /usr/bin/cmake /home/lubuntu/town_ws/src/village_wang -DCMAKE_INSTALL_PREFIX=/home/lubuntu/town_ws/install/village_wang
+[1.184s] Invoking command in '/home/lubuntu/town_ws/build/village_wang': CMAKE_PREFIX_PATH=/home/lubuntu/town_ws/install/village_interfaces:/home/lubuntu/town_ws/install/village_wang:/home/lubuntu/town_ws/install/village_zhang:/home/lubuntu/town_ws/install/village_li:/opt/ros/humble /usr/bin/cmake --build /home/lubuntu/town_ws/build/village_wang -- -j2 -l2
+[1.249s] [35m[1mConsolidate compiler generated dependencies of target wang2_node[0m
+[1.285s] [ 50%] [32mBuilding CXX object CMakeFiles/wang2_node.dir/src/wang2.cpp.o[0m
+[5.319s] [01m[K/home/lubuntu/town_ws/src/village_wang/src/wang2.cpp:43:9:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kthis[m[K’
+[5.319s]    43 |         [01;31m[Kthis[m[K->create_wall_timer(std::chrono::seconds(timer_period), std::bind(&SingleDogNode::timer_callback, this));
+[5.319s]       |         [01;31m[K^~~~[m[K
+[5.412s] [01m[K/home/lubuntu/town_ws/src/village_wang/src/wang2.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[5.412s] [01m[K/home/lubuntu/town_ws/src/village_wang/src/wang2.cpp:112:10:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass std::shared_ptr<SingleDogNode>[m[K’ has no member named ‘[01m[Kspin[m[K’
+[5.412s]   112 |     node.[01;31m[Kspin[m[K();
+[5.412s]       |          [01;31m[K^~~~[m[K
+[9.561s] gmake[2]: *** [CMakeFiles/wang2_node.dir/build.make:76: CMakeFiles/wang2_node.dir/src/wang2.cpp.o] Error 1
+[9.562s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/wang2_node.dir/all] Error 2
+[9.562s] gmake: *** [Makefile:146: all] Error 2
+[9.588s] Invoked command in '/home/lubuntu/town_ws/build/village_wang' returned '2': CMAKE_PREFIX_PATH=/home/lubuntu/town_ws/install/village_interfaces:/home/lubuntu/town_ws/install/village_wang:/home/lubuntu/town_ws/install/village_zhang:/home/lubuntu/town_ws/install/village_li:/opt/ros/humble /usr/bin/cmake --build /home/lubuntu/town_ws/build/village_wang -- -j2 -l2

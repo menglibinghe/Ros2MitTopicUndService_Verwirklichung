@@ -1,0 +1,21 @@
+[0.008s] Invoking command in '/home/lubuntu/town_ws/build/village_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lubuntu/town_ws/install/village_zhang:/home/lubuntu/town_ws/install/village_li:/opt/ros/humble /usr/bin/cmake --build /home/lubuntu/town_ws/build/village_interfaces -- -j2 -l2
+[0.040s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.194s] -- Found sensor_msgs: 4.9.2 (/opt/ros/humble/share/sensor_msgs/cmake)
+[0.223s] -- Found rosidl_generator_c: 3.1.9 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.231s] -- Found rosidl_adapter: 3.1.9 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.242s] -- Found rosidl_generator_cpp: 3.1.9 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.257s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.274s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.354s] -- Found rosidl_default_generators: 1.2.1 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.373s] [31mCMake Error at /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:93 (message):
+[0.373s]   rosidl_generate_interfaces() the passed file 'srv/BorrowMondey.srv' doesn't
+[0.373s]   exist relative to the CMAKE_CURRENT_SOURCE_DIR
+[0.373s]   '/home/lubuntu/town_ws/src/village_interfaces'
+[0.373s] Call Stack (most recent call first):
+[0.373s]   CMakeLists.txt:19 (rosidl_generate_interfaces)
+[0.374s] 
+[0.374s] [0m
+[0.374s] -- Configuring incomplete, errors occurred!
+[0.374s] See also "/home/lubuntu/town_ws/build/village_interfaces/CMakeFiles/CMakeOutput.log".
+[0.388s] gmake: *** [Makefile:761: cmake_check_build_system] Error 1
+[0.394s] Invoked command in '/home/lubuntu/town_ws/build/village_interfaces' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lubuntu/town_ws/install/village_zhang:/home/lubuntu/town_ws/install/village_li:/opt/ros/humble /usr/bin/cmake --build /home/lubuntu/town_ws/build/village_interfaces -- -j2 -l2

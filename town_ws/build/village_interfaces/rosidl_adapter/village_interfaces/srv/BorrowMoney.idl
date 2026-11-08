@@ -1,0 +1,27 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from village_interfaces/srv/BorrowMoney.srv
+// generated code does not contain a copyright notice
+
+
+module village_interfaces {
+  module srv {
+    struct BorrowMoney_Request {
+      string lender_name;
+
+      string borrower_name;
+
+      @verbatim (language="comment", text=
+        "想借的钱")
+      uint32 money;
+    };
+    @verbatim (language="comment", text=
+      "表示借款是否成功")
+    struct BorrowMoney_Response {
+      boolean success;
+
+      @verbatim (language="comment", text=
+        "同意出借的钱")
+      uint32 money;
+    };
+  };
+};

@@ -1,0 +1,28 @@
+[0.012s] Invoking command in '/home/lubuntu/town_ws/build/village_zhang': CMAKE_PREFIX_PATH=/home/lubuntu/town_ws/install/village_interfaces:/home/lubuntu/town_ws/install/village_zhang:/home/lubuntu/town_ws/install/village_wang:/home/lubuntu/town_ws/install/village_li:/opt/ros/humble /usr/bin/cmake --build /home/lubuntu/town_ws/build/village_zhang -- -j2 -l2
+[0.075s] [35m[1mConsolidate compiler generated dependencies of target zhang4_node[0m
+[0.102s] [ 50%] Built target zhang3_node
+[0.112s] [ 75%] [32mBuilding CXX object CMakeFiles/zhang4_node.dir/src/zhang4.cpp.o[0m
+[5.130s] [100%] [32m[1mLinking CXX executable zhang4_node[0m
+[5.450s] [100%] Built target zhang4_node
+[5.479s] Invoked command in '/home/lubuntu/town_ws/build/village_zhang' returned '0': CMAKE_PREFIX_PATH=/home/lubuntu/town_ws/install/village_interfaces:/home/lubuntu/town_ws/install/village_zhang:/home/lubuntu/town_ws/install/village_wang:/home/lubuntu/town_ws/install/village_li:/opt/ros/humble /usr/bin/cmake --build /home/lubuntu/town_ws/build/village_zhang -- -j2 -l2
+[5.490s] Invoking command in '/home/lubuntu/town_ws/build/village_zhang': CMAKE_PREFIX_PATH=/home/lubuntu/town_ws/install/village_interfaces:/home/lubuntu/town_ws/install/village_zhang:/home/lubuntu/town_ws/install/village_wang:/home/lubuntu/town_ws/install/village_li:/opt/ros/humble /usr/bin/cmake --install /home/lubuntu/town_ws/build/village_zhang
+[5.500s] -- Install configuration: ""
+[5.500s] -- Up-to-date: /home/lubuntu/town_ws/install/village_zhang/share/ament_index/resource_index/package_run_dependencies/village_zhang
+[5.500s] -- Up-to-date: /home/lubuntu/town_ws/install/village_zhang/share/ament_index/resource_index/parent_prefix_path/village_zhang
+[5.501s] -- Up-to-date: /home/lubuntu/town_ws/install/village_zhang/share/village_zhang/environment/ament_prefix_path.sh
+[5.501s] -- Up-to-date: /home/lubuntu/town_ws/install/village_zhang/share/village_zhang/environment/ament_prefix_path.dsv
+[5.501s] -- Up-to-date: /home/lubuntu/town_ws/install/village_zhang/share/village_zhang/environment/path.sh
+[5.502s] -- Up-to-date: /home/lubuntu/town_ws/install/village_zhang/share/village_zhang/environment/path.dsv
+[5.502s] -- Up-to-date: /home/lubuntu/town_ws/install/village_zhang/share/village_zhang/local_setup.bash
+[5.502s] -- Up-to-date: /home/lubuntu/town_ws/install/village_zhang/share/village_zhang/local_setup.sh
+[5.503s] -- Up-to-date: /home/lubuntu/town_ws/install/village_zhang/share/village_zhang/local_setup.zsh
+[5.503s] -- Up-to-date: /home/lubuntu/town_ws/install/village_zhang/share/village_zhang/local_setup.dsv
+[5.503s] -- Installing: /home/lubuntu/town_ws/install/village_zhang/share/village_zhang/package.dsv
+[5.504s] -- Up-to-date: /home/lubuntu/town_ws/install/village_zhang/share/ament_index/resource_index/packages/village_zhang
+[5.504s] -- Up-to-date: /home/lubuntu/town_ws/install/village_zhang/share/village_zhang/cmake/village_zhangConfig.cmake
+[5.505s] -- Up-to-date: /home/lubuntu/town_ws/install/village_zhang/share/village_zhang/cmake/village_zhangConfig-version.cmake
+[5.505s] -- Up-to-date: /home/lubuntu/town_ws/install/village_zhang/share/village_zhang/package.xml
+[5.505s] -- Up-to-date: /home/lubuntu/town_ws/install/village_zhang/lib/village_zhang/zhang3_node
+[5.506s] -- Installing: /home/lubuntu/town_ws/install/village_zhang/lib/village_zhang/zhang4_node
+[5.508s] -- Set runtime path of "/home/lubuntu/town_ws/install/village_zhang/lib/village_zhang/zhang4_node" to ""
+[5.510s] Invoked command in '/home/lubuntu/town_ws/build/village_zhang' returned '0': CMAKE_PREFIX_PATH=/home/lubuntu/town_ws/install/village_interfaces:/home/lubuntu/town_ws/install/village_zhang:/home/lubuntu/town_ws/install/village_wang:/home/lubuntu/town_ws/install/village_li:/opt/ros/humble /usr/bin/cmake --install /home/lubuntu/town_ws/build/village_zhang

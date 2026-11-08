@@ -1,0 +1,119 @@
+[0.010s] Invoking command in '/home/lubuntu/town_ws/build/village_wang': AMENT_PREFIX_PATH=/home/lubuntu/town_ws/install/village_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lubuntu/town_ws/install/village_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/lubuntu/town_ws/install/village_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/lubuntu/town_ws/install/village_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/lubuntu/town_ws/build/village_wang -- -j2 -l2
+[0.059s] [35m[1mConsolidate compiler generated dependencies of target wang2_node[0m
+[0.079s] [ 50%] [32mBuilding CXX object CMakeFiles/wang2_node.dir/src/wang2.cpp.o[0m
+[3.683s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[3.683s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[3.683s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[3.684s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[3.684s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[3.684s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[3.684s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[3.685s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[3.685s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[3.685s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[3.685s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[3.686s]                  from [01m[K/home/lubuntu/town_ws/src/village_wang/src/wang2.cpp:1[m[K:
+[3.686s] [01m[K/home/lubuntu/town_ws/src/village_wang/src/wang2.cpp:[m[K In member function ‘[01m[Kvoid SingleDogNode::sell_book_callback(village_interfaces::srv::SellNovel_Request_<std::allocator<void> >::SharedPtr, village_interfaces::srv::SellNovel_Response_<std::allocator<void> >::SharedPtr)[m[K’:
+[3.686s] [01m[K/home/lubuntu/town_ws/src/village_wang/src/wang2.cpp:79:49:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 5 has type ‘[01m[Kstd::queue<std::__cxx11::basic_string<char> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[3.686s]    79 |                 RCLCPP_INFO(this->get_logger(), [01;35m[K"当前艳娘传奇章节存量为%d：不能满足需求,开始等待"[m[K,[32m[Knovels_queue.size()[m[K);
+[3.687s]       |                                                 [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K [32m[K~~~~~~~~~~~~~~~~~~~[m[K
+[3.687s]       |                                                                                                                    [32m[K|[m[K
+[3.687s]       |                                                                                                                    [32m[Kstd::queue<std::__cxx11::basic_string<char> >::size_type {aka long unsigned int}[m[K
+[3.688s] [01m[K/home/lubuntu/town_ws/src/village_wang/src/wang2.cpp:79:73:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[3.688s]    79 |          RCLCPP_INFO(this->get_logger(), "当前艳娘传奇章节存量为[01;36m[K%d[m[K：不能满足需求,开始等待",novels_queue.size());
+[3.688s]       |                                                                 [01;36m[K~^[m[K
+[3.689s]       |                                                                  [01;36m[K|[m[K
+[3.689s]       |                                                                  [01;36m[Kint[m[K
+[3.689s]       |                                                                 [32m[K%ld[m[K
+[3.691s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[3.691s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[3.691s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[3.692s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[3.692s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[3.692s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[3.692s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[3.693s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[3.693s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[3.693s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[3.694s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[3.694s]                  from [01m[K/home/lubuntu/town_ws/src/village_wang/src/wang2.cpp:1[m[K:
+[3.694s] [01m[K/home/lubuntu/town_ws/src/village_wang/src/wang2.cpp:94:53:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 5 has type ‘[01m[Kstd::queue<std::__cxx11::basic_string<char> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[3.694s]    94 |                     RCLCPP_INFO(this->get_logger(), [01;35m[K"等待中，目前已有%d章，还差%d章"[m[K,[32m[Knovels_queue.size()[m[K,novelsNum-novels_queue.size());
+[3.695s]       |                                                     [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K [32m[K~~~~~~~~~~~~~~~~~~~[m[K
+[3.695s]       |                                                                                                       [32m[K|[m[K
+[3.695s]       |                                                                                                       [32m[Kstd::queue<std::__cxx11::basic_string<char> >::size_type {aka long unsigned int}[m[K
+[3.695s] [01m[K/home/lubuntu/town_ws/src/village_wang/src/wang2.cpp:94:71:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[3.696s]    94 |                RCLCPP_INFO(this->get_logger(), "等待中，目前已有[01;36m[K%d[m[K章，还差%d章",novels_queue.size(),novelsNum-novels_queue.size());
+[3.696s]       |                                                                 [01;36m[K~^[m[K
+[3.696s]       |                                                                  [01;36m[K|[m[K
+[3.696s]       |                                                                  [01;36m[Kint[m[K
+[3.697s]       |                                                                 [32m[K%ld[m[K
+[3.700s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[3.701s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[3.701s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[3.701s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[3.701s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[3.702s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[3.702s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[3.702s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[3.702s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[3.703s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[3.703s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[3.703s]                  from [01m[K/home/lubuntu/town_ws/src/village_wang/src/wang2.cpp:1[m[K:
+[3.703s] [01m[K/home/lubuntu/town_ws/src/village_wang/src/wang2.cpp:94:53:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 6 has type ‘[01m[Kstd::queue<std::__cxx11::basic_string<char> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[3.704s]    94 |                     RCLCPP_INFO(this->get_logger(), [01;35m[K"等待中，目前已有%d章，还差%d章"[m[K,novels_queue.size(),[32m[KnovelsNum-novels_queue.size()[m[K);
+[3.704s]       |                                                     [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K                     [32m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.704s]       |                                                                                                                   [32m[K|[m[K
+[3.705s]       |                                                                                                                   [32m[Kstd::queue<std::__cxx11::basic_string<char> >::size_type {aka long unsigned int}[m[K
+[3.705s] [01m[K/home/lubuntu/town_ws/src/village_wang/src/wang2.cpp:94:81:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[3.705s]    94 |      RCLCPP_INFO(this->get_logger(), "等待中，目前已有%d章，还差[01;36m[K%d[m[K章",novels_queue.size(),novelsNum-novels_queue.size());
+[3.705s]       |                                                                 [01;36m[K~^[m[K
+[3.706s]       |                                                                  [01;36m[K|[m[K
+[3.706s]       |                                                                  [01;36m[Kint[m[K
+[3.706s]       |                                                                 [32m[K%ld[m[K
+[3.706s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[3.707s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[3.707s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[3.707s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[3.707s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[3.708s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[3.708s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[3.708s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[3.708s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[3.709s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[3.709s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[3.709s]                  from [01m[K/home/lubuntu/town_ws/src/village_wang/src/wang2.cpp:1[m[K:
+[3.709s] [01m[K/home/lubuntu/town_ws/src/village_wang/src/wang2.cpp:101:45:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 5 has type ‘[01m[Kstd::queue<std::__cxx11::basic_string<char> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[3.710s]   101 |             RCLCPP_INFO(this->get_logger(), [01;35m[K"当前艳娘传奇章节存量为%d：已经满足需求"[m[K,[32m[Knovels_queue.size()[m[K);
+[3.710s]       |                                             [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K [32m[K~~~~~~~~~~~~~~~~~~~[m[K
+[3.710s]       |                                                                                                       [32m[K|[m[K
+[3.711s]       |                                                                                                       [32m[Kstd::queue<std::__cxx11::basic_string<char> >::size_type {aka long unsigned int}[m[K
+[3.711s] [01m[K/home/lubuntu/town_ws/src/village_wang/src/wang2.cpp:101:69:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[3.711s]   101 |          RCLCPP_INFO(this->get_logger(), "当前艳娘传奇章节存量为[01;36m[K%d[m[K：已经满足需求",novels_queue.size());
+[3.711s]       |                                                                 [01;36m[K~^[m[K
+[3.712s]       |                                                                  [01;36m[K|[m[K
+[3.712s]       |                                                                  [01;36m[Kint[m[K
+[3.712s]       |                                                                 [32m[K%ld[m[K
+[13.463s] [100%] [32m[1mLinking CXX executable wang2_node[0m
+[14.853s] [100%] Built target wang2_node
+[14.868s] Invoked command in '/home/lubuntu/town_ws/build/village_wang' returned '0': AMENT_PREFIX_PATH=/home/lubuntu/town_ws/install/village_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lubuntu/town_ws/install/village_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/lubuntu/town_ws/install/village_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/lubuntu/town_ws/install/village_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/lubuntu/town_ws/build/village_wang -- -j2 -l2
+[14.880s] Invoking command in '/home/lubuntu/town_ws/build/village_wang': AMENT_PREFIX_PATH=/home/lubuntu/town_ws/install/village_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lubuntu/town_ws/install/village_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/lubuntu/town_ws/install/village_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/lubuntu/town_ws/install/village_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/lubuntu/town_ws/build/village_wang
+[14.891s] -- Install configuration: ""
+[14.891s] -- Installing: /home/lubuntu/town_ws/install/village_wang/share/ament_index/resource_index/package_run_dependencies/village_wang
+[14.892s] -- Installing: /home/lubuntu/town_ws/install/village_wang/share/ament_index/resource_index/parent_prefix_path/village_wang
+[14.893s] -- Up-to-date: /home/lubuntu/town_ws/install/village_wang/share/village_wang/environment/ament_prefix_path.sh
+[14.893s] -- Installing: /home/lubuntu/town_ws/install/village_wang/share/village_wang/environment/ament_prefix_path.dsv
+[14.894s] -- Up-to-date: /home/lubuntu/town_ws/install/village_wang/share/village_wang/environment/path.sh
+[14.894s] -- Installing: /home/lubuntu/town_ws/install/village_wang/share/village_wang/environment/path.dsv
+[14.895s] -- Up-to-date: /home/lubuntu/town_ws/install/village_wang/share/village_wang/local_setup.bash
+[14.895s] -- Up-to-date: /home/lubuntu/town_ws/install/village_wang/share/village_wang/local_setup.sh
+[14.896s] -- Up-to-date: /home/lubuntu/town_ws/install/village_wang/share/village_wang/local_setup.zsh
+[14.896s] -- Installing: /home/lubuntu/town_ws/install/village_wang/share/village_wang/local_setup.dsv
+[14.897s] -- Installing: /home/lubuntu/town_ws/install/village_wang/share/village_wang/package.dsv
+[14.898s] -- Up-to-date: /home/lubuntu/town_ws/install/village_wang/share/ament_index/resource_index/packages/village_wang
+[14.898s] -- Up-to-date: /home/lubuntu/town_ws/install/village_wang/share/village_wang/cmake/village_wangConfig.cmake
+[14.898s] -- Up-to-date: /home/lubuntu/town_ws/install/village_wang/share/village_wang/cmake/village_wangConfig-version.cmake
+[14.899s] -- Installing: /home/lubuntu/town_ws/install/village_wang/share/village_wang/package.xml
+[14.960s] -- Installing: /home/lubuntu/town_ws/install/village_wang/lib/village_wang/wang2_node
+[14.966s] -- Set runtime path of "/home/lubuntu/town_ws/install/village_wang/lib/village_wang/wang2_node" to ""
+[14.968s] Invoked command in '/home/lubuntu/town_ws/build/village_wang' returned '0': AMENT_PREFIX_PATH=/home/lubuntu/town_ws/install/village_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lubuntu/town_ws/install/village_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/lubuntu/town_ws/install/village_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/lubuntu/town_ws/install/village_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/lubuntu/town_ws/build/village_wang

@@ -1,0 +1,28 @@
+[7.677s] Invoking command in '/home/lubuntu/town_ws/src/village_li': PYTHONPATH=/home/lubuntu/town_ws/build/village_li/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/lubuntu/town_ws/install/village_li/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/village_li build --build-base /home/lubuntu/town_ws/build/village_li/build install --record /home/lubuntu/town_ws/build/village_li/install.log --install-scripts $base/lib/village_li --single-version-externally-managed install_data
+[8.490s] running egg_info
+[8.498s] writing ../../build/village_li/village_li.egg-info/PKG-INFO
+[8.508s] writing dependency_links to ../../build/village_li/village_li.egg-info/dependency_links.txt
+[8.509s] writing entry points to ../../build/village_li/village_li.egg-info/entry_points.txt
+[8.509s] writing requirements to ../../build/village_li/village_li.egg-info/requires.txt
+[8.510s] writing top-level names to ../../build/village_li/village_li.egg-info/top_level.txt
+[8.513s] reading manifest file '../../build/village_li/village_li.egg-info/SOURCES.txt'
+[8.536s] writing manifest file '../../build/village_li/village_li.egg-info/SOURCES.txt'
+[8.537s] running build
+[8.538s] running build_py
+[8.557s] copying village_li/li3.py -> /home/lubuntu/town_ws/build/village_li/build/lib/village_li
+[8.573s] copying village_li/li4.py -> /home/lubuntu/town_ws/build/village_li/build/lib/village_li
+[8.596s] running install
+[8.597s] running install_lib
+[8.601s] copying /home/lubuntu/town_ws/build/village_li/build/lib/village_li/li3.py -> /home/lubuntu/town_ws/install/village_li/lib/python3.10/site-packages/village_li
+[8.602s] copying /home/lubuntu/town_ws/build/village_li/build/lib/village_li/li4.py -> /home/lubuntu/town_ws/install/village_li/lib/python3.10/site-packages/village_li
+[8.603s] byte-compiling /home/lubuntu/town_ws/install/village_li/lib/python3.10/site-packages/village_li/li3.py to li3.cpython-310.pyc
+[8.604s] byte-compiling /home/lubuntu/town_ws/install/village_li/lib/python3.10/site-packages/village_li/li4.py to li4.cpython-310.pyc
+[8.609s] running install_data
+[8.611s] running install_egg_info
+[8.613s] removing '/home/lubuntu/town_ws/install/village_li/lib/python3.10/site-packages/village_li-0.0.0-py3.10.egg-info' (and everything under it)
+[8.623s] Copying ../../build/village_li/village_li.egg-info to /home/lubuntu/town_ws/install/village_li/lib/python3.10/site-packages/village_li-0.0.0-py3.10.egg-info
+[8.643s] running install_scripts
+[8.719s] Installing li3_node script to /home/lubuntu/town_ws/install/village_li/lib/village_li
+[8.757s] Installing li4_node script to /home/lubuntu/town_ws/install/village_li/lib/village_li
+[8.757s] writing list of installed files to '/home/lubuntu/town_ws/build/village_li/install.log'
+[8.898s] Invoked command in '/home/lubuntu/town_ws/src/village_li' returned '0': PYTHONPATH=/home/lubuntu/town_ws/build/village_li/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/lubuntu/town_ws/install/village_li/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/village_li build --build-base /home/lubuntu/town_ws/build/village_li/build install --record /home/lubuntu/town_ws/build/village_li/install.log --install-scripts $base/lib/village_li --single-version-externally-managed install_data
